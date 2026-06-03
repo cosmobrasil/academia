@@ -61,8 +61,8 @@ function walkDir(dir: string, fileList: string[] = []): string[] {
 function compile() {
   console.log(`[Knowledge Compiler] Diretorio do acervo detectado: ${FORESIGHT_DIR}`);
   if (!fs.existsSync(FORESIGHT_DIR)) {
-    console.error(`[Knowledge Compiler] Erro: Diretorio do acervo nao encontrado.`);
-    process.exit(1);
+    console.warn(`[Knowledge Compiler] Aviso: Diretorio do acervo nao encontrado. Pulando compilação e usando src/data/knowledge.json existente se houver.`);
+    return;
   }
 
   const files = walkDir(FORESIGHT_DIR);
