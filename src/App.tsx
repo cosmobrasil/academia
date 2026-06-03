@@ -35,6 +35,57 @@ try {
   // ignore, localStorage may be unavailable in some environments
 }
 
+// Client-side safety net: strip markdown fences and unwrap nested JSON from server responses
+function normalizeClient(raw: any): any {
+  if (!raw) return { mentorResponse: '', suggestedQuestions: [], suggestedConcepts: [], suggestedHypotheses: [] };
+
+  // If the entire payload is a string (rare), try to parse it
+  if (typeof raw === 'string') {
+    const cleaned = raw.replace(/```(?:\w+)?\n?/g, '').replace(/```/g, '').trim();
+    const jsonMatch = cleaned.match(/\{[\s\S]*\}/);
+    if (jsonMatch) {
+      try {
+        const parsed = JSON.parse(jsonMatch[0]);
+        if (parsed && typeof parsed === 'object') return normalizeClient(parsed);
+      } catch (e) {}
+    }
+    return { mentorResponse: cleaned, suggestedQuestions: [], suggestedConcepts: [], suggestedHypotheses: [] };
+  }
+
+  if (typeof raw === 'object') {
+    let current = { ...raw };
+
+    // Iteratively unwrap if mentorResponse is a fenced JSON string
+    let iterations = 0;
+    while (iterations < 4 && typeof current.mentorResponse === 'string') {
+      const s = current.mentorResponse;
+      const withoutFences = s.replace(/```(?:\w+)?\n?/g, '').replace(/```/g, '').trim();
+      const jsonMatch = withoutFences.match(/\{[\s\S]*\}/);
+      if (jsonMatch) {
+        try {
+          const parsed = JSON.parse(jsonMatch[0]);
+          if (parsed && typeof parsed === 'object' && parsed.mentorResponse) {
+            current = parsed;
+            iterations++;
+            continue;
+          }
+        } catch (e) {}
+      }
+      current = { ...current, mentorResponse: withoutFences };
+      break;
+    }
+
+    return {
+      mentorResponse: current.mentorResponse || '',
+      suggestedQuestions: current.suggestedQuestions || [],
+      suggestedConcepts: current.suggestedConcepts || [],
+      suggestedHypotheses: current.suggestedHypotheses || []
+    };
+  }
+
+  return { mentorResponse: String(raw), suggestedQuestions: [], suggestedConcepts: [], suggestedHypotheses: [] };
+}
+
 export default function App() {
   // Mobile drawer states
   const [leftSidebarOpen, setLeftSidebarOpen] = useState(false);
@@ -395,6 +446,25 @@ export default function App() {
             }
           }
         }
+
+        // Strip any leaked markdown fences from streamed text before finalizing
+        setMessages(prev => prev.map(msg => {
+          if (msg.id !== tempId || typeof msg.text !== 'string') return msg;
+          let text = msg.text;
+          if (text.includes('```')) {
+            text = text.replace(/```(?:\w+)?\n?/g, '').replace(/```/g, '').trim();
+            const jsonMatch = text.match(/\{[\s\S]*\}/);
+            if (jsonMatch) {
+              try {
+                const parsed = JSON.parse(jsonMatch[0]);
+                if (parsed && typeof parsed === 'object' && parsed.mentorResponse) {
+                  text = parsed.mentorResponse;
+                }
+              } catch (e) {}
+            }
+          }
+          return { ...msg, text };
+        }));
 
         // finalize: update suggestions on the last message
         setMessages(prev => prev.map(msg => msg.id === tempId ? { ...msg, suggestions: { questions: suggestedQuestions, concepts: suggestedConcepts, hypotheses: suggestedHypotheses } } : msg));
