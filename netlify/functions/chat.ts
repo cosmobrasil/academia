@@ -231,23 +231,41 @@ Sua resposta DEVE ser um objeto JSON estrito com o esquema solicitado.`;
 
     // Try extracting inner JSON if mentorResponse still contains code fences
     const extractInnerJson = (maybe: any) => {
-      if (!maybe || typeof maybe !== 'object') return maybe;
-      if (typeof maybe.mentorResponse !== 'string') return maybe;
-      const s = maybe.mentorResponse;
-      const withoutFences = s.replace(/```(?:\w+)?\n?/g, '').replace(/```/g, '').trim();
-      const jsonMatch = withoutFences.match(/\{[\s\S]*\}/);
-      if (jsonMatch) {
-        const candidate = jsonMatch[0];
-        try {
-          const parsed = JSON.parse(candidate);
-          if (parsed && typeof parsed === 'object' && (parsed.mentorResponse || parsed.suggestedQuestions || parsed.suggestedConcepts)) {
-            return parsed;
+      // If input is not an object with mentorResponse string, return as-is
+      if (!maybe || typeof maybe !== 'object' || typeof maybe.mentorResponse !== 'string') return maybe;
+
+      let current: any = { ...maybe };
+      let iterations = 0;
+      // Try to iteratively unwrap fenced JSON blocks up to a safe limit
+      while (iterations < 4 && typeof current.mentorResponse === 'string') {
+        const s = current.mentorResponse;
+        // Remove surrounding code fences if present
+        const withoutFences = s.replace(/```(?:\w+)?\n?/g, '').replace(/```/g, '').trim();
+        // Try to find JSON object inside
+        const jsonMatch = withoutFences.match(/\{[\s\S]*\}/);
+        if (jsonMatch) {
+          const candidate = jsonMatch[0];
+          try {
+            const parsed = JSON.parse(candidate);
+            if (parsed && typeof parsed === 'object') {
+              // If parsed looks like the expected response object, adopt it and continue unwrapping
+              if (parsed.mentorResponse || parsed.suggestedQuestions || parsed.suggestedConcepts) {
+                current = parsed;
+                iterations++;
+                continue;
+              }
+            }
+          } catch (e) {
+            // not JSON parseable, fallback to using cleaned text
+            current = { ...current, mentorResponse: withoutFences };
+            break;
           }
-        } catch (e) {
-          // ignore
         }
+        // No JSON inside; return cleaned text
+        current = { ...current, mentorResponse: withoutFences };
+        break;
       }
-      return { ...maybe, mentorResponse: withoutFences };
+      return current;
     };
 
     const finalResponse = extractInnerJson(normalized);

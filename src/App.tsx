@@ -84,11 +84,7 @@ export default function App() {
         return JSON.parse(saved);
       } catch (e) {}
     }
-    return [
-      { id: '1', name: 'Economia Circular', count: 3 },
-      { id: '2', name: 'Sustentabilidade', count: 2 },
-      { id: '3', name: 'Distritos Circulares', count: 1 },
-    ];
+    return [];
   });
 
   const [concepts, setConcepts] = useState<ConceptLearned[]>(() => {
@@ -98,13 +94,7 @@ export default function App() {
         return JSON.parse(saved);
       } catch (e) {}
     }
-    return [
-      { id: 'eco', name: 'Economia Circular', progress: 35 },
-      { id: 'distritos', name: 'Distritos Circulares', progress: 15 },
-      { id: 'marketing', name: 'Plano de Marketing', progress: 10 },
-      { id: 'cosmob', name: 'Certificação COSMOB', progress: 5 },
-      { id: 'proposta', name: 'Proposição de Valor', progress: 15 }
-    ];
+    return [];
   });
 
   // Static positions of nodes inside SVG knowledge graph chart (200x200 grid)
@@ -172,6 +162,27 @@ export default function App() {
     chatEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages, isSending]);
 
+  // Ensure persisted state is cleared on client mount.
+  // Module-level clearing may not run in all bundlers/SSRs, so also clear here and force-reset UI state
+  useEffect(() => {
+    try {
+      if (typeof window !== 'undefined' && window.localStorage) {
+        window.localStorage.removeItem('cosmobrasil_messages');
+        window.localStorage.removeItem('cosmobrasil_themes');
+        window.localStorage.removeItem('cosmobrasil_concepts');
+        window.localStorage.removeItem('cosmobrasil_questions_count');
+      }
+    } catch (e) {
+      // ignore
+    }
+
+    // Force-reset React state so UI starts clean for every user
+    setMessages([initialWelcomeMessage]);
+    setThemes([]);
+    setConcepts([]);
+    setQuestionsCount(1);
+  }, []);
+
   // Save evolution states to localStorage
   useEffect(() => {
     localStorage.setItem('cosmobrasil_messages', JSON.stringify(messages));
@@ -197,18 +208,8 @@ export default function App() {
       localStorage.removeItem('cosmobrasil_questions_count');
       
       setMessages([initialWelcomeMessage]);
-      setThemes([
-        { id: '1', name: 'Economia Circular', count: 3 },
-        { id: '2', name: 'Sustentabilidade', count: 2 },
-        { id: '3', name: 'Distritos Circulares', count: 1 },
-      ]);
-      setConcepts([
-        { id: 'eco', name: 'Economia Circular', progress: 35 },
-        { id: 'distritos', name: 'Distritos Circulares', progress: 15 },
-        { id: 'marketing', name: 'Plano de Marketing', progress: 10 },
-        { id: 'cosmob', name: 'Certificação COSMOB', progress: 5 },
-        { id: 'proposta', name: 'Proposição de Valor', progress: 15 }
-      ]);
+      setThemes([]);
+      setConcepts([]);
       setQuestionsCount(1);
     }
   };
