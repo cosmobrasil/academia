@@ -1,0 +1,6 @@
+{
+  "name": "COSMOBRASIL LEARNING LAB",
+  "description": "Ambiente dinâmico de desenvolvimento intelectual orientativo da CosmoBrasil para jovens universitárias dominarem Economia Circular, Negócios, Marketing e Sustentabilidade.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_LLM_API"]
+}

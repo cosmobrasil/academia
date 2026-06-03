@@ -1,0 +1,1742 @@
+[
+  {
+    "id": "README",
+    "path": "00_INDEX/README.md",
+    "title": "Indice Mestre",
+    "frontmatter": {},
+    "content": "# Indice Mestre\n\nUse esta pasta para manter a lista unica de todos os relatorios e o estado do processamento.\n\nCampos recomendados:\n\n- `id`\n- `arquivo`\n- `ano`\n- `setor`\n- `territorio`\n- `tipo`\n- `tags`\n- `status`\n- `observacoes`"
+  },
+  {
+    "id": "index",
+    "path": "00_INDEX/index.md",
+    "title": "Indice Mestre do Acervo",
+    "frontmatter": {},
+    "content": "# Indice Mestre do Acervo\n\n| id | arquivo | ano | setor | territorio | tipo | tags | status | observacoes |\n|---|---|---:|---|---|---|---|---|---|\n| 0001 |  |  |  |  |  |  | pendente |  |"
+  },
+  {
+    "id": "inventario-detalhado",
+    "path": "00_INDEX/inventario-detalhado.md",
+    "title": "Inventario Detalhado",
+    "frontmatter": {},
+    "content": "# Inventario Detalhado\n\n| id | ano | tipo | setor | territorio | arquivo | status |\n|---|---:|---|---|---|---|---|\n| 0001 | 2020 | plano-de-inovacao | design-industrial | curitiba-pr | [2020] Plano de Inovação_Setor Design - Curitiba_.pdf | processado |\n| 0002 | 2021 | planejamento-estrategico | eletronica-e-ict | santa-rita-do-sapucai-mg | [2021] Planejamento Estratégico Santa Rita.pdf | processado |\n| 0003 | 2021 | plano-de-inovacao | alimentos-agrofood | guarapuava-pr | [2021] Plano de Inovaçao Agrofood Guarapuava e Região_.pdf | processado |\n| 0004 | 2021 | plano-de-inovacao | plastico-quimicos-e-novos-materiais | nao-inferido | [2021] Plano de Inovação - Setor Plástico Químicos e Novos Materiais_.pdf | processado |\n| 0005 | 2021 | plano-de-inovacao | construcao-civil | curitiba-pr | [2021] Plano de Inovação Ambiente Casa Curitiba_.pdf | processado |\n| 0006 | 2021 | plano-de-inovacao | metalmecanica | nao-inferido | [2021] Plano de Inovação Setor Metalmecânico_.pdf | processado |\n| 0007 | 2022 | planejamento-estrategico | territorial-multissetorial | varginha-mg | [2022] Plano Estratégico_Varginha.pdf | processado |\n| 0008 | 2022 | plano-de-inovacao | biotecnologia-e-saude | curitiba-pr | [2022] Plano de Inovacao - Biotecnologia e Saude Curitiba_.pdf | processado |\n| 0009 | 2022 | plano-de-inovacao | construcao-civil | brasil | [2022] Plano de Inovação - Construção Civil - Nacional.pdf | processado |\n| 0010 | 2022 | plano-de-inovacao | metalmecanica | ponta-grossa-pr | [2022] Plano de Inovação _ Metalmecânica Ponta Grossa.pdf | processado |\n| 0011 | 2022 | plano-de-inovacao | construcao-civil | ceara | [2022] Plano de Inovação_Construção Civil Ceará.pdf | processado |\n| 0012 | 2022 | plano-de-inovacao | construcao-civil | minas-gerais | [2022] Plano de Inovação_Construção Civil Minas Gerais.pdf | processado |\n| 0013 | 2022 | plano-de-inovacao | smart-city | curitiba-pr | [2022] Plano de Inovação_SmartCity Curitiba_.pdf | processado |\n| 0014 | 2022 | plano-de-inovacao | tic | ponta-grossa-pr | [2022] Plano de Inovação_TIC Ponta Grossa Cidade do Futuro.pdf | processado |\n| 0015 | 2022 | plano-de-mercado | alimentos | vale-do-taquari-rs | [2022] Plano de Mercado _ Setor de Alimentos _ Vale do Taquari.pdf | processado |\n| 0016 | 2022 | plano-de-mercado | multissetorial | serra-gaucha-rs | [2022] Plano de Mercado_Setor Metalmecânico_Serra Gaúca.pdf | processado |\n| 0017 | 2023 | plano-de-gestao-tecnologica | cosmeticos | nao-inferido | [2023] Plano de Gestão Tecnológica Foresight_Cosméticos.pdf | processado |\n| 0018 | 2023 | plano-de-gestao-tecnologica | moda-e-confeccoes | santa-catarina | [2023] Plano de Gestão Tecnológica Foresight_Moda Santa Catarina.pdf | processado |\n| 0019 | 2023 | plano-de-gestao-tecnologica | economia-do-mar | rio-de-janeiro-rj | [2023] Plano de Gestão Tecnológica Futura_Economia do Mar RJ.pdf | processado |\n| 0020 | 2023 | plano-de-gestao-tecnologica | madeira-e-movel | joao-pessoa-pb | [2023] Plano de Gestão Tecnológica Futura_Setor Mobiliário João Pessoa.pdf | processado |\n| 0021 | 2024 | plano-de-gestao-tecnologica | alimentos | parana | [2024] Plano de Gestão Tecnológica Futura - Alimentos Paraná_.pdf | processado |\n| 0022 | 2024 | plano-de-gestao-tecnologica | construcao-civil | parana | [2024] Plano de Gestão Tecnológica Futura - Construção Civil PR.pdf | processado |\n| 0023 | 2024 | plano-de-gestao-tecnologica | madeira-e-movel | santa-catarina | [2024] Plano de Gestão Tecnológica Futura - Madeira e Móvel SC_.pdf | processado |\n| 0024 | 2025 | mapa-estrategico | construcao-civil | nao-inferido | [2025] Mapa Estratégico Construção Civil.pdf | processado |\n| 0025 | 2025 | mapa-estrategico | madeira-e-movel | nao-inferido | [2025] Mapa Estratégico_ Setor Madeira e Móveis.pdf | processado |\n| 0026 | 2025 | mapa-estrategico | moda-e-confeccoes | nao-inferido | [2025] Mapa Estratégico_Setor Moda.pdf | processado |\n| 0027 | 2025 | mapa-estrategico | nautico | nao-inferido | [2025] Mapa Estratégico_Setor Náutico.pdf | processado |\n| 0028 | 2025 | plano-de-inovacao | madeira-e-movel | amapa | [2025] Plano de Inovação_Setor Madeira e Móvel_Amapá.pdf | processado |\n| 0029 | 2025 | plano-de-inovacao | moda-e-confeccoes | parana | [2025] Plano de Inovação_Setor Moda e Confecções_Paraná.pdf | processado |\n| 0030 | 2025 | plano-de-inovacao | nautico | santa-catarina | [2025] Plano de Inovação_Setor Náutico_Santa Catarina.pdf | processado |"
+  },
+  {
+    "id": "inventario-inicial",
+    "path": "00_INDEX/inventario-inicial.md",
+    "title": "Inventario Inicial do Acervo",
+    "frontmatter": {},
+    "content": "# Inventario Inicial do Acervo\n\nBaseado nos 30 PDFs encontrados em `Relatorios-Finais`.\n\n| id | ano | titulo | arquivo | status |\n|---|---:|---|---|---|\n| 0001 | 2020 | Plano de Inovação Setor Design - Curitiba | [2020] Plano de Inovação_Setor Design - Curitiba_.pdf | processado |\n| 0002 | 2021 | Planejamento Estratégico Santa Rita | [2021] Planejamento Estratégico Santa Rita.pdf | processado |\n| 0003 | 2021 | Plano de Inovaçao Agrofood Guarapuava e Região | [2021] Plano de Inovaçao Agrofood Guarapuava e Região_.pdf | processado |\n| 0004 | 2021 | Plano de Inovação - Setor Plástico Químicos e Novos Materiais | [2021] Plano de Inovação - Setor Plástico Químicos e Novos Materiais_.pdf | pendente |\n| 0005 | 2021 | Plano de Inovação Ambiente Casa Curitiba | [2021] Plano de Inovação Ambiente Casa Curitiba_.pdf |\n| 0006 | 2021 | Plano de Inovação Setor Metalmecânico | [2021] Plano de Inovação Setor Metalmecânico_.pdf |\n| 0007 | 2022 | Plano Estratégico Varginha | [2022] Plano Estratégico_Varginha.pdf |\n| 0008 | 2022 | Plano de Inovacao - Biotecnologia e Saude Curitiba | [2022] Plano de Inovacao - Biotecnologia e Saude Curitiba_.pdf |\n| 0009 | 2022 | Plano de Inovação - Construção Civil - Nacional | [2022] Plano de Inovação - Construção Civil - Nacional.pdf |\n| 0010 | 2022 | Plano de Inovação  Metalmecânica Ponta Grossa | [2022] Plano de Inovação _ Metalmecânica Ponta Grossa.pdf |\n| 0011 | 2022 | Plano de Inovação Construção Civil Ceará | [2022] Plano de Inovação_Construção Civil Ceará.pdf |\n| 0012 | 2022 | Plano de Inovação Construção Civil Minas Gerais | [2022] Plano de Inovação_Construção Civil Minas Gerais.pdf |\n| 0013 | 2022 | Plano de Inovação SmartCity Curitiba | [2022] Plano de Inovação_SmartCity Curitiba_.pdf |\n| 0014 | 2022 | Plano de Inovação TIC Ponta Grossa Cidade do Futuro | [2022] Plano de Inovação_TIC Ponta Grossa Cidade do Futuro.pdf |\n| 0015 | 2022 | Plano de Mercado  Setor de Alimentos  Vale do Taquari | [2022] Plano de Mercado _ Setor de Alimentos _ Vale do Taquari.pdf |\n| 0016 | 2022 | Plano de Mercado Setor Metalmecânico Serra Gaúca | [2022] Plano de Mercado_Setor Metalmecânico_Serra Gaúca.pdf |\n| 0017 | 2023 | Plano de Gestão Tecnológica Foresight Cosméticos | [2023] Plano de Gestão Tecnológica Foresight_Cosméticos.pdf |\n| 0018 | 2023 | Plano de Gestão Tecnológica Foresight Moda Santa Catarina | [2023] Plano de Gestão Tecnológica Foresight_Moda Santa Catarina.pdf |\n| 0019 | 2023 | Plano de Gestão Tecnológica Futura Economia do Mar RJ | [2023] Plano de Gestão Tecnológica Futura_Economia do Mar RJ.pdf |\n| 0020 | 2023 | Plano de Gestão Tecnológica Futura Setor Mobiliário João Pessoa | [2023] Plano de Gestão Tecnológica Futura_Setor Mobiliário João Pessoa.pdf |\n| 0021 | 2024 | Plano de Gestão Tecnológica Futura - Alimentos Paraná | [2024] Plano de Gestão Tecnológica Futura - Alimentos Paraná_.pdf |\n| 0022 | 2024 | Plano de Gestão Tecnológica Futura - Construção Civil PR | [2024] Plano de Gestão Tecnológica Futura - Construção Civil PR.pdf |\n| 0023 | 2024 | Plano de Gestão Tecnológica Futura - Madeira e Móvel SC | [2024] Plano de Gestão Tecnológica Futura - Madeira e Móvel SC_.pdf |\n| 0024 | 2025 | Mapa Estratégico Construção Civil | [2025] Mapa Estratégico Construção Civil.pdf |\n| 0025 | 2025 | Mapa Estratégico Setor Madeira e Móveis | [2025] Mapa Estratégico_ Setor Madeira e Móveis.pdf |\n| 0026 | 2025 | Mapa Estratégico Setor Moda | [2025] Mapa Estratégico_Setor Moda.pdf |\n| 0027 | 2025 | Mapa Estratégico Setor Náutico | [2025] Mapa Estratégico_Setor Náutico.pdf |\n| 0028 | 2025 | Plano de Inovação Setor Madeira e Móvel Amapá | [2025] Plano de Inovação_Setor Madeira e Móvel_Amapá.pdf |\n| 0029 | 2025 | Plano de Inovação Setor Moda e Confecções Paraná | [2025] Plano de Inovação_Setor Moda e Confecções_Paraná.pdf |\n| 0030 | 2025 | Plano de Inovação Setor Náutico Santa Catarina | [2025] Plano de Inovação_Setor Náutico_Santa Catarina.pdf |"
+  },
+  {
+    "id": "relatorio-estagio-atual",
+    "path": "00_INDEX/relatorio-estagio-atual.md",
+    "title": "Relatorio de Estagio Atual",
+    "frontmatter": {},
+    "content": "# Relatorio de Estagio Atual\n\n## Contexto\n\nEste documento registra o ponto em que o trabalho se encontra no acervo de relatrios de consultoria de 2020 a 2025.\n\nO projeto deixou de ser apenas um inventario de PDFs e passou a operar como uma base de conhecimento com:\n\n- fichas de relatorio\n- fichas conceituais\n- temas recorrentes\n- indicadores quantitativos\n- redes de cruzamento\n- matrizes tecnologicas por setor\n- primeiro dashboard visual\n- base dedicada para Cosmobrasil em montagem\n\n## Estagio atual\n\nO acervo principal ja esta organizado e consultavel em camadas.\n\n### Volume consolidado\n\n- 30 relatorios processados\n- 6 anos cobertos: 2020 a 2025\n- 9 matrizes tecnicas registradas\n- 6 setores com recorrencia alta\n\n### Eixos dominantes identificados\n\n- foresight\n- transferencia tecnologica\n- competitividade\n- governanca territorial\n- benchmarking internacional\n- megatendencias\n- economia circular\n- economia azul\n\n### Estrutura ja montada\n\n- `00_INDEX`: inventarios e sinteses gerais\n- `01_RELATORIOS`: fichas por documento\n- `02_FICHAS`: conceitos reutilizaveis\n- `03_TEMAS`: temas recorrentes e hublinks tematicos\n- `04_INDICADORES`: leitura quantitativa\n- `05_REDES_E_LINKS`: matriz transversal e cruzamentos\n- `06_MATRIZES`: camada analitica central\n- `dashboard/`: primeiro painel visual\n- `08_COSMOBRASIL/`: base dedicada ao caso Cosmobrasil e futuro agente especialista\n\n## O que foi construido ate aqui\n\n### 1. Base documental\n\nOs relatorios foram organizados por ano, setor e territorio, com metadados consistentes e notas resumidas.\n\n### 2. Taxonomia inicial\n\nFoi criada uma taxonomia minima viavel para separar:\n\n- temas\n- conceitos\n- indicadores\n- relatorios\n- matrizes\n\n### 3. Camada analitica\n\nA camada mais importante do acervo passou a ser a matriz tecnologica, com:\n\n- megatendencias por setor\n- solucoes tecnologicas por setor\n- fatores empresariais\n- fatores setoriais\n- fatores sistemicos\n- indice de incerteza\n- relevancia\n- prioridade\n\n### 4. Comparacao transversal\n\nFoi criada uma sintese transversal para comparar a evolucao do acervo entre anos, setores e territorios.\n\n### 5. Primeiro dashboard\n\nFoi criado um dashboard inicial com:\n\n- contagem geral\n- linha do tempo\n- setores em destaque\n- leitura executiva das matrizes\n- cards de consulta rapida\n\n## Leitura do momento\n\nO acervo ja permite consulta inteligente, mas ainda esta numa fase de consolidacao estrutural.\n\nO que ja funciona bem:\n\n- leitura por setor\n- leitura por territorio\n- leitura por ano\n- leitura por tema recorrente\n- leitura por matriz tecnologica\n\nO que ainda falta para uma versao mais robusta:\n\n- exportacao automatica dos dados para uma estrutura tabular ou JSON\n- filtros reais no dashboard\n- grafo navegavel entre relatorios, temas e conceitos\n- busca unica no acervo\n- conexao mais forte entre indicadores e decisoes\n\n## Diagnostico do momento\n\nO trabalho atual e de transicao entre:\n\n1. organizacao documental\n2. leitura analitica\n3. consulta operacional\n4. visualizacao executiva\n\nEm termos praticos, o acervo ja e util e consultavel.\nEm termos de produto, ainda falta a etapa de automacao para que a consulta fique mais rapida, filtravel e interativa.\n\n## Proximo passo recomendado\n\n1. estruturar um arquivo-base tabular com os principais metadados do acervo\n2. ligar esse arquivo ao dashboard\n3. criar filtros reais por ano, setor, territorio e tema\n4. construir uma segunda tela com redes e matrizes cruzadas\n\n## Observacao final\n\nO projeto ja tem massa critica suficiente para ser apresentado como base de inteligencia consultiva.\nO passo seguinte e transformar o acervo em uma experiencia de consulta realmente navegavel."
+  },
+  {
+    "id": "0001",
+    "path": "01_RELATORIOS/2020-plano-inovacao-design-curitiba.md",
+    "title": "Plano de Inovacao para o Design Industrial em Curitiba",
+    "frontmatter": {
+      "tipo": "relatorio",
+      "id": "0001",
+      "ano": "2020",
+      "setor": "design-industrial",
+      "territorio": "curitiba-pr",
+      "categoria": "plano-de-inovacao",
+      "arquivo": "[2020] Plano de Inovação_Setor Design - Curitiba_.pdf",
+      "tags": "",
+      "- ano": "2020",
+      "- setor": "design-industrial",
+      "- territorio": "curitiba-pr",
+      "- tipo": "plano-de-inovacao",
+      "- tema": "competitividade",
+      "status": "processado"
+    },
+    "content": "# Plano de Inovacao para o Design Industrial em Curitiba\n\n## Metadados\n\n- Ano: 2020\n- Setor: design industrial\n- Territorio: Curitiba, PR\n- Categoria: plano de inovacao\n\n## Resumo rapido\n\nPlano construído com metodologia Foresight em parceria com o projeto de valorizacao do selo internacional Curitiba Cidade do Design da UNESCO. O objetivo central é identificar elementos tecnologicos das cadeias produtivas do design industrial para aumentar a competitividade das empresas curitibanas.\n\n## Temas principais\n\n- metodologia Foresight\n- Curitiba Cidade do Design da UNESCO\n- competitividade empresarial\n- cadeias produtivas do design industrial\n- elementos tecnologicos aplicados ao setor\n\n## Dados relevantes\n\n- O documento tem 75 paginas.\n- O recorte territorial e Curitiba.\n- O texto de abertura liga o projeto ao selo UNESCO de Cidade do Design.\n\n## Recomendacoes\n\n- Consolidar as oportunidades tecnologicas por cadeia produtiva.\n- Vincular as demandas do design industrial a agendas de competitividade e inovação.\n- Criar fichas especificas para UNESCO, Foresight e cadeia produtiva.\n\n## Fichas vinculadas\n\n- `02_FICHAS/foresight.md`\n- `03_TEMAS/unesco-cidade-do-design.md`\n- `03_TEMAS/competitividade.md`"
+  },
+  {
+    "id": "0002",
+    "path": "01_RELATORIOS/2021-planejamento-estrategico-santa-rita.md",
+    "title": "Planejamento Estrategico do Parque Tecnologico Aberto de Santa Rita do Sapucai",
+    "frontmatter": {
+      "tipo": "relatorio",
+      "id": "0002",
+      "ano": "2021",
+      "setor": "eletronica-e-ict",
+      "territorio": "santa-rita-do-sapucai-mg",
+      "categoria": "planejamento-estrategico",
+      "arquivo": "[2021] Planejamento Estratégico Santa Rita.pdf",
+      "tags": "",
+      "- ano": "2021",
+      "- setor": "eletronica-e-ict",
+      "- territorio": "santa-rita-do-sapucai-mg",
+      "- tipo": "planejamento-estrategico",
+      "- tema": "governanca-territorial",
+      "status": "processado"
+    },
+    "content": "# Planejamento Estrategico do Parque Tecnologico Aberto de Santa Rita do Sapucai\n\n## Metadados\n\n- Ano: 2021\n- Setor: eletrônica e ICT\n- Territorio: Santa Rita do Sapucaí, MG\n- Categoria: planejamento estratégico\n\n## Resumo rapido\n\nPlanejamento estratégico para o Parque Tecnológico Aberto de Santa Rita do Sapucaí. O documento articula sociedade civil, educação, economia, governo e meio ambiente para construir cenários de desenvolvimento do território com foco em sustentabilidade, tecnologia e na cadeia produtiva global da eletrônica.\n\n## Temas principais\n\n- parque tecnologico aberto\n- governanca territorial\n- abordagem das cinco helices\n- sustentabilidade e tecnologia\n- cadeia produtiva global da eletronica\n- cenarios tecnologicos e visao de futuro\n\n## Dados relevantes\n\n- O documento tem 36 paginas.\n- O sumario traz fases metodologicas, cenarios internacionais, benchmarking e implementacao.\n- Há seção de objetivos estrategicos, prioridades de projeto e cronograma realizado.\n\n## Recomendacoes\n\n- Criar fichas específicas para governanca territorial, cinco hélices e cluster tecnologico.\n- Separar as prioridades por tipo de ator: empresas, instituições e governo.\n- Mapear os temas estratégicos e suas soluções tecnológicas como fichas ligadas.\n\n## Fichas vinculadas\n\n- `02_FICHAS/governanca-territorial.md`\n- `02_FICHAS/cinco-helices.md`\n- `03_TEMAS/parque-tecnologico.md`"
+  },
+  {
+    "id": "0003",
+    "path": "01_RELATORIOS/2021-plano-inovacao-agrofood-guarapuava-regiao.md",
+    "title": "Plano de Inovacao Setor Agrofood de Guarapuava e Regiao",
+    "frontmatter": {
+      "tipo": "relatorio",
+      "id": "0003",
+      "ano": "2021",
+      "setor": "alimentos-agrofood",
+      "territorio": "guarapuava-e-regiao-pr",
+      "categoria": "plano-de-inovacao",
+      "arquivo": "[2021] Plano de Inovaçao Agrofood Guarapuava e Região_.pdf",
+      "tags": "",
+      "- ano": "2021",
+      "- setor": "alimentos-agrofood",
+      "- territorio": "guarapuava-e-regiao-pr",
+      "- tipo": "plano-de-inovacao",
+      "- tema": "sustentabilidade",
+      "status": "processado"
+    },
+    "content": "# Plano de Inovacao Setor Agrofood de Guarapuava e Regiao\n\n## Metadados\n\n- Ano: 2021\n- Setor: alimentos / agrofood\n- Territorio: Guarapuava e região, PR\n- Categoria: plano de inovacao\n\n## Resumo rapido\n\nRelatório voltado ao setor agrofood de Guarapuava e região. Apresenta resultados da definição de excelencias institucionais para prestação de serviços qualificados e um plano de atuação estruturado, baseado na capacidade de absorção de tecnologias pelo território e em temas de sustentabilidade, tecnologia e participação na cadeia produtiva global.\n\n## Temas principais\n\n- excelencias institucionais\n- absorcao tecnologica do territorio\n- sustentabilidade\n- cadeia produtiva de alimentos\n- temas estrategicos e soluções tecnologicas\n- implementação e cronograma\n\n## Dados relevantes\n\n- O documento tem 37 paginas.\n- O sumario inclui benchmarking, temas estratégicos, índice de incerteza e relevância, prioridades de projeto e implementação.\n- O foco territorial é Guarapuava e região.\n\n## Recomendacoes\n\n- Criar fichas para absorção tecnológica, sustentabilidade e cadeia produtiva alimentar.\n- Separar temas estratégicos e soluções tecnológicas em fichas próprias.\n- Relacionar o relatório com outros de alimentos e gestão territorial.\n\n## Fichas vinculadas\n\n- `02_FICHAS/absorcao-tecnologica.md`\n- `02_FICHAS/cadeia-produtiva-de-alimentos.md`\n- `03_TEMAS/sustentabilidade.md`"
+  },
+  {
+    "id": "0005",
+    "path": "01_RELATORIOS/2021-plano-inovacao-ambiente-casa-curitiba.md",
+    "title": "Plano de Inovacao Ambiente Casa Curitiba",
+    "frontmatter": {
+      "tipo": "relatorio",
+      "id": "0005",
+      "ano": "2021",
+      "setor": "construcao-civil",
+      "territorio": "curitiba-pr",
+      "categoria": "plano-de-inovacao",
+      "arquivo": "[2021] Plano de Inovação Ambiente Casa Curitiba_.pdf",
+      "tags": "",
+      "- ano": "2021",
+      "- setor": "construcao-civil",
+      "- territorio": "curitiba-pr",
+      "- tipo": "plano-de-inovacao",
+      "- tema": "casacor",
+      "status": "processado"
+    },
+    "content": "# Plano de Inovacao Ambiente Casa Curitiba\n\n## Metadados\n\n- Ano: 2021\n- Setor: construção civil\n- Territorio: Curitiba, PR\n- Categoria: plano de inovação\n\n## Resumo rapido\n\nRelatório de inovação industrial ligado ao setor de construção civil em Curitiba, com referência ao ambiente Casa e à CASACOR. O documento usa a Metodologia Foresight para explorar cenários, benchmarking, cinco hélices, cluster tecnológico e objetivos estratégicos ligados ao ambiente empresarial.\n\n## Temas principais\n\n- Metodologia Foresight\n- construção civil\n- CASACOR\n- benchmarking\n- cinco hélices\n- cluster tecnológico\n\n## Dados relevantes\n\n- O documento tem 40 páginas.\n- O sumário inclui CISA/CASACOR e StudioTech Espaço Sebrae CASACOR PR 2021.\n- O foco territorial é Curitiba.\n\n## Recomendacoes\n\n- Criar fichas para CASACOR e ambiente casa.\n- Relacionar com os demais relatórios de construção civil de 2022 e 2024.\n- Registrar esse caso como ponte entre inovação industrial e espaço expositivo.\n\n## Fichas vinculadas\n\n- `02_FICHAS/foresight.md`\n- `02_FICHAS/cinco-helices.md`\n- `03_TEMAS/casacor.md`"
+  },
+  {
+    "id": "0006",
+    "path": "01_RELATORIOS/2021-plano-inovacao-metalmecanico-curitiba-regiao-metropolitana.md",
+    "title": "Plano de Inovacao Setor Metalmecanico",
+    "frontmatter": {
+      "tipo": "relatorio",
+      "id": "0006",
+      "ano": "2021",
+      "setor": "metalmecanica",
+      "territorio": "curitiba-regiao-metropolitana-pr",
+      "categoria": "plano-de-inovacao",
+      "arquivo": "[2021] Plano de Inovação Setor Metalmecânico_.pdf",
+      "tags": "",
+      "- ano": "2021",
+      "- setor": "metalmecanica",
+      "- territorio": "curitiba-regiao-metropolitana-pr",
+      "- tipo": "plano-de-inovacao",
+      "- tema": "competitividade",
+      "status": "processado"
+    },
+    "content": "# Plano de Inovacao Setor Metalmecanico\n\n## Metadados\n\n- Ano: 2021\n- Setor: metalmecânico\n- Territorio: Curitiba e Região Metropolitana\n- Categoria: plano de inovacao\n\n## Resumo rapido\n\nPlano de inovação orientado pela Metodologia Foresight para o setor metalmecânico de Curitiba e Região Metropolitana. O documento destaca a integração de esforços entre Sebrae, iniciativa privada e poder público, com foco em transferência de tecnologias, difusão de conhecimento e fortalecimento do ecossistema local.\n\n## Temas principais\n\n- metodologia Foresight\n- ecossistema de inovação\n- transferência tecnológica\n- integração institucional\n- mercados nacional e internacional\n\n## Dados relevantes\n\n- O documento tem 39 páginas.\n- O sumário e a introdução reforçam visão de futuro e competitividade territorial.\n- A lógica de atuação é a mesma de outros planos setoriais do acervo.\n\n## Recomendacoes\n\n- Criar fichas para ecossistema de inovação e difusão de conhecimento.\n- Ligação explícita com a rota da inovação do setor metalmecânico.\n- Consolidar a comparação com os demais relatórios de 2021 e 2022.\n\n## Fichas vinculadas\n\n- `02_FICHAS/foresight.md`\n- `02_FICHAS/transferencia-tecnologica.md`\n- `03_TEMAS/ecossistema-de-inovacao.md`"
+  },
+  {
+    "id": "0004",
+    "path": "01_RELATORIOS/2021-plano-inovacao-plastico-quimicos-novos-materiais-curitiba-regiao-metropolitana.md",
+    "title": "Plano de Inovacao Setor Quimico, Plastico e Novos Materiais",
+    "frontmatter": {
+      "tipo": "relatorio",
+      "id": "0004",
+      "ano": "2021",
+      "setor": "plastico-quimicos-e-novos-materiais",
+      "territorio": "curitiba-regiao-metropolitana-pr",
+      "categoria": "plano-de-inovacao",
+      "arquivo": "[2021] Plano de Inovação - Setor Plástico Químicos e Novos Materiais_.pdf",
+      "tags": "",
+      "- ano": "2021",
+      "- setor": "plastico-quimicos-e-novos-materiais",
+      "- territorio": "curitiba-regiao-metropolitana-pr",
+      "- tipo": "plano-de-inovacao",
+      "- tema": "competitividade",
+      "status": "processado"
+    },
+    "content": "# Plano de Inovacao Setor Quimico, Plastico e Novos Materiais\n\n## Metadados\n\n- Ano: 2021\n- Setor: químico, plástico e novos materiais\n- Territorio: Curitiba e Região Metropolitana\n- Categoria: plano de inovacao\n\n## Resumo rapido\n\nRelatório construído com metodologia Foresight para fortalecer a cadeia de valor do setor químico, plástico e novos materiais em Curitiba e Região Metropolitana. O foco está na integração entre atores do ecossistema, na antecipação de tendências e na criação de uma rota de inovação para pequenas e médias empresas.\n\n## Temas principais\n\n- metodologia Foresight\n- integração entre atores\n- cadeia de valor industrial\n- transferência de conhecimento e tecnologia\n- competitividade e mercados-alvo\n\n## Dados relevantes\n\n- O documento tem 38 páginas.\n- O texto de abertura enfatiza inovação e desenvolvimento integrado.\n- O foco territorial é Curitiba e Região Metropolitana.\n\n## Recomendacoes\n\n- Criar fichas de cadeia de valor, transferência tecnológica e mercados-alvo.\n- Relacionar o setor com outros relatórios de competitividade e inovação territorial.\n- Separar temas estratégicos, soluções tecnológicas e prioridades de projeto.\n\n## Fichas vinculadas\n\n- `02_FICHAS/foresight.md`\n- `02_FICHAS/transferencia-tecnologica.md`\n- `03_TEMAS/cadeia-de-valor.md`"
+  },
+  {
+    "id": "0007",
+    "path": "01_RELATORIOS/2022-plano-estrategico-varginha.md",
+    "title": "Plano Estrategico de Varginha",
+    "frontmatter": {
+      "tipo": "relatorio",
+      "id": "0007",
+      "ano": "2022",
+      "setor": "territorial-multissetorial",
+      "territorio": "varginha-mg",
+      "categoria": "planejamento-estrategico",
+      "arquivo": "[2022] Plano Estratégico_Varginha.pdf",
+      "tags": "",
+      "- ano": "2022",
+      "- setor": "territorial-multissetorial",
+      "- territorio": "varginha-mg",
+      "- tipo": "planejamento-estrategico",
+      "- tema": "sustentabilidade",
+      "status": "processado"
+    },
+    "content": "# Plano Estrategico de Varginha\n\n## Metadados\n\n- Ano: 2022\n- Setor: territorial multissetorial\n- Territorio: Varginha, MG\n- Categoria: planejamento estrategico\n\n## Resumo rapido\n\nRelatório de planejamento estratégico para Varginha, com aplicação da Metodologia Foresight nos setores de cafeicultura e logística. O foco é a capacidade das instituições locais, a absorção de tecnologias e a articulação de planos de atuação para o mercado e para o desenvolvimento do território.\n\n## Temas principais\n\n- Foresight aplicado ao território\n- cafeicultura\n- logística\n- absorção de tecnologias\n- instituições envolvidas\n- sustentabilidade e cadeia produtiva global\n\n## Dados relevantes\n\n- O documento tem 62 páginas.\n- O relatório menciona explicitamente os setores de cafeicultura e logística.\n- A estrutura inclui perfis institucionais e análise de atuação territorial.\n\n## Recomendacoes\n\n- Criar fichas separadas para cafeicultura e logística.\n- Vincular o relatório a estudos territoriais e de cadeia produtiva.\n- Mapear as instituições locais como nós da rede.\n\n## Fichas vinculadas\n\n- `02_FICHAS/foresight.md`\n- `02_FICHAS/cafeicultura.md`\n- `02_FICHAS/logistica.md`"
+  },
+  {
+    "id": "0008",
+    "path": "01_RELATORIOS/2022-plano-inovacao-biotecnologia-saude-curitiba.md",
+    "title": "Plano de Inovacao de Curitiba - Biotecnologia e Saude",
+    "frontmatter": {
+      "tipo": "relatorio",
+      "id": "0008",
+      "ano": "2022",
+      "setor": "biotecnologia-e-saude",
+      "territorio": "curitiba-pr",
+      "categoria": "plano-de-inovacao",
+      "arquivo": "[2022] Plano de Inovacao - Biotecnologia e Saude Curitiba_.pdf",
+      "tags": "",
+      "- ano": "2022",
+      "- setor": "biotecnologia-e-saude",
+      "- territorio": "curitiba-pr",
+      "- tipo": "plano-de-inovacao",
+      "- tema": "cadeia-produtiva",
+      "status": "processado"
+    },
+    "content": "# Plano de Inovacao de Curitiba - Biotecnologia e Saude\n\n## Metadados\n\n- Ano: 2022\n- Setor: biotecnologia e saúde\n- Territorio: Curitiba, PR\n- Categoria: plano de inovacao\n\n## Resumo rapido\n\nRelatório de aplicação da Metodologia Foresight no setor de Biotecnologia e Saúde em Curitiba. O foco é a capacidade das instituições envolvidas, a prestação de serviços qualificados, a absorção de tecnologias e os planos de atuação no mercado, com base em sustentabilidade, tecnologia e participação na cadeia produtiva global.\n\n## Temas principais\n\n- Metodologia Foresight\n- biotecnologia e saúde\n- absorção de tecnologias\n- serviços qualificados\n- cadeia produtiva global\n- sustentabilidade\n\n## Dados relevantes\n\n- O documento tem 67 páginas.\n- O texto de abertura repete a estrutura metodológica usada em outros relatórios do acervo.\n- O recorte territorial é Curitiba.\n\n## Recomendacoes\n\n- Criar fichas para biotecnologia, saúde, serviços qualificados e cadeia produtiva.\n- Conectar este relatório com outros de Curitiba e com os de inovação setorial.\n- Separar oportunidades tecnológicas e institucionais em fichas distintas.\n\n## Fichas vinculadas\n\n- `02_FICHAS/foresight.md`\n- `02_FICHAS/servicos-qualificados.md`\n- `03_TEMAS/biotecnologia-e-saude.md`"
+  },
+  {
+    "id": "0011",
+    "path": "01_RELATORIOS/2022-plano-inovacao-construcao-civil-ceara.md",
+    "title": "Plano de Inovacao da Construcao Civil no Ceara",
+    "frontmatter": {
+      "tipo": "relatorio",
+      "id": "0011",
+      "ano": "2022",
+      "setor": "construcao-civil",
+      "territorio": "ceara",
+      "categoria": "plano-de-inovacao",
+      "arquivo": "[2022] Plano de Inovação_Construção Civil Ceará.pdf",
+      "tags": "",
+      "- ano": "2022",
+      "- setor": "construcao-civil",
+      "- territorio": "ceara",
+      "- tipo": "plano-de-inovacao",
+      "- tema": "demanda-tecnologica",
+      "status": "processado"
+    },
+    "content": "# Plano de Inovacao da Construcao Civil no Ceara\n\n## Metadados\n\n- Ano: 2022\n- Setor: construção civil\n- Territorio: Ceará\n- Categoria: plano de inovacao\n\n## Resumo rapido\n\nRelatório de aplicação da Metodologia Foresight no setor de Construção Civil no Ceará. O foco é a capacidade das instituições, a absorção tecnológica, os planos de atuação no mercado e a relação entre sustentabilidade, tecnologia e cadeia produtiva global.\n\n## Temas principais\n\n- Metodologia Foresight\n- construção civil\n- governança territorial\n- oferta de serviços tecnológicos\n- demanda tecnológica\n- sustentabilidade\n\n## Dados relevantes\n\n- O documento tem 63 páginas.\n- O texto de abertura mantém a mesma lógica metodológica dos demais planos do setor.\n- O foco territorial é o Ceará.\n\n## Recomendacoes\n\n- Criar fichas para governanca territorial, oferta de serviços e demanda tecnológica.\n- Vincular o relatório a outros estudos de construção civil em MG e nível nacional.\n- Registrar prioridades de projeto e ambiente empresarial como nós derivados.\n\n## Fichas vinculadas\n\n- `02_FICHAS/foresight.md`\n- `02_FICHAS/governanca-territorial.md`\n- `02_FICHAS/oferta-de-servicos-tecnologicos.md`"
+  },
+  {
+    "id": "0012",
+    "path": "01_RELATORIOS/2022-plano-inovacao-construcao-civil-minas-gerais.md",
+    "title": "Plano de Inovacao da Construcao Civil em Minas Gerais",
+    "frontmatter": {
+      "tipo": "relatorio",
+      "id": "0012",
+      "ano": "2022",
+      "setor": "construcao-civil",
+      "territorio": "minas-gerais",
+      "categoria": "plano-de-inovacao",
+      "arquivo": "[2022] Plano de Inovação_Construção Civil Minas Gerais.pdf",
+      "tags": "",
+      "- ano": "2022",
+      "- setor": "construcao-civil",
+      "- territorio": "minas-gerais",
+      "- tipo": "plano-de-inovacao",
+      "- tema": "demanda-tecnologica",
+      "status": "processado"
+    },
+    "content": "# Plano de Inovacao da Construcao Civil em Minas Gerais\n\n## Metadados\n\n- Ano: 2022\n- Setor: construção civil\n- Territorio: Minas Gerais\n- Categoria: plano de inovacao\n\n## Resumo rapido\n\nRelatório de aplicação da Metodologia Foresight no setor de Construção Civil em Minas Gerais. O documento destaca instituições, capacidade de absorção tecnológica, oferta de serviços, demanda e propensão de investimento, organizados em torno de uma leitura territorial do mercado.\n\n## Temas principais\n\n- Metodologia Foresight\n- construção civil\n- governança territorial\n- oferta de serviços tecnológicos\n- demanda tecnológica\n- propensão de investimento\n\n## Dados relevantes\n\n- O documento tem 64 páginas.\n- O foco territorial é Minas Gerais.\n- A estrutura é compatível com a versão do Ceará, o que facilita comparação.\n\n## Recomendacoes\n\n- Criar fichas comparativas MG x CE.\n- Separar indicadores de demanda e propensão de investimento por território.\n- Cruzar o relatório com o plano nacional da construção civil.\n\n## Fichas vinculadas\n\n- `02_FICHAS/foresight.md`\n- `02_FICHAS/governanca-territorial.md`\n- `02_FICHAS/oferta-de-servicos-tecnologicos.md`"
+  },
+  {
+    "id": "0009",
+    "path": "01_RELATORIOS/2022-plano-inovacao-construcao-civil-nacional-mg-ce.md",
+    "title": "Plano de Inovacao da Construcao Civil - Nacional",
+    "frontmatter": {
+      "tipo": "relatorio",
+      "id": "0009",
+      "ano": "2022",
+      "setor": "construcao-civil",
+      "territorio": "minas-gerais-e-ceara",
+      "categoria": "plano-de-inovacao",
+      "arquivo": "[2022] Plano de Inovação - Construção Civil - Nacional.pdf",
+      "tags": "",
+      "- ano": "2022",
+      "- setor": "construcao-civil",
+      "- territorio": "minas-gerais-e-ceara",
+      "- tipo": "plano-de-inovacao",
+      "- tema": "demanda-tecnologica",
+      "status": "processado"
+    },
+    "content": "# Plano de Inovacao da Construcao Civil - Nacional\n\n## Metadados\n\n- Ano: 2022\n- Setor: construção civil\n- Territorio: Minas Gerais e Ceará\n- Categoria: plano de inovacao\n\n## Resumo rapido\n\nRelatório de aplicação da Metodologia Foresight no setor de Construção Civil nos estados de Minas Gerais e Ceará. O documento faz uma análise comparativa entre os dois territórios, destacando oferta de serviços tecnológicos, demanda, governança territorial, propensão de investimento e dinâmica de transferência de conhecimento.\n\n## Temas principais\n\n- Metodologia Foresight\n- comparação territorial MG e CE\n- governança territorial\n- oferta de serviços tecnológicos\n- demanda tecnológica\n- propensão de investimento\n\n## Dados relevantes\n\n- O documento tem 52 páginas.\n- Há fases separadas para MG e CE ao longo da estrutura do relatório.\n- A implementação final inclui prioridades de projeto e ambientes empresariais.\n\n## Recomendacoes\n\n- Criar fichas para governanca territorial, oferta de serviços e demanda tecnológica.\n- Separar MG e CE como subconjuntos comparáveis.\n- Mapear matrizes de investimento e compatibilidade de serviços como fichas de indicadores.\n\n## Fichas vinculadas\n\n- `02_FICHAS/foresight.md`\n- `02_FICHAS/governanca-territorial.md`\n- `02_FICHAS/oferta-de-servicos-tecnologicos.md`"
+  },
+  {
+    "id": "0010",
+    "path": "01_RELATORIOS/2022-plano-inovacao-metalmecanica-ponta-grossa.md",
+    "title": "Plano de Inovacao Setor Metalmecanico de Ponta Grossa",
+    "frontmatter": {
+      "tipo": "relatorio",
+      "id": "0010",
+      "ano": "2022",
+      "setor": "metalmecanica",
+      "territorio": "ponta-grossa-pr",
+      "categoria": "plano-de-inovacao",
+      "arquivo": "[2022] Plano de Inovação _ Metalmecânica Ponta Grossa.pdf",
+      "tags": "",
+      "- ano": "2022",
+      "- setor": "metalmecanica",
+      "- territorio": "ponta-grossa-pr",
+      "- tipo": "plano-de-inovacao",
+      "- tema": "ecossistema-de-inovacao",
+      "status": "processado"
+    },
+    "content": "# Plano de Inovacao Setor Metalmecanico de Ponta Grossa\n\n## Metadados\n\n- Ano: 2022\n- Setor: metalmecânica\n- Territorio: Ponta Grossa, PR\n- Categoria: plano de inovacao\n\n## Resumo rapido\n\nRelatório de aplicação da Metodologia Foresight no setor de Metalmecânica em Ponta Grossa. O foco é o fortalecimento institucional, a absorção de tecnologias, os planos de atuação no mercado e a conexão entre inovação, competitividade e ecossistema territorial.\n\n## Temas principais\n\n- Metodologia Foresight\n- metalmecânica\n- Ponta Grossa\n- transferência tecnológica\n- competitividade\n- ecossistema de inovação\n\n## Dados relevantes\n\n- O documento tem 66 páginas.\n- A abertura reforça a lógica de território, absorção de tecnologia e mercado.\n- A estrutura acompanha o padrão dos planos setoriais do acervo.\n\n## Recomendacoes\n\n- Criar fichas para ecossistema de inovação e transferência tecnológica.\n- Relacionar o relatório com os demais de metalmecânica e construção civil.\n- Mapear prioridades de projeto e ambiente empresarial como fichas derivadas.\n\n## Fichas vinculadas\n\n- `02_FICHAS/foresight.md`\n- `02_FICHAS/transferencia-tecnologica.md`\n- `03_TEMAS/ecossistema-de-inovacao.md`"
+  },
+  {
+    "id": "0013",
+    "path": "01_RELATORIOS/2022-plano-inovacao-smartcity-curitiba.md",
+    "title": "Plano de Inovacao SmartCity Curitiba",
+    "frontmatter": {
+      "tipo": "relatorio",
+      "id": "0013",
+      "ano": "2022",
+      "setor": "smart-city",
+      "territorio": "curitiba-pr",
+      "categoria": "plano-de-inovacao",
+      "arquivo": "[2022] Plano de Inovação_SmartCity Curitiba_.pdf",
+      "tags": "",
+      "- ano": "2022",
+      "- setor": "smart-city",
+      "- territorio": "curitiba-pr",
+      "- tipo": "plano-de-inovacao",
+      "- tema": "governanca-territorial",
+      "status": "processado"
+    },
+    "content": "# Plano de Inovacao SmartCity Curitiba\n\n## Metadados\n\n- Ano: 2022\n- Setor: smart city\n- Territorio: Curitiba, PR\n- Categoria: plano de inovacao\n\n## Resumo rapido\n\nRelatório de aplicação da Metodologia Foresight em Curitiba, especificamente no setor de Smart City. O foco é a absorção tecnológica, os serviços qualificados e os planos de atuação no mercado, com ênfase em sustentabilidade, tecnologia e participação na cadeia produtiva global.\n\n## Temas principais\n\n- Metodologia Foresight\n- smart city\n- tecnologia urbana\n- governança territorial\n- sustentabilidade\n- absorção tecnológica\n\n## Dados relevantes\n\n- O documento tem 46 páginas.\n- A abertura é muito mais curta e direta que a dos relatórios territoriais mais longos.\n- O recorte é Curitiba.\n\n## Recomendacoes\n\n- Criar fichas específicas para tecnologia urbana e cidade inteligente.\n- Relacionar este relatório com outros de Curitiba e com o tema governança territorial.\n- Separar ações em infraestrutura, serviços e inovação urbana.\n\n## Fichas vinculadas\n\n- `02_FICHAS/foresight.md`\n- `02_FICHAS/governanca-territorial.md`\n- `03_TEMAS/smart-city.md`"
+  },
+  {
+    "id": "0014",
+    "path": "01_RELATORIOS/2022-plano-inovacao-tic-ponta-grossa-cidade-do-futuro.md",
+    "title": "Plano de Inovacao TIC: Ponta Grossa Cidade do Futuro",
+    "frontmatter": {
+      "tipo": "relatorio",
+      "id": "0014",
+      "ano": "2022",
+      "setor": "tic",
+      "territorio": "ponta-grossa-pr",
+      "categoria": "plano-de-inovacao",
+      "arquivo": "[2022] Plano de Inovação_TIC Ponta Grossa Cidade do Futuro.pdf",
+      "tags": "",
+      "- ano": "2022",
+      "- setor": "tic",
+      "- territorio": "ponta-grossa-pr",
+      "- tipo": "plano-de-inovacao",
+      "- tema": "governanca-territorial",
+      "status": "processado"
+    },
+    "content": "# Plano de Inovacao TIC: Ponta Grossa Cidade do Futuro\n\n## Metadados\n\n- Ano: 2022\n- Setor: TIC\n- Territorio: Ponta Grossa, PR\n- Categoria: plano de inovacao\n\n## Resumo rapido\n\nRelatório de aplicação da Metodologia Foresight em Ponta Grossa, focado em Tecnologia da Informação e Comunicação - Cidade do Futuro. O documento destaca instituições, absorção tecnológica, serviços qualificados e atuação no mercado, articulando o tema da cidade do futuro com sustentabilidade e tecnologia.\n\n## Temas principais\n\n- Metodologia Foresight\n- TIC\n- cidade do futuro\n- tecnologia urbana\n- governança territorial\n- sustentabilidade\n\n## Dados relevantes\n\n- O documento tem 71 páginas.\n- A primeira página já traz a chave de interpretação do território.\n- O recorte é Ponta Grossa.\n\n## Recomendacoes\n\n- Separar fichas para TIC, cidade do futuro e tecnologia urbana.\n- Relacionar com o relatório de smart city de Curitiba.\n- Mapear atores e serviços como nós de rede.\n\n## Fichas vinculadas\n\n- `02_FICHAS/foresight.md`\n- `02_FICHAS/governanca-territorial.md`\n- `03_TEMAS/smart-city.md`"
+  },
+  {
+    "id": "0015",
+    "path": "01_RELATORIOS/2022-plano-mercado-alimentos-vale-do-taquari.md",
+    "title": "Plano de Mercado do Setor de Alimentos do Vale do Taquari",
+    "frontmatter": {
+      "tipo": "relatorio",
+      "id": "0015",
+      "ano": "2022",
+      "setor": "alimentos",
+      "territorio": "vale-do-taquari-rs",
+      "categoria": "plano-de-mercado",
+      "arquivo": "[2022] Plano de Mercado _ Setor de Alimentos _ Vale do Taquari.pdf",
+      "tags": "",
+      "- ano": "2022",
+      "- setor": "alimentos",
+      "- territorio": "vale-do-taquari-rs",
+      "- tipo": "plano-de-mercado",
+      "- tema": "sustentabilidade",
+      "status": "processado"
+    },
+    "content": "# Plano de Mercado do Setor de Alimentos do Vale do Taquari\n\n## Metadados\n\n- Ano: 2022\n- Setor: alimentos\n- Territorio: Vale do Taquari, RS\n- Categoria: plano de mercado\n\n## Resumo rapido\n\nRelatório de aplicação da Metodologia Foresight nos municípios do Vale do Taquari, especificamente no setor de Alimentos. O foco é a prestação de serviços qualificados, a absorção tecnológica e os planos de atuação no mercado, com base em sustentabilidade, tecnologia e cadeia produtiva global.\n\n## Temas principais\n\n- Metodologia Foresight\n- alimentos\n- mercado\n- cadeia produtiva\n- sustentabilidade\n- território dos municípios do Vale do Taquari\n\n## Dados relevantes\n\n- O documento tem 65 páginas.\n- O nome do relatório já indica que o objetivo principal é plano de mercado.\n- O recorte é territorial e setorial ao mesmo tempo.\n\n## Recomendacoes\n\n- Criar fichas de mercado para alimentos.\n- Relacionar com os relatórios de agrofood e alimentos do acervo.\n- Registrar os municípios e instituições como nós de rede.\n\n## Fichas vinculadas\n\n- `02_FICHAS/foresight.md`\n- `02_FICHAS/cadeia-produtiva-de-alimentos.md`\n- `03_TEMAS/alimentos.md`"
+  },
+  {
+    "id": "0016",
+    "path": "01_RELATORIOS/2022-plano-mercado-metalmecanica-serra-gaucha.md",
+    "title": "Plano de Mercado do Setor Metalmecanico da Serra Gaucha",
+    "frontmatter": {
+      "tipo": "relatorio",
+      "id": "0016",
+      "ano": "2022",
+      "setor": "metalmecanica",
+      "territorio": "serra-gaucha-rs",
+      "categoria": "plano-de-mercado",
+      "arquivo": "[2022] Plano de Mercado_Setor Metalmecânico_Serra Gaúca.pdf",
+      "tags": "",
+      "- ano": "2022",
+      "- setor": "metalmecanica",
+      "- territorio": "serra-gaucha-rs",
+      "- tipo": "plano-de-mercado",
+      "- tema": "cadeia-produtiva",
+      "status": "processado"
+    },
+    "content": "# Plano de Mercado do Setor Metalmecanico da Serra Gaucha\n\n## Metadados\n\n- Ano: 2022\n- Setor: metalmecânica\n- Territorio: Serra Gaúcha, RS\n- Categoria: plano de mercado\n\n## Resumo rapido\n\nRelatório de aplicação da Metodologia Foresight na Serra Gaúcha, especificamente no setor de Metalmecânica. O foco é a prestação de serviços qualificados, a capacidade de absorção tecnológica e os planos de atuação no mercado, com ênfase em sustentabilidade, tecnologia e cadeia produtiva global.\n\n## Temas principais\n\n- Metodologia Foresight\n- metalmecânica\n- mercado\n- competitividade\n- cadeia produtiva\n- território da Serra Gaúcha\n\n## Dados relevantes\n\n- O documento tem 61 páginas.\n- O título apresenta o relatório como plano de mercado, não de inovação.\n- O recorte é a Serra Gaúcha.\n\n## Recomendacoes\n\n- Criar fichas para mercado e competitividade na metalmecânica.\n- Relacionar com os relatórios de metalmecânica de Curitiba e Ponta Grossa.\n- Usar como base para comparação setorial e territorial.\n\n## Fichas vinculadas\n\n- `02_FICHAS/foresight.md`\n- `02_FICHAS/cadeia-produtiva-de-alimentos.md`\n- `03_TEMAS/competitividade.md`"
+  },
+  {
+    "id": "0017",
+    "path": "01_RELATORIOS/2023-plano-gestao-tecnologica-cosmeticos-sao-paulo.md",
+    "title": "Plano de Gestao Tecnologica Foresight - Cosmeticos",
+    "frontmatter": {
+      "tipo": "relatorio",
+      "id": "0017",
+      "ano": "2023",
+      "setor": "cosmeticos",
+      "territorio": "sao-paulo",
+      "categoria": "plano-de-gestao-tecnologica",
+      "arquivo": "[2023] Plano de Gestão Tecnológica Foresight_Cosméticos.pdf",
+      "tags": "",
+      "- ano": "2023",
+      "- setor": "cosmeticos",
+      "- territorio": "sao-paulo",
+      "- tipo": "plano-de-gestao-tecnologica",
+      "- tema": "cadeia-produtiva",
+      "status": "processado"
+    },
+    "content": "# Plano de Gestao Tecnologica Foresight - Cosmeticos\n\n## Metadados\n\n- Ano: 2023\n- Setor: perfumaria, higiene pessoal e cosméticos\n- Territorio: São Paulo\n- Categoria: plano de gestão tecnológica\n\n## Resumo rapido\n\nRelatório de gestão tecnológica futura baseado em Foresight para o setor de cosméticos em São Paulo. O foco está na definição de cenários, investimentos, mapas de transferências tecnológicas e prospecção da competitividade futura.\n\n## Temas principais\n\n- cenários tecnológicos\n- investimentos\n- mapas de transferência tecnológica\n- competitividade futura\n- cadeia produtiva global\n\n## Dados relevantes\n\n- O documento tem 101 páginas.\n- O sumário traz benchmarking, seed map, macrotendências, transferência de tecnologia e temas estratégicos.\n- O recorte é São Paulo.\n\n## Recomendacoes\n\n- Criar fichas para transferências tecnológicas e benchmarking.\n- Relacionar com os planos de 2022 sobre absorção tecnológica e mercado.\n- Separar temas estratégicos e soluções tecnológicas por cadeia.\n\n## Fichas vinculadas\n\n- `02_FICHAS/transferencia-tecnologica.md`\n- `02_FICHAS/propensao-investimento.md`\n- `03_TEMAS/competitividade.md`"
+  },
+  {
+    "id": "0019",
+    "path": "01_RELATORIOS/2023-plano-gestao-tecnologica-economia-do-mar-rj.md",
+    "title": "Plano de Gestao Tecnologica Futura - Economia do Mar RJ",
+    "frontmatter": {
+      "tipo": "relatorio",
+      "id": "0019",
+      "ano": "2023",
+      "setor": "economia-do-mar",
+      "territorio": "rio-de-janeiro-rj",
+      "categoria": "plano-de-gestao-tecnologica",
+      "arquivo": "[2023] Plano de Gestão Tecnológica Futura_Economia do Mar RJ.pdf",
+      "tags": "",
+      "- ano": "2023",
+      "- setor": "economia-do-mar",
+      "- territorio": "rio-de-janeiro-rj",
+      "- tipo": "plano-de-gestao-tecnologica",
+      "- tema": "competitividade",
+      "status": "processado"
+    },
+    "content": "# Plano de Gestao Tecnologica Futura - Economia do Mar RJ\n\n## Metadados\n\n- Ano: 2023\n- Setor: economia do mar\n- Territorio: Rio de Janeiro, RJ\n- Categoria: plano de gestão tecnológica\n\n## Resumo rapido\n\nRelatório de gestão tecnológica futura para a economia do mar no Rio de Janeiro. O foco é inovação azul, cenários, investimentos, transferência tecnológica e competitividade futura no território marítimo.\n\n## Temas principais\n\n- inovação azul\n- economia do mar\n- transferência tecnológica\n- competitividade futura\n- cenários e investimento\n- território marítimo\n\n## Dados relevantes\n\n- O documento tem 137 páginas.\n- A abertura menciona Marina da Glória e o território do Rio de Janeiro.\n- É o maior documento do bloco processado até aqui.\n\n## Recomendacoes\n\n- Criar fichas para inovação azul e economia do mar.\n- Relacionar com o conceito de competitividade e com território marítimo.\n- Separar dados, atores e recomendações em fichas derivadas.\n\n## Fichas vinculadas\n\n- `02_FICHAS/transferencia-tecnologica.md`\n- `02_FICHAS/propensao-investimento.md`\n- `03_TEMAS/economia-do-mar.md`"
+  },
+  {
+    "id": "0020",
+    "path": "01_RELATORIOS/2023-plano-gestao-tecnologica-mobiliario-joao-pessoa.md",
+    "title": "Plano de Gestao Tecnologica Futura - Setor Mobiliario de Joao Pessoa",
+    "frontmatter": {
+      "tipo": "relatorio",
+      "id": "0020",
+      "ano": "2023",
+      "setor": "madeira-e-movel",
+      "territorio": "joao-pessoa-pb",
+      "categoria": "plano-de-gestao-tecnologica",
+      "arquivo": "[2023] Plano de Gestão Tecnológica Futura_Setor Mobiliário João Pessoa.pdf",
+      "tags": "",
+      "- ano": "2023",
+      "- setor": "madeira-e-movel",
+      "- territorio": "joao-pessoa-pb",
+      "- tipo": "plano-de-gestao-tecnologica",
+      "- tema": "cadeia-produtiva",
+      "status": "processado"
+    },
+    "content": "# Plano de Gestao Tecnologica Futura - Setor Mobiliario de Joao Pessoa\n\n## Metadados\n\n- Ano: 2023\n- Setor: mobiliário / madeira e móvel\n- Territorio: João Pessoa, PB\n- Categoria: plano de gestão tecnológica\n\n## Resumo rapido\n\nRelatório de gestão tecnológica futura para o setor mobiliário em João Pessoa. O documento combina cenários, investimentos, mapas de transferência tecnológica e competitividade futura com foco em cadeia produtiva e absorção tecnológica.\n\n## Temas principais\n\n- setor mobiliário\n- transferência tecnológica\n- competitividade futura\n- cadeia produtiva\n- cenários e investimento\n- território de João Pessoa\n\n## Dados relevantes\n\n- O documento tem 96 páginas.\n- O texto de abertura repete a lógica Foresight usada nos demais relatórios.\n- O recorte é João Pessoa, PB.\n\n## Recomendacoes\n\n- Criar fichas para mobiliário e madeira e móvel.\n- Conectar com relatórios de 2024 e 2025 da mesma família.\n- Manter a leitura comparativa entre estados e territórios.\n\n## Fichas vinculadas\n\n- `02_FICHAS/transferencia-tecnologica.md`\n- `02_FICHAS/propensao-investimento.md`\n- `03_TEMAS/mobiliario.md`"
+  },
+  {
+    "id": "0018",
+    "path": "01_RELATORIOS/2023-plano-gestao-tecnologica-moda-santa-catarina.md",
+    "title": "Plano de Gestao Tecnologica Foresight - Moda Santa Catarina",
+    "frontmatter": {
+      "tipo": "relatorio",
+      "id": "0018",
+      "ano": "2023",
+      "setor": "moda-e-confeccoes",
+      "territorio": "santa-catarina",
+      "categoria": "plano-de-gestao-tecnologica",
+      "arquivo": "[2023] Plano de Gestão Tecnológica Foresight_Moda Santa Catarina.pdf",
+      "tags": "",
+      "- ano": "2023",
+      "- setor": "moda-e-confeccoes",
+      "- territorio": "santa-catarina",
+      "- tipo": "plano-de-gestao-tecnologica",
+      "- tema": "cadeia-produtiva",
+      "status": "processado"
+    },
+    "content": "# Plano de Gestao Tecnologica Foresight - Moda Santa Catarina\n\n## Metadados\n\n- Ano: 2023\n- Setor: moda\n- Territorio: Santa Catarina\n- Categoria: plano de gestão tecnológica\n\n## Resumo rapido\n\nRelatório de gestão tecnológica futura para o setor de moda em Santa Catarina. O documento trabalha cenários, investimentos, mapas de transferências tecnológicas e competitividade futura, com forte presença da lógica Foresight e da cadeia produtiva global.\n\n## Temas principais\n\n- moda\n- cenários e investimento\n- transferência tecnológica\n- competitividade futura\n- cadeia produtiva\n- benchmarking internacional\n\n## Dados relevantes\n\n- O documento tem 105 páginas.\n- O material menciona explicitamente benchmarking com plataformas tecnológicas e seed maps.\n- O recorte territorial é Santa Catarina.\n\n## Recomendacoes\n\n- Criar fichas para moda, benchmarking e mapas de transferência.\n- Relacionar com os relatórios de 2025 sobre moda.\n- Manter essa linha como base de comparação temporal do setor.\n\n## Fichas vinculadas\n\n- `02_FICHAS/transferencia-tecnologica.md`\n- `02_FICHAS/propensao-investimento.md`\n- `03_TEMAS/moda.md`"
+  },
+  {
+    "id": "0021",
+    "path": "01_RELATORIOS/2024-plano-gestao-tecnologica-alimentos-parana.md",
+    "title": "Plano de Gestao Tecnologica Futura - Alimentos Parana",
+    "frontmatter": {
+      "tipo": "relatorio",
+      "id": "0021",
+      "ano": "2024",
+      "setor": "alimentos",
+      "territorio": "parana",
+      "categoria": "plano-de-gestao-tecnologica",
+      "arquivo": "[2024] Plano de Gestão Tecnológica Futura - Alimentos Paraná_.pdf",
+      "tags": "",
+      "- ano": "2024",
+      "- setor": "alimentos",
+      "- territorio": "parana",
+      "- tipo": "plano-de-gestao-tecnologica",
+      "- tema": "cadeia-produtiva",
+      "status": "processado"
+    },
+    "content": "# Plano de Gestao Tecnologica Futura - Alimentos Parana\n\n## Metadados\n\n- Ano: 2024\n- Setor: indústria de alimentos\n- Territorio: Paraná\n- Categoria: plano de gestão tecnológica\n\n## Resumo rapido\n\nRelatório de gestão tecnológica futura para a indústria de alimentos no Paraná. O documento trabalha cenários, investimentos e mapas de transferência tecnológica com foco na competitividade futura, na prestação de serviços qualificados e na absorção de tecnologias.\n\n## Temas principais\n\n- cenários\n- investimentos\n- transferência tecnológica\n- competitividade futura\n- indústria de alimentos\n- cadeia produtiva global\n\n## Dados relevantes\n\n- O documento tem 96 páginas.\n- O recorte é estadual, com foco no Paraná.\n- A estrutura segue o padrão de gestão tecnológica futura.\n\n## Recomendacoes\n\n- Relacionar com o plano de alimentos do Vale do Taquari e o agrofood de Guarapuava.\n- Criar fichas para cenário, investimento e cadeia produtiva de alimentos.\n- Fazer cruzamento com indicadores de mercado e transferência tecnológica.\n\n## Fichas vinculadas\n\n- `02_FICHAS/foresight.md`\n- `02_FICHAS/transferencia-tecnologica.md`\n- `03_TEMAS/alimentos.md`"
+  },
+  {
+    "id": "0022",
+    "path": "01_RELATORIOS/2024-plano-gestao-tecnologica-construcao-civil-pr.md",
+    "title": "Plano de Gestao Tecnologica Futura - Construcao Civil PR",
+    "frontmatter": {
+      "tipo": "relatorio",
+      "id": "0022",
+      "ano": "2024",
+      "setor": "construcao-civil",
+      "territorio": "parana",
+      "categoria": "plano-de-gestao-tecnologica",
+      "arquivo": "[2024] Plano de Gestão Tecnológica Futura - Construção Civil PR.pdf",
+      "tags": "",
+      "- ano": "2024",
+      "- setor": "construcao-civil",
+      "- territorio": "parana",
+      "- tipo": "plano-de-gestao-tecnologica",
+      "- tema": "cadeia-produtiva",
+      "status": "processado"
+    },
+    "content": "# Plano de Gestao Tecnologica Futura - Construcao Civil PR\n\n## Metadados\n\n- Ano: 2024\n- Setor: construção civil\n- Territorio: Paraná\n- Categoria: plano de gestão tecnológica\n\n## Resumo rapido\n\nRelatório de gestão tecnológica futura para a construção civil no Paraná, com foco em cenários, investimentos e mapas de transferência tecnológica baseados na prospecção da competitividade futura. A leitura territorial é centrada em Curitiba, Paraná.\n\n## Temas principais\n\n- cenários\n- investimentos\n- transferência tecnológica\n- competitividade futura\n- construção civil\n- território paranaense\n\n## Dados relevantes\n\n- O documento tem 117 páginas.\n- A capa menciona Curitiba, Paraná.\n- A lógica metodológica é a mesma dos relatórios de 2022, mas mais madura.\n\n## Recomendacoes\n\n- Relacionar com os planos de construção civil de Minas Gerais, Ceará e Nacional.\n- Criar fichas para cenários, investimento e território.\n- Cruzar com indicadores de propensão e compatibilidade tecnológica.\n\n## Fichas vinculadas\n\n- `02_FICHAS/foresight.md`\n- `02_FICHAS/transferencia-tecnologica.md`\n- `03_TEMAS/competitividade.md`"
+  },
+  {
+    "id": "0023",
+    "path": "01_RELATORIOS/2024-plano-gestao-tecnologica-madeira-movel-sc.md",
+    "title": "Plano de Gestao Tecnologica Futura - Madeira e Movel SC",
+    "frontmatter": {
+      "tipo": "relatorio",
+      "id": "0023",
+      "ano": "2024",
+      "setor": "madeira-e-movel",
+      "territorio": "santa-catarina",
+      "categoria": "plano-de-gestao-tecnologica",
+      "arquivo": "[2024] Plano de Gestão Tecnológica Futura - Madeira e Móvel SC_.pdf",
+      "tags": "",
+      "- ano": "2024",
+      "- setor": "madeira-e-movel",
+      "- territorio": "santa-catarina",
+      "- tipo": "plano-de-gestao-tecnologica",
+      "- tema": "competitividade",
+      "status": "processado"
+    },
+    "content": "# Plano de Gestao Tecnologica Futura - Madeira e Movel SC\n\n## Metadados\n\n- Ano: 2024\n- Setor: madeira e móveis\n- Territorio: Santa Catarina\n- Categoria: plano de gestão tecnológica\n\n## Resumo rapido\n\nRelatório de gestão tecnológica futura para o setor de Madeira e Móveis em Santa Catarina. O documento destaca a adoção de práticas alinhadas à economia circular, com ênfase em tecnologias que otimizam recursos, reduzem desperdícios e fortalecem a competitividade futura.\n\n## Temas principais\n\n- economia circular\n- transferência tecnológica\n- competitividade futura\n- madeira e móveis\n- sustentabilidade\n- inovação tecnológica\n\n## Dados relevantes\n\n- O documento tem 120 páginas.\n- Cita São Bento do Sul, Rio Negrinho e Campo Alegre como território do estudo.\n- A economia circular aparece como eixo central do relatório.\n\n## Recomendacoes\n\n- Criar fichas para economia circular e madeira e móveis.\n- Relacionar com os relatórios do mesmo setor em 2023 e 2025.\n- Registrar os municípios como territórios específicos.\n\n## Fichas vinculadas\n\n- `02_FICHAS/transferencia-tecnologica.md`\n- `02_FICHAS/cluster-tecnologico.md`\n- `03_TEMAS/economia-circular.md`"
+  },
+  {
+    "id": "0024",
+    "path": "01_RELATORIOS/2025-mapa-estrategico-construcao-civil.md",
+    "title": "Mapa Estrategico - Construcao Civil",
+    "frontmatter": {
+      "tipo": "relatorio",
+      "id": "0024",
+      "ano": "2025",
+      "setor": "construcao-civil",
+      "territorio": "brasil",
+      "categoria": "mapa-estrategico",
+      "arquivo": "[2025] Mapa Estratégico Construção Civil.pdf",
+      "tags": "",
+      "- ano": "2025",
+      "- setor": "construcao-civil",
+      "- territorio": "brasil",
+      "- tipo": "mapa-estrategico",
+      "- tema": "reposicionamento-setorial",
+      "status": "processado"
+    },
+    "content": "# Mapa Estrategico - Construcao Civil\n\n## Metadados\n\n- Ano: 2025\n- Setor: construção civil\n- Territorio: Brasil\n- Categoria: mapa estratégico\n\n## Resumo rapido\n\nDocumento de mapa estratégico para a construção civil com foco na cadeia produtiva nacional, benchmarking internacional, megatendências, governança e reposicionamento setorial. O formato deixa mais explícita a passagem de diagnóstico para estratégia.\n\n## Temas principais\n\n- cadeia produtiva nacional\n- benchmarking internacional\n- megatendências\n- governança\n- reposicionamento setorial\n- modelos de referência circulares\n\n## Dados relevantes\n\n- O documento tem 76 páginas.\n- A estrutura introduz o reposicionamento setorial como quinto parâmetro.\n- O recorte é nacional.\n\n## Recomendacoes\n\n- Criar fichas para benchmarking, megatendências e reposicionamento.\n- Relacionar com os relatórios de construção civil de 2022 e 2024.\n- Usar como base de comparação para os demais mapas estratégicos de 2025.\n\n## Fichas vinculadas\n\n- `02_FICHAS/governanca-territorial.md`\n- `02_FICHAS/cluster-tecnologico.md`\n- `03_TEMAS/competitividade.md`"
+  },
+  {
+    "id": "0025",
+    "path": "01_RELATORIOS/2025-mapa-estrategico-madeira-moveis.md",
+    "title": "Mapa Estrategico - Setor Madeira e Moveis",
+    "frontmatter": {
+      "tipo": "relatorio",
+      "id": "0025",
+      "ano": "2025",
+      "setor": "madeira-e-movel",
+      "territorio": "brasil",
+      "categoria": "mapa-estrategico",
+      "arquivo": "[2025] Mapa Estratégico_ Setor Madeira e Móveis.pdf",
+      "tags": "",
+      "- ano": "2025",
+      "- setor": "madeira-e-movel",
+      "- territorio": "brasil",
+      "- tipo": "mapa-estrategico",
+      "- tema": "reposicionamento-setorial",
+      "status": "processado"
+    },
+    "content": "# Mapa Estrategico - Setor Madeira e Moveis\n\n## Metadados\n\n- Ano: 2025\n- Setor: madeira e móveis\n- Territorio: Brasil\n- Categoria: mapa estratégico\n\n## Resumo rapido\n\nMapa estratégico do setor de madeira e móveis com cadeia produtiva nacional, benchmarking internacional, megatendências, governança e reposicionamento setorial. O documento também trabalha modelos de referência de cadeias produtivas circulares.\n\n## Temas principais\n\n- cadeia produtiva nacional\n- benchmarking internacional\n- megatendências\n- governança\n- reposicionamento setorial\n- cadeias produtivas circulares\n\n## Dados relevantes\n\n- O documento tem 86 páginas.\n- Inclui indicadores de impacto e índice de complexidade produtiva.\n- O recorte é nacional.\n\n## Recomendacoes\n\n- Conectar com o relatório de 2024 de economia circular.\n- Criar fichas para cadeias produtivas circulares e índice de complexidade.\n- Relacionar com os relatórios de 2023 e 2024 de madeira e móveis.\n\n## Fichas vinculadas\n\n- `02_FICHAS/cluster-tecnologico.md`\n- `03_TEMAS/economia-circular.md`\n- `03_TEMAS/mobiliario.md`"
+  },
+  {
+    "id": "0026",
+    "path": "01_RELATORIOS/2025-mapa-estrategico-moda.md",
+    "title": "Mapa Estrategico - Setor Moda",
+    "frontmatter": {
+      "tipo": "relatorio",
+      "id": "0026",
+      "ano": "2025",
+      "setor": "moda-e-confeccoes",
+      "territorio": "brasil",
+      "categoria": "mapa-estrategico",
+      "arquivo": "[2025] Mapa Estratégico_Setor Moda.pdf",
+      "tags": "",
+      "- ano": "2025",
+      "- setor": "moda-e-confeccoes",
+      "- territorio": "brasil",
+      "- tipo": "mapa-estrategico",
+      "- tema": "reposicionamento-setorial",
+      "status": "processado"
+    },
+    "content": "# Mapa Estrategico - Setor Moda\n\n## Metadados\n\n- Ano: 2025\n- Setor: moda e confecções\n- Territorio: Brasil\n- Categoria: mapa estratégico\n\n## Resumo rapido\n\nMapa estratégico do setor de moda com foco em cadeia produtiva nacional, benchmarking internacional, megatendências, governança e reposicionamento setorial. O material é claramente construído para orientar decisão estratégica e priorização.\n\n## Temas principais\n\n- cadeia produtiva nacional\n- benchmarking internacional\n- megatendências\n- governança\n- reposicionamento setorial\n- fatores empresariais e estruturais\n\n## Dados relevantes\n\n- O documento tem 87 páginas.\n- Traz indicadores de impacto e solução tecnológica como parte da estrutura.\n- O recorte é nacional.\n\n## Recomendacoes\n\n- Relacionar com o relatório de 2023 de moda em Santa Catarina.\n- Criar fichas para fatores empresariais, estruturais e sistêmicos.\n- Usar como base para uma comparação temporal da moda no acervo.\n\n## Fichas vinculadas\n\n- `02_FICHAS/cluster-tecnologico.md`\n- `03_TEMAS/moda.md`\n- `03_TEMAS/competitividade.md`"
+  },
+  {
+    "id": "0027",
+    "path": "01_RELATORIOS/2025-mapa-estrategico-nautico.md",
+    "title": "Mapa Estrategico - Setor Nautico",
+    "frontmatter": {
+      "tipo": "relatorio",
+      "id": "0027",
+      "ano": "2025",
+      "setor": "nautico",
+      "territorio": "brasil",
+      "categoria": "mapa-estrategico",
+      "arquivo": "[2025] Mapa Estratégico_Setor Náutico.pdf",
+      "tags": "",
+      "- ano": "2025",
+      "- setor": "nautico",
+      "- territorio": "brasil",
+      "- tipo": "mapa-estrategico",
+      "- tema": "economia-azul",
+      "status": "processado"
+    },
+    "content": "# Mapa Estrategico - Setor Nautico\n\n## Metadados\n\n- Ano: 2025\n- Setor: náutico\n- Territorio: Brasil\n- Categoria: mapa estratégico\n\n## Resumo rapido\n\nMapa estratégico do setor náutico com ênfase na cadeia produtiva nacional, benchmarking internacional, megatendências, governança e reposicionamento setorial. O documento também explicita a conexão com economia azul e atores do setor.\n\n## Temas principais\n\n- cadeia produtiva nacional\n- benchmarking internacional\n- megatendências\n- governança\n- economia azul\n- reposicionamento setorial\n\n## Dados relevantes\n\n- O documento tem 92 páginas.\n- Há parceria com a ACATMAR e coordenação ligada à economia azul.\n- O recorte é nacional.\n\n## Recomendacoes\n\n- Relacionar com o relatório de economia do mar de 2023 e com o plano náutico de Santa Catarina de 2025.\n- Criar fichas para economia azul e atores do setor náutico.\n- Cruzar com o mapa estratégico da construção civil e da madeira e móveis.\n\n## Fichas vinculadas\n\n- `02_FICHAS/governanca-territorial.md`\n- `03_TEMAS/economia-do-mar.md`\n- `03_TEMAS/tic-cidade-do-futuro.md`"
+  },
+  {
+    "id": "0028",
+    "path": "01_RELATORIOS/2025-plano-inovacao-madeira-movel-amapa.md",
+    "title": "Plano de Inovacao - Setor Madeira e Movel do Amapa",
+    "frontmatter": {
+      "tipo": "relatorio",
+      "id": "0028",
+      "ano": "2025",
+      "setor": "madeira-e-movel",
+      "territorio": "amapa",
+      "categoria": "plano-de-inovacao",
+      "arquivo": "[2025] Plano de Inovação_Setor Madeira e Móvel_Amapá.pdf",
+      "tags": "",
+      "- ano": "2025",
+      "- setor": "madeira-e-movel",
+      "- territorio": "amapa",
+      "- tipo": "plano-de-inovacao",
+      "- tema": "competitividade",
+      "status": "processado"
+    },
+    "content": "# Plano de Inovacao - Setor Madeira e Movel do Amapa\n\n## Metadados\n\n- Ano: 2025\n- Setor: madeira e móvel\n- Territorio: Amapá\n- Categoria: plano de inovação\n\n## Resumo rapido\n\nRelatório de aplicação da Metodologia Foresight no setor de Madeira e Móvel do Amapá. O documento destaca a economia circular como base metodológica e estratégica, articulando cenários, investimentos, matrizes e fatores empresariais relevantes.\n\n## Temas principais\n\n- economia circular\n- cenários tecnológicos\n- matriz estratégica\n- fatores empresariais\n- cadeia produtiva circular\n- competitividade futura\n\n## Dados relevantes\n\n- O documento tem 101 páginas.\n- A metodologia aparece ligada explicitamente à economia circular.\n- O recorte é o Amapá.\n\n## Recomendacoes\n\n- Conectar com o mapa estratégico de madeira e móveis de 2025.\n- Criar fichas de economia circular e fatores empresariais.\n- Relacionar com o relatório do mesmo setor em Santa Catarina de 2024.\n\n## Fichas vinculadas\n\n- `02_FICHAS/transferencia-tecnologica.md`\n- `03_TEMAS/economia-circular.md`\n- `03_TEMAS/mobiliario.md`"
+  },
+  {
+    "id": "0029",
+    "path": "01_RELATORIOS/2025-plano-inovacao-moda-confeccoes-parana.md",
+    "title": "Plano de Inovacao - Setor Moda e Confeccoes do Parana",
+    "frontmatter": {
+      "tipo": "relatorio",
+      "id": "0029",
+      "ano": "2025",
+      "setor": "moda-e-confeccoes",
+      "territorio": "parana",
+      "categoria": "plano-de-inovacao",
+      "arquivo": "[2025] Plano de Inovação_Setor Moda e Confecções_Paraná.pdf",
+      "tags": "",
+      "- ano": "2025",
+      "- setor": "moda-e-confeccoes",
+      "- territorio": "parana",
+      "- tipo": "plano-de-inovacao",
+      "- tema": "competitividade",
+      "status": "processado"
+    },
+    "content": "# Plano de Inovacao - Setor Moda e Confeccoes do Parana\n\n## Metadados\n\n- Ano: 2025\n- Setor: moda e confecções\n- Territorio: Paraná\n- Categoria: plano de inovação\n\n## Resumo rapido\n\nRelatório de aplicação da Metodologia Foresight no setor de Moda e Confecções do Paraná. O texto indica a centralidade da economia circular, das transferências tecnológicas, da matriz estratégica e dos fatores empresariais na leitura do setor.\n\n## Temas principais\n\n- economia circular\n- matriz estratégica\n- fatores empresariais\n- cadeia produtiva circular\n- competitividade futura\n- moda e confecções\n\n## Dados relevantes\n\n- O documento tem 126 páginas.\n- O sumário mostra estrutura mais analítica e detalhada do que os relatórios anteriores.\n- O recorte é Paraná.\n\n## Recomendacoes\n\n- Relacionar com o mapa estratégico de moda de 2025.\n- Criar fichas para fatores empresariais e cadeia produtiva circular.\n- Fazer a ponte com o relatório de moda de Santa Catarina de 2023.\n\n## Fichas vinculadas\n\n- `02_FICHAS/transferencia-tecnologica.md`\n- `03_TEMAS/economia-circular.md`\n- `03_TEMAS/moda.md`"
+  },
+  {
+    "id": "0030",
+    "path": "01_RELATORIOS/2025-plano-inovacao-nautico-santa-catarina.md",
+    "title": "Plano de Inovacao - Setor Nautico de Santa Catarina",
+    "frontmatter": {
+      "tipo": "relatorio",
+      "id": "0030",
+      "ano": "2025",
+      "setor": "nautico",
+      "territorio": "santa-catarina",
+      "categoria": "plano-de-inovacao",
+      "arquivo": "[2025] Plano de Inovação_Setor Náutico_Santa Catarina.pdf",
+      "tags": "",
+      "- ano": "2025",
+      "- setor": "nautico",
+      "- territorio": "santa-catarina",
+      "- tipo": "plano-de-inovacao",
+      "- tema": "competitividade",
+      "status": "processado"
+    },
+    "content": "# Plano de Inovacao - Setor Nautico de Santa Catarina\n\n## Metadados\n\n- Ano: 2025\n- Setor: náutico\n- Territorio: Santa Catarina\n- Categoria: plano de inovação\n\n## Resumo rapido\n\nRelatório de aplicação da Metodologia Foresight no setor Náutico em Santa Catarina. O documento articula economia azul, sustentabilidade, tecnologia e competitividade futura com forte presença de atores setoriais e nacionais.\n\n## Temas principais\n\n- economia azul\n- sustentabilidade\n- transferência tecnológica\n- competitividade futura\n- setor náutico\n- governança e atores setoriais\n\n## Dados relevantes\n\n- O documento tem 105 páginas.\n- A parceria com a ACATMAR aparece como elemento estrutural.\n- O recorte é Santa Catarina.\n\n## Recomendacoes\n\n- Relacionar com o mapa estratégico do setor náutico de 2025.\n- Criar fichas para economia azul e atores do setor.\n- Cruzar com o relatório de economia do mar de 2023.\n\n## Fichas vinculadas\n\n- `02_FICHAS/transferencia-tecnologica.md`\n- `03_TEMAS/economia-do-mar.md`\n- `03_TEMAS/smart-city.md`"
+  },
+  {
+    "id": "README",
+    "path": "01_RELATORIOS/README.md",
+    "title": "Catalogo de Relatorios",
+    "frontmatter": {},
+    "content": "# Catalogo de Relatorios\n\nArmazena uma ficha por PDF, com metadados basicos e link para o arquivo de origem.\n\nSugestao de nome:\n\n- `AAAA-setor-territorio.md`"
+  },
+  {
+    "id": "template-relatorio",
+    "path": "01_RELATORIOS/template-relatorio.md",
+    "title": "## Metadados",
+    "frontmatter": {
+      "tipo": "relatorio",
+      "id": "",
+      "ano": "",
+      "setor": "",
+      "territorio": "",
+      "categoria": "",
+      "arquivo": "",
+      "tags": "[]",
+      "status": "pendente"
+    },
+    "content": "# \n\n## Metadados\n\n- Ano:\n- Setor:\n- Territorio:\n- Categoria:\n\n## Resumo rapido\n\n\n## Temas principais\n\n- \n\n## Dados relevantes\n\n- \n\n## Recomendacoes\n\n- \n\n## Fichas vinculadas\n\n-"
+  },
+  {
+    "id": "README",
+    "path": "02_FICHAS/README.md",
+    "title": "Fichas Atomicas",
+    "frontmatter": {},
+    "content": "# Fichas Atomicas\n\nFichas curtas e reutilizaveis.\n\nExemplos:\n\n- uma ficha para um conceito\n- uma ficha para um dado\n- uma ficha para uma recomendacao\n- uma ficha para um ator institucional"
+  },
+  {
+    "id": "absorcao-tecnologica",
+    "path": "02_FICHAS/absorcao-tecnologica.md",
+    "title": "Absorcao Tecnologica",
+    "frontmatter": {
+      "tipo": "conceito",
+      "titulo": "absorcao-tecnologica",
+      "tags": "",
+      "- tema": "capacidade-institucional",
+      "status": "rascunho"
+    },
+    "content": "# Absorcao Tecnologica\n\nCapacidade de um territorio, empresa ou rede institucional de incorporar tecnologias, processos e conhecimentos."
+  },
+  {
+    "id": "cadeia-produtiva-de-alimentos",
+    "path": "02_FICHAS/cadeia-produtiva-de-alimentos.md",
+    "title": "Cadeia Produtiva de Alimentos",
+    "frontmatter": {
+      "tipo": "conceito",
+      "titulo": "cadeia-produtiva-de-alimentos",
+      "tags": "",
+      "- tema": "alimentos",
+      "status": "rascunho"
+    },
+    "content": "# Cadeia Produtiva de Alimentos\n\nRede de etapas, atores e processos ligados à produção, transformação, distribuição e inovação em alimentos."
+  },
+  {
+    "id": "cafeicultura",
+    "path": "02_FICHAS/cafeicultura.md",
+    "title": "Cafeicultura",
+    "frontmatter": {
+      "tipo": "conceito",
+      "titulo": "cafeicultura",
+      "tags": "",
+      "- tema": "territorio",
+      "status": "rascunho"
+    },
+    "content": "# Cafeicultura\n\nSistema produtivo, territorial e econômico ligado ao cultivo, processamento e comercialização do café."
+  },
+  {
+    "id": "cinco-helices",
+    "path": "02_FICHAS/cinco-helices.md",
+    "title": "Cinco Helices",
+    "frontmatter": {
+      "tipo": "conceito",
+      "titulo": "cinco-helices",
+      "tags": "",
+      "- tema": "territorio",
+      "status": "rascunho"
+    },
+    "content": "# Cinco Helices\n\nModelo de articulação entre atores do ecossistema territorial para inovação e desenvolvimento."
+  },
+  {
+    "id": "cluster-tecnologico",
+    "path": "02_FICHAS/cluster-tecnologico.md",
+    "title": "Cluster Tecnologico",
+    "frontmatter": {
+      "tipo": "conceito",
+      "titulo": "cluster-tecnologico",
+      "tags": "",
+      "- tema": "industria",
+      "status": "rascunho"
+    },
+    "content": "# Cluster Tecnologico\n\nAgrupamento territorial de empresas, instituições e capacidades tecnológicas articuladas em uma mesma lógica de desenvolvimento."
+  },
+  {
+    "id": "demanda-tecnologica",
+    "path": "02_FICHAS/demanda-tecnologica.md",
+    "title": "Demanda Tecnologica",
+    "frontmatter": {
+      "tipo": "conceito",
+      "titulo": "demanda-tecnologica",
+      "tags": "",
+      "- tema": "mercado",
+      "status": "rascunho"
+    },
+    "content": "# Demanda Tecnologica\n\nNecessidade identificada em empresas, instituições ou territórios que orienta busca por soluções, serviços e projetos tecnológicos."
+  },
+  {
+    "id": "foresight",
+    "path": "02_FICHAS/foresight.md",
+    "title": "Foresight",
+    "frontmatter": {
+      "tipo": "conceito",
+      "titulo": "foresight",
+      "tags": "",
+      "- tema": "prospectiva",
+      "status": "rascunho"
+    },
+    "content": "# Foresight\n\nMetodologia de construção de cenários, identificação de tendências e organização de prioridades estratégicas."
+  },
+  {
+    "id": "governanca-territorial",
+    "path": "02_FICHAS/governanca-territorial.md",
+    "title": "Governanca Territorial",
+    "frontmatter": {
+      "tipo": "conceito",
+      "titulo": "governanca-territorial",
+      "tags": "",
+      "- tema": "territorio",
+      "status": "rascunho"
+    },
+    "content": "# Governanca Territorial\n\nForma de coordenação entre atores e instituições para orientar estratégia, decisões e implementação em um território."
+  },
+  {
+    "id": "logistica",
+    "path": "02_FICHAS/logistica.md",
+    "title": "Logistica",
+    "frontmatter": {
+      "tipo": "conceito",
+      "titulo": "logistica",
+      "tags": "",
+      "- tema": "territorio",
+      "status": "rascunho"
+    },
+    "content": "# Logistica\n\nConjunto de processos de transporte, armazenagem, coordenação e distribuição que estruturam cadeias produtivas e territórios."
+  },
+  {
+    "id": "oferta-de-servicos-tecnologicos",
+    "path": "02_FICHAS/oferta-de-servicos-tecnologicos.md",
+    "title": "Oferta de Servicos Tecnologicos",
+    "frontmatter": {
+      "tipo": "conceito",
+      "titulo": "oferta-de-servicos-tecnologicos",
+      "tags": "",
+      "- tema": "tecnologia",
+      "status": "rascunho"
+    },
+    "content": "# Oferta de Servicos Tecnologicos\n\nConjunto de capacidades, instituições e soluções disponíveis para apoiar inovação, implementação e transferência de conhecimento."
+  },
+  {
+    "id": "propensao-investimento",
+    "path": "02_FICHAS/propensao-investimento.md",
+    "title": "Propensao de Investimento",
+    "frontmatter": {
+      "tipo": "conceito",
+      "titulo": "propensao-investimento",
+      "tags": "",
+      "- tema": "investimento",
+      "status": "rascunho"
+    },
+    "content": "# Propensao de Investimento\n\nTendência de empresas ou territórios de alocar recursos em tecnologia, infraestrutura, inovação ou expansão produtiva."
+  },
+  {
+    "id": "servicos-qualificados",
+    "path": "02_FICHAS/servicos-qualificados.md",
+    "title": "Servicos Qualificados",
+    "frontmatter": {
+      "tipo": "conceito",
+      "titulo": "servicos-qualificados",
+      "tags": "",
+      "- tema": "instituicoes",
+      "status": "rascunho"
+    },
+    "content": "# Servicos Qualificados\n\nServiços especializados que sustentam inovação, adoção tecnológica e qualificação institucional em um território."
+  },
+  {
+    "id": "template-ficha",
+    "path": "02_FICHAS/template-ficha.md",
+    "title": "## Resumo",
+    "frontmatter": {
+      "tipo": "ficha",
+      "titulo": "",
+      "ano": "",
+      "setor": "",
+      "territorio": "",
+      "tags": "[]",
+      "origem": "",
+      "status": "rascunho"
+    },
+    "content": "# \n\n## Resumo\n\n\n## Evidencia no relatorio\n\n- \n\n## Tags sugeridas\n\n- \n\n## Links relacionados\n\n-"
+  },
+  {
+    "id": "transferencia-tecnologica",
+    "path": "02_FICHAS/transferencia-tecnologica.md",
+    "title": "Transferencia Tecnologica",
+    "frontmatter": {
+      "tipo": "conceito",
+      "titulo": "transferencia-tecnologica",
+      "tags": "",
+      "- tema": "inovacao",
+      "status": "rascunho"
+    },
+    "content": "# Transferencia Tecnologica\n\nProcesso de circulação e adoção de tecnologias, métodos e conhecimento entre instituições, empresas e território."
+  },
+  {
+    "id": "README",
+    "path": "03_TEMAS/README.md",
+    "title": "Temas Consolidados",
+    "frontmatter": {},
+    "content": "# Temas Consolidados\n\nUse esta pasta para reunir fichas que aparecem em varios relatorios.\n\nSugestoes de temas:\n\n- inovacao\n- tecnologia\n- estrategia\n- mercado\n- gestao\n- sustentabilidade\n- territorio\n- atores\n- indicadores"
+  },
+  {
+    "id": "alimentos",
+    "path": "03_TEMAS/alimentos.md",
+    "title": "Alimentos",
+    "frontmatter": {
+      "tipo": "tema",
+      "titulo": "alimentos",
+      "tags": "",
+      "- tema": "mercado",
+      "status": "rascunho"
+    },
+    "content": "# Alimentos\n\nTema ligado à cadeia produtiva de alimentos, mercado, tecnologia, inovação e organização territorial."
+  },
+  {
+    "id": "benchmarking",
+    "path": "03_TEMAS/benchmarking.md",
+    "title": "Benchmarking",
+    "frontmatter": {
+      "tipo": "tema",
+      "titulo": "benchmarking",
+      "tags": "",
+      "- tema": "estrategia",
+      "status": "rascunho"
+    },
+    "content": "# Benchmarking\n\nTema ligado à comparação de referências, modelos e práticas entre territórios, setores e cenários internacionais."
+  },
+  {
+    "id": "biotecnologia-e-saude",
+    "path": "03_TEMAS/biotecnologia-e-saude.md",
+    "title": "Biotecnologia e Saude",
+    "frontmatter": {
+      "tipo": "tema",
+      "titulo": "biotecnologia-e-saude",
+      "tags": "",
+      "- tema": "biotecnologia",
+      "status": "rascunho"
+    },
+    "content": "# Biotecnologia e Saude\n\nTema que articula inovação, serviços qualificados, tecnologias aplicadas e mercado no campo da saúde e biotecnologia."
+  },
+  {
+    "id": "cadeia-de-valor",
+    "path": "03_TEMAS/cadeia-de-valor.md",
+    "title": "Cadeia de Valor",
+    "frontmatter": {
+      "tipo": "tema",
+      "titulo": "cadeia-de-valor",
+      "tags": "",
+      "- tema": "industria",
+      "status": "rascunho"
+    },
+    "content": "# Cadeia de Valor\n\nTema ligado à organização dos elos produtivos, às relações entre atores e à geração de valor em cada etapa."
+  },
+  {
+    "id": "casacor",
+    "path": "03_TEMAS/casacor.md",
+    "title": "CASACOR",
+    "frontmatter": {
+      "tipo": "tema",
+      "titulo": "casacor",
+      "tags": "",
+      "- tema": "construcao",
+      "status": "rascunho"
+    },
+    "content": "# CASACOR\n\nTema ligado à mostra, ao ambiente casa e à conexão entre construção civil, design, exposição e inovação de mercado."
+  },
+  {
+    "id": "competitividade",
+    "path": "03_TEMAS/competitividade.md",
+    "title": "Competitividade",
+    "frontmatter": {
+      "tipo": "tema",
+      "titulo": "competitividade",
+      "tags": "",
+      "- tema": "estrategia",
+      "status": "rascunho"
+    },
+    "content": "# Competitividade\n\nFator relacionado à capacidade de empresas e territórios de competir, inovar e gerar valor."
+  },
+  {
+    "id": "economia-azul",
+    "path": "03_TEMAS/economia-azul.md",
+    "title": "Economia Azul",
+    "frontmatter": {
+      "tipo": "tema",
+      "titulo": "economia-azul",
+      "tags": "",
+      "- tema": "sustentabilidade",
+      "status": "rascunho"
+    },
+    "content": "# Economia Azul\n\nTema associado ao uso sustentável de recursos marinhos, inovação costeira, logística, indústria náutica e governança do mar."
+  },
+  {
+    "id": "economia-circular",
+    "path": "03_TEMAS/economia-circular.md",
+    "title": "Economia Circular",
+    "frontmatter": {
+      "tipo": "tema",
+      "titulo": "economia-circular",
+      "tags": "",
+      "- tema": "industria",
+      "status": "rascunho"
+    },
+    "content": "# Economia Circular\n\nTema ligado a reaproveitamento de materiais, redução de desperdícios, modelos de negócio resilientes e sustentabilidade industrial."
+  },
+  {
+    "id": "economia-do-mar",
+    "path": "03_TEMAS/economia-do-mar.md",
+    "title": "Economia do Mar",
+    "frontmatter": {
+      "tipo": "tema",
+      "titulo": "economia-do-mar",
+      "tags": "",
+      "- tema": "territorio",
+      "status": "rascunho"
+    },
+    "content": "# Economia do Mar\n\nTema associado à inovação azul, território marítimo, serviços, indústria e competitividade costeira."
+  },
+  {
+    "id": "ecossistema-de-inovacao",
+    "path": "03_TEMAS/ecossistema-de-inovacao.md",
+    "title": "Ecossistema de Inovacao",
+    "frontmatter": {
+      "tipo": "tema",
+      "titulo": "ecossistema-de-inovacao",
+      "tags": "",
+      "- tema": "rede",
+      "status": "rascunho"
+    },
+    "content": "# Ecossistema de Inovacao\n\nRede de atores, instituições, empresas e ambientes que sustentam inovação, cooperação e difusão de conhecimento."
+  },
+  {
+    "id": "governanca",
+    "path": "03_TEMAS/governanca.md",
+    "title": "Governanca",
+    "frontmatter": {
+      "tipo": "tema",
+      "titulo": "governanca",
+      "tags": "",
+      "- tema": "instituicoes",
+      "status": "rascunho"
+    },
+    "content": "# Governanca\n\nTema relacionado à coordenação entre atores, instituições, regras e mecanismos de decisão em um território ou setor."
+  },
+  {
+    "id": "megatendencias",
+    "path": "03_TEMAS/megatendencias.md",
+    "title": "Megatendencias",
+    "frontmatter": {
+      "tipo": "tema",
+      "titulo": "megatendencias",
+      "tags": "",
+      "- tema": "estrategia",
+      "status": "rascunho"
+    },
+    "content": "# Megatendencias\n\nTema usado para organizar forças de mudança de longo prazo que afetam setores, mercados e territórios."
+  },
+  {
+    "id": "metalmecanica",
+    "path": "03_TEMAS/metalmecanica.md",
+    "title": "Metalmecanica",
+    "frontmatter": {
+      "tipo": "tema",
+      "titulo": "metalmecanica",
+      "tags": "",
+      "- tema": "mercado",
+      "status": "rascunho"
+    },
+    "content": "# Metalmecanica\n\nTema industrial associado a mercado, competitividade, inovação e dinamização de cadeias produtivas."
+  },
+  {
+    "id": "mobiliario",
+    "path": "03_TEMAS/mobiliario.md",
+    "title": "Mobiliario",
+    "frontmatter": {
+      "tipo": "tema",
+      "titulo": "mobiliario",
+      "tags": "",
+      "- tema": "mercado",
+      "status": "rascunho"
+    },
+    "content": "# Mobiliario\n\nTema industrial relacionado a design, produção, cadeia de suprimentos, tecnologia e mercado."
+  },
+  {
+    "id": "moda",
+    "path": "03_TEMAS/moda.md",
+    "title": "Moda",
+    "frontmatter": {
+      "tipo": "tema",
+      "titulo": "moda",
+      "tags": "",
+      "- tema": "mercado",
+      "status": "rascunho"
+    },
+    "content": "# Moda\n\nTema ligado à cadeia produtiva têxtil, inovação, competitividade, investimentos e transferência tecnológica."
+  },
+  {
+    "id": "parque-tecnologico",
+    "path": "03_TEMAS/parque-tecnologico.md",
+    "title": "Parque Tecnologico",
+    "frontmatter": {
+      "tipo": "tema",
+      "titulo": "parque-tecnologico",
+      "tags": "",
+      "- tema": "inovacao",
+      "status": "rascunho"
+    },
+    "content": "# Parque Tecnologico\n\nAmbiente territorial de articulação entre empresas, instituições, conhecimento e inovação."
+  },
+  {
+    "id": "reposicionamento-setorial",
+    "path": "03_TEMAS/reposicionamento-setorial.md",
+    "title": "Reposicionamento Setorial",
+    "frontmatter": {
+      "tipo": "tema",
+      "titulo": "reposicionamento-setorial",
+      "tags": "",
+      "- tema": "mercado",
+      "status": "rascunho"
+    },
+    "content": "# Reposicionamento Setorial\n\nTema que trata de mudança de posição competitiva, adaptação estratégica e reorientação de cadeias produtivas."
+  },
+  {
+    "id": "smart-city",
+    "path": "03_TEMAS/smart-city.md",
+    "title": "Smart City",
+    "frontmatter": {
+      "tipo": "tema",
+      "titulo": "smart-city",
+      "tags": "",
+      "- tema": "tecnologia",
+      "status": "rascunho"
+    },
+    "content": "# Smart City\n\nTema ligado a soluções urbanas inteligentes, conectividade, serviços e gestão tecnológica da cidade."
+  },
+  {
+    "id": "sustentabilidade",
+    "path": "03_TEMAS/sustentabilidade.md",
+    "title": "Sustentabilidade",
+    "frontmatter": {
+      "tipo": "tema",
+      "titulo": "sustentabilidade",
+      "tags": "",
+      "- tema": "estrategia",
+      "status": "rascunho"
+    },
+    "content": "# Sustentabilidade\n\nTema transversal ligado à capacidade de desenvolvimento com equilibrio ambiental, social e econômico."
+  },
+  {
+    "id": "taxonomia-inicial",
+    "path": "03_TEMAS/taxonomia-inicial.md",
+    "title": "Taxonomia Inicial",
+    "frontmatter": {},
+    "content": "# Taxonomia Inicial\n\n## Grupos tematicos\n\n1. `setor-produtivo`\n2. `territorio`\n3. `inovacao`\n4. `tecnologia`\n5. `gestao`\n6. `mercado`\n7. `sustentabilidade`\n8. `atores-institucionais`\n9. `indicadores-dados`\n10. `recomendacoes`\n\n## Tags base\n\n- `ano:2020`\n- `ano:2021`\n- `ano:2022`\n- `ano:2023`\n- `ano:2024`\n- `ano:2025`\n- `tipo:plano`\n- `tipo:mapa-estrategico`\n- `tipo:gestao-tecnologica`\n- `tipo:planejamento-estrategico`\n\n## Regra de uso\n\n- Cada ficha deve ter uma tag de setor.\n- Cada ficha deve ter uma tag de territorio.\n- Cada ficha deve ter pelo menos uma tag tematica.\n- Dados numericos devem virar fichas separadas em `04_INDICADORES`.\n- Recomendacoes recorrentes devem virar fichas em `03_TEMAS`."
+  },
+  {
+    "id": "tic-cidade-do-futuro",
+    "path": "03_TEMAS/tic-cidade-do-futuro.md",
+    "title": "TIC Cidade do Futuro",
+    "frontmatter": {
+      "tipo": "tema",
+      "titulo": "tic-cidade-do-futuro",
+      "tags": "",
+      "- tema": "urbano",
+      "status": "rascunho"
+    },
+    "content": "# TIC Cidade do Futuro\n\nTema que junta tecnologia da informação, comunicação, infraestrutura urbana e visão de futuro para cidades."
+  },
+  {
+    "id": "unesco-cidade-do-design",
+    "path": "03_TEMAS/unesco-cidade-do-design.md",
+    "title": "UNESCO Cidade do Design",
+    "frontmatter": {
+      "tipo": "tema",
+      "titulo": "unesco-cidade-do-design",
+      "tags": "",
+      "- tema": "territorio",
+      "status": "rascunho"
+    },
+    "content": "# UNESCO Cidade do Design\n\nTema relacionado ao reconhecimento internacional de Curitiba como cidade do design e seus efeitos em inovação e competitividade."
+  },
+  {
+    "id": "README",
+    "path": "04_INDICADORES/README.md",
+    "title": "Indicadores e Dados",
+    "frontmatter": {},
+    "content": "# Indicadores e Dados\n\nFichas para numeros, metricas, faixas, tendencias e evidencias quantitativas.\n\nExemplos:\n\n- numero de empresas atendidas\n- investimento estimado\n- maturidade tecnologica\n- prioridades por setor\n- riscos recorrentes\n\n## Arquivos existentes\n\n- `template-indicador.md` - modelo base para novas fichas de indicador\n- `resumo-quantitativo.md` - visão geral do acervo\n- `volume-por-setor.md` - distribuição por setor\n- `volume-por-territorio.md` - distribuição por território"
+  },
+  {
+    "id": "resumo-quantitativo",
+    "path": "04_INDICADORES/resumo-quantitativo.md",
+    "title": "Resumo Quantitativo do Acervo",
+    "frontmatter": {},
+    "content": "# Resumo Quantitativo do Acervo\n\nBase: 30 relatórios.\n\n## Volume por ano\n\n| ano | qtd |\n|---:|---:|\n| 2020 | 1 |\n| 2021 | 5 |\n| 2022 | 10 |\n| 2023 | 4 |\n| 2024 | 3 |\n| 2025 | 7 |\n\n## Volume geral\n\n- Total de relatórios: 30\n- Média de páginas por relatório: 77,6\n- Menor relatório: 36 páginas\n- Maior relatório: 137 páginas\n\n## Media de paginas por ano\n\n| ano | qtd | media_paginas | min | max |\n|---:|---:|---:|---:|---:|\n| 2020 | 1 | 75,0 | 75 | 75 |\n| 2021 | 5 | 38,0 | 36 | 40 |\n| 2022 | 10 | 61,7 | 46 | 71 |\n| 2023 | 4 | 109,8 | 96 | 137 |\n| 2024 | 3 | 111,0 | 96 | 120 |\n| 2025 | 7 | 96,1 | 76 | 126 |\n\n## Maiores documentos\n\n| ano | paginas | arquivo |\n|---:|---:|---|\n| 2023 | 137 | Economia do Mar RJ |\n| 2025 | 126 | Moda e Confecções PR |\n| 2024 | 120 | Madeira e Móveis SC |\n| 2024 | 117 | Construção Civil PR |\n| 2023 | 105 | Moda Santa Catarina |\n| 2025 | 105 | Náutico Santa Catarina |\n| 2023 | 101 | Cosméticos São Paulo |\n| 2025 | 101 | Madeira e Móvel Amapá |\n\n## Leitura\n\n- 2021 tem relatórios curtos e muito introdutórios.\n- 2022 marca expansão metodológica e territorial.\n- 2023 e 2024 concentram os relatórios mais densos.\n- 2025 traz mapas estratégicos e documentos longos, já com forte estrutura comparativa."
+  },
+  {
+    "id": "template-indicador",
+    "path": "04_INDICADORES/template-indicador.md",
+    "title": "## Definicao",
+    "frontmatter": {
+      "tipo": "indicador",
+      "nome": "",
+      "escopo": "",
+      "unidade": "",
+      "status": "rascunho"
+    },
+    "content": "# \n\n## Definicao\n\n\n## Fonte\n\n\n## Como usar\n\n\n## Observacoes"
+  },
+  {
+    "id": "volume-por-setor",
+    "path": "04_INDICADORES/volume-por-setor.md",
+    "title": "Volume por Setor",
+    "frontmatter": {},
+    "content": "# Volume por Setor\n\n## Quantidade de relatórios\n\n| setor | qtd | media_paginas |\n|---|---:|---:|\n| construção civil | 6 | 68,7 |\n| madeira e móveis | 4 | 100,8 |\n| metalmecânica | 3 | 55,3 |\n| moda e confecções | 3 | 106,0 |\n| alimentos | 2 | 80,5 |\n| náutico | 2 | 98,5 |\n| alimentos-agrofood | 1 | 37,0 |\n| biotecnologia e saúde | 1 | 67,0 |\n| cosméticos | 1 | 101,0 |\n| design industrial | 1 | 75,0 |\n| economia do mar | 1 | 137,0 |\n| eletrônica e ICT | 1 | 36,0 |\n| plástico, químicos e novos materiais | 1 | 38,0 |\n| smart city | 1 | 46,0 |\n| territorial multissetorial | 1 | 62,0 |\n| TIC | 1 | 71,0 |\n\n## Leitura\n\n- Construção civil é o eixo mais frequente do acervo.\n- Madeira e móveis e moda e confecções têm alto peso médio em páginas, sinalizando densidade analítica.\n- Economia do mar é o documento mais extenso."
+  },
+  {
+    "id": "volume-por-territorio",
+    "path": "04_INDICADORES/volume-por-territorio.md",
+    "title": "Volume por Territorio",
+    "frontmatter": {},
+    "content": "# Volume por Territorio\n\n## Quantidade de relatórios\n\n| territorio | qtd | media_paginas |\n|---|---:|---:|\n| Brasil | 4 | 85,2 |\n| Curitiba, PR | 4 | 57,0 |\n| Paraná | 3 | 113,0 |\n| Santa Catarina | 3 | 110,0 |\n| Curitiba e Região Metropolitana, PR | 2 | 38,5 |\n| Ponta Grossa, PR | 2 | 68,5 |\n| Amapá | 1 | 101,0 |\n| Ceará | 1 | 63,0 |\n| Guarapuava e região, PR | 1 | 37,0 |\n| João Pessoa, PB | 1 | 96,0 |\n| Minas Gerais | 1 | 64,0 |\n| Minas Gerais e Ceará | 1 | 52,0 |\n| Rio de Janeiro, RJ | 1 | 137,0 |\n| Santa Rita do Sapucaí, MG | 1 | 36,0 |\n| São Paulo | 1 | 101,0 |\n| Serra Gaúcha, RS | 1 | 61,0 |\n| Vale do Taquari, RS | 1 | 65,0 |\n| Varginha, MG | 1 | 62,0 |\n\n## Leitura\n\n- Curitiba aparece em múltiplos recortes e é o principal polo urbano do acervo.\n- Paraná e Santa Catarina concentram relatórios grandes e mais analíticos.\n- Os estudos multi-territoriais são importantes para comparação, especialmente MG x CE."
+  },
+  {
+    "id": "README",
+    "path": "05_REDES_E_LINKS/README.md",
+    "title": "Redes e Links",
+    "frontmatter": {},
+    "content": "# Redes e Links\n\nEspaco para mapas conceituais, relacoes entre temas e listas de cruzamento.\n\nExemplos:\n\n- setor -> tema\n- territorio -> problema\n- ator -> recomendacao\n- dado -> evidencia\n\n## Arquivos principais\n\n- [sintese-transversal.md](/Users/pvolkermini/APLICATIVO-MINI/PI%20DEV/AN%C3%81LISE%20RELATORIO/05_REDES_E_LINKS/sintese-transversal.md)\n- [matriz-cruzamentos.md](/Users/pvolkermini/APLICATIVO-MINI/PI%20DEV/AN%C3%81LISE%20RELATORIO/05_REDES_E_LINKS/matriz-cruzamentos.md)\n- [indice-matrizes-por-setor.md](/Users/pvolkermini/APLICATIVO-MINI/PI%20DEV/AN%C3%81LISE%20RELATORIO/05_REDES_E_LINKS/indice-matrizes-por-setor.md)\n\n## Proxima camada\n\n- cruzar megatendencias por setor\n- ligar solucoes tecnologicas a fichas conceituais\n- gerar trilhas tematicas por territorio\n- transformar prioridades em consultas operacionais"
+  },
+  {
+    "id": "indice-matrizes-por-setor",
+    "path": "05_REDES_E_LINKS/indice-matrizes-por-setor.md",
+    "title": "Indice Mestre de Matrizes Tecnologicas",
+    "frontmatter": {},
+    "content": "# Indice Mestre de Matrizes Tecnologicas\n\nBase comparativa das matrizes extraidas ate agora. O objetivo e permitir leitura rapida por setor, ano e eixo dominante.\n\n## Visao geral\n\n| ano | setor | territorio | eixo dominante | solucoes centrais | fatores de priorizacao |\n|---:|---|---|---|---|---|\n| 2023 | moda e confeccoes | Santa Catarina | smart factory, personalizacao e sustentabilidade | prototipagem digital, 3D, VR/RA, chatbots, praticas sustentaveis | competitividade, reducao de custos, expansao dos canais de venda |\n| 2023 | economia do mar | Rio de Janeiro | economia azul, agua, governanca e inovacao marinha | P&D ambiental, disseminacao de boas praticas, tratamento de agua, BlueTech, novos modelos de negocio | sustentabilidade, governanca, financiamento, P&D e literacia oceanica |\n| 2023 | mobiliario | Joao Pessoa | cadeia de suprimentos, processo e sustentabilidade | logistica avancada, parcerias, melhoria de design, otimizacao da madeira, formacao de futuro | produtividade, flexibilidade, integracao em rede, eficiencia logistica |\n| 2023 | cosmeticos | Sao Paulo | IA, clean tech, smart factory e futures literacy | ingredientes especificos, matriz energetica limpa, IoT, digitalizacao, ciencia cosmetica | competitividade, P&D, risco de investimento, preparacao para cenarios |\n| 2024 | madeira e moveis | Santa Catarina | economia circular e sustentabilidade industrial | reciclagem, reaproveitamento, simbiose industrial, eficiencia energetica | cooperacao territorial, inteligencia colaborativa, compartilhamento de dados |\n| 2025 | construcao civil | Brasil | descarbonizacao, digitalizacao e circularidade | BIM, digital twins, reuso de residuos, eficiencia energetica, materiais sustentaveis | produtividade, inovacao circular, politicas publicas, regulacao urbana |\n| 2025 | moda e confeccoes | Brasil | economia circular/regenerativa e territorializacao inteligente | reciclagem textil, upcycling, rastreabilidade, reparabilidade, design duravel | valor sustentavel, articulacao em rede, certificacoes, governanca territorial |\n| 2025 | madeira e moveis | Brasil | circularidade, design e certificacao | reaproveitamento, design sustentavel, certificacao florestal, eficiencia de processos | baixa intensidade tecnologica, competencia internacional, reverse logistics |\n| 2025 | nautico | Brasil | economia azul regenerativa e certificacao ambiental | construcao circular, descomissionamento responsavel, clean tech, market intelligence | descarte de embarcacoes, digitalizacao insuficiente, governanca desigual |\n\n## Leituras transversais\n\n- `2023` e o ano da transicao entre cenarios e matriz operacional.\n- `2024` consolida a linguagem de circularidade em madeira e moveis.\n- `2025` expande o modelo para uma leitura mais madura com fatores empresariais, setoriais e sistemicos.\n- Os setores mais maduros em termos de matriz sao construcao civil, moda, madeira e moveis, nautico e economia do mar.\n\n## Eixos recorrentes\n\n- `economia circular`\n- `governanca`\n- `benchmarking internacional`\n- `futures literacy`\n- `digitalizacao`\n- `sustentabilidade`\n- `competitividade`\n- `reducao de custos`\n- `cadeia de valor`\n- `territorializacao`\n\n## Como usar\n\n- Se a pergunta for por setor, filtrar a tabela por linha.\n- Se a pergunta for por tema, ler os eixos recorrentes.\n- Se a pergunta for por evolucao, comparar `2023`, `2024` e `2025`.\n- Se a pergunta for por decisao pratica, olhar a coluna de solucoes centrais e fatores de priorizacao."
+  },
+  {
+    "id": "matriz-cruzamentos",
+    "path": "05_REDES_E_LINKS/matriz-cruzamentos.md",
+    "title": "Matriz de Cruzamentos",
+    "frontmatter": {},
+    "content": "# Matriz de Cruzamentos\n\n| eixo | exemplos | uso |\n|---|---|---|\n| setor x territorio | construção civil x MG/CE/PR | comparar padrões regionais |\n| setor x metodologia | inovação x gestão tecnológica x mapa estratégico | ver evolução do formato |\n| tema x ano | economia circular x 2024/2025 | ver amadurecimento do tema |\n| tema x setor | benchmarking x moda, construção civil, madeira e móveis | encontrar recorrências setoriais |\n| territorio x governanca | Curitiba, Santa Catarina, Rio de Janeiro | mapear rede institucional |\n| dados x recomendacoes | investimento, demanda, propensão | separar evidência de decisão |"
+  },
+  {
+    "id": "sintese-transversal",
+    "path": "05_REDES_E_LINKS/sintese-transversal.md",
+    "title": "Sintese Transversal do Acervo",
+    "frontmatter": {},
+    "content": "# Sintese Transversal do Acervo\n\nBase consolidada de 30 relatórios consultivos entre 2020 e 2025.\n\n## Distribuicao por ano\n\n| ano | qtd |\n|---:|---:|\n| 2020 | 1 |\n| 2021 | 5 |\n| 2022 | 10 |\n| 2023 | 4 |\n| 2024 | 3 |\n| 2025 | 7 |\n\n## Eixos dominantes\n\n- `foresight` é a metodologia de base do acervo.\n- `transferencia-tecnologica` aparece como mecanismo central de mudança.\n- `competitividade` é o objetivo final mais recorrente.\n- `governanca` e `governanca-territorial` organizam a passagem de análise para ação.\n- `benchmarking` e `megatendencias` ganham força a partir de 2025.\n- As matrizes tecnológicas são o núcleo analítico do acervo: megatendências + soluções + fatores.\n- Nos relatórios mais recentes, o conjunto inclui fatores empresariais, fatores setoriais e fatores sistêmicos.\n\n## Setores com maior recorrencia\n\n| setor | qtd |\n|---|---:|\n| construção civil | 6 |\n| madeira e móveis | 4 |\n| metalmecânica | 3 |\n| moda e confecções | 3 |\n| alimentos | 2 |\n| náutico | 2 |\n\n## Evolucao metodologica\n\n1. `2020-2021`: planos de inovação com foco em território, competitividade e primeiros recortes setoriais.\n2. `2022`: expansão forte do modelo, com comparações entre territórios, oferta de serviços, demanda tecnológica e propensão de investimento.\n3. `2023`: transição para planos de gestão tecnológica futura, com cenários, investimentos e mapas de transferência.\n4. `2024`: consolidação da leitura de competitividade futura, com avanço de economia circular em madeira e móveis.\n5. `2025`: mapas estratégicos mais maduros, com benchmarking internacional, megatendências, governança e reposicionamento setorial.\n\n## Temas recorrentes de alta prioridade\n\n- `competitividade`\n- `transferencia-tecnologica`\n- `economia-circular`\n- `economia-azul`\n- `governanca-territorial`\n- `benchmarking`\n- `megatendencias`\n- `cadeia-produtiva`\n- `propensao-investimento`\n- `demanda-tecnologica`\n\n## Hubs do acervo\n\n- **Curitiba**: design, construção civil, smart city, biotecnologia e metalmecânica.\n- **Paraná**: alimentos, construção civil, moda e TIC.\n- **Santa Catarina**: moda, madeira e móveis, náutico.\n- **Minas Gerais e Ceará**: construção civil em comparação territorial.\n- **Rio de Janeiro**: economia do mar e inovação azul.\n\n## Como a rede deve funcionar\n\n- Um relatório gera uma ficha principal.\n- Um relatório também pode gerar uma matriz tecnológica própria.\n- A ficha principal aponta para fichas de conceito, tema e indicador.\n- A matriz aponta para o relatório, para os temas e para os indicadores.\n- Fichas de tema concentram o conhecimento reutilizável.\n- Fichas conceituais ficam como nós estáveis de ligação.\n- Indicadores e dados ficam separados para consulta quantitativa.\n\n## Regra prática\n\n- Se algo se repete em mais de um relatório, vira `tema`.\n- Se algo é um mecanismo ou método transversal, vira `conceito`.\n- Se algo é número, medida ou comparação, vira `indicador`.\n- Se algo é megatendência, solução tecnológica ou fator de priorização, vira `matriz-tecnologica`.\n- Se algo é um caso específico, vira `ficha de relatório`.\n\n## Proxima camada\n\n1. Extrair indicadores comparáveis por setor e ano.\n2. Criar uma matriz de cruzamento setor x território x tema.\n3. Transformar as recomendações recorrentes em fichas de ação.\n4. Ligar os relatórios por trilhas temáticas.\n5. Estruturar as matrizes tecnológicas como camada central de consulta."
+  },
+  {
+    "id": "2023-plano-gestao-tecnologica-cosmeticos-sp",
+    "path": "06_MATRIZES/2023-plano-gestao-tecnologica-cosmeticos-sp.md",
+    "title": "Matriz Tecnologica - Cosmeticos SP 2023",
+    "frontmatter": {
+      "tipo": "matriz-tecnologica",
+      "ano": "2023",
+      "setor": "cosmeticos",
+      "territorio": "sao-paulo",
+      "categoria": "plano-de-gestao-tecnologica",
+      "origem": "ANÁLISE RELATORIO/Relatorios-Finais/[2023] Plano de Gestão Tecnológica Foresight_Cosméticos.pdf",
+      "status": "rascunho"
+    },
+    "content": "# Matriz Tecnologica - Cosmeticos SP 2023\n\n## Megatendencias\n\n- inteligencia artificial\n- tecnologias limpas\n- realidade imersiva\n- sustentabilidade\n- smart factory\n- futures literacy\n\n## Solucoes tecnologicas\n\n- uso de ingredientes específicos\n- matriz energética limpa\n- Internet das Coisas\n- digitalização da produção\n- ciência cosmética aplicada\n\n## Fatores empresariais\n\n- competitividade empresarial\n- necessidade de investir em P&D\n- gestão de risco de investimento\n- preparação para futuros cenários\n\n## Fatores setoriais\n\n- evolução do setor de cosméticos\n- inovação contínua\n- controle de qualidade\n- personalização de produtos\n\n## Fatores sistemicos\n\n- governança\n- ecossistema de inovação local\n- acesso a novos mercados\n- colaboração entre stakeholders\n\n## Indice de incerteza\n\n- alto para adoção e escala de novas tecnologias\n\n## Relevancia\n\n- alta para competitividade e posicionamento no mercado\n\n## Prioridade\n\n- uso de ingredientes\n- matriz energética limpa\n- IoTs\n\n## Observacoes\n\n- O relatório trabalha a priorização como relação entre relevância e incerteza.\n- As soluções priorizadas indicam forte ligação entre sustentabilidade, digitalização e eficiência.\n- Esta matriz é mais orientada à decisão de investimento do que as matrizes de 2025."
+  },
+  {
+    "id": "2023-plano-gestao-tecnologica-economia-do-mar-rj",
+    "path": "06_MATRIZES/2023-plano-gestao-tecnologica-economia-do-mar-rj.md",
+    "title": "Matriz Tecnologica - Economia do Mar RJ 2023",
+    "frontmatter": {
+      "tipo": "matriz-tecnologica",
+      "ano": "2023",
+      "setor": "economia-do-mar",
+      "territorio": "rio-de-janeiro-rj",
+      "categoria": "plano-de-gestao-tecnologica",
+      "origem": "ANÁLISE RELATORIO/Relatorios-Finais/[2023] Plano de Gestão Tecnológica Futura_Economia do Mar RJ.pdf",
+      "status": "processado"
+    },
+    "content": "# Matriz Tecnologica - Economia do Mar RJ 2023\n\n## Megatendencias\n\n- economia azul como estrategia de desenvolvimento\n- sustentabilidade dos oceanos e dos recursos aquáticos\n- cooperacao entre atores e governanca territorial\n- pesquisa, desenvolvimento e inovacao para o setor maritimo\n- transicao para modelos produtivos de baixo impacto\n\n## Solucoes tecnologicas\n\n- P&D para educacao ambiental na cadeia produtiva\n- sistematica de disseminacao de melhores praticas com realidade virtual ou aumentada\n- sistemas de tratamento de agua\n- tecnologias BlueTech para gestao de residuos\n- novos modelos de negocio para economia do mar\n\n## Fatores empresariais\n\n- necessidade de inovacao continua\n- competitividade em mercados maritimos e costeiros\n- colaboracao com instituicoes, universidades e empresas\n- capacidade de transformar restricoes ambientais em vantagem\n- orientacao para eficiencia, conformidade e novos mercados\n\n## Fatores setoriais\n\n- qualidade da agua como eixo critico\n- saude, seguranca e servicos maritimos\n- educacao e informacao para qualificacao do setor\n- gestao ambiental baseada em interacao produtiva\n- complexidade da cadeia maritima e costeira\n\n## Fatores sistemicos\n\n- governanca e regulamentacao adequadas\n- financiamento e investimento insuficientes como desafio\n- cooperacao internacional em ciencia e tecnologia marinhas\n- planejamento espacial marinho e gestao integrada dos oceanos\n- ecossistema de inovacao voltado a sustentabilidade\n\n## Indice de incerteza\n\n- alto para escala, governanca e financiamento de solucoes azuis\n\n## Relevancia\n\n- alta para desenvolvimento economico, social e ambiental do litoral fluminense\n\n## Prioridade\n\n- tratamento de agua\n- BlueTech para residuos\n- P&D para educacao ambiental\n\n## Observacoes\n\n- O relatorio articula economia do mar e economia azul como uma mesma agenda de desenvolvimento.\n- A lista de temas relevantes aparece em formato visual, mas a leitura textual evidencia as prioridades operacionais.\n- A matriz reforca que o eixo do setor passa por sustentabilidade, governanca e literacia oceanica."
+  },
+  {
+    "id": "2023-plano-gestao-tecnologica-mobiliario-joao-pessoa",
+    "path": "06_MATRIZES/2023-plano-gestao-tecnologica-mobiliario-joao-pessoa.md",
+    "title": "Matriz Tecnologica - Mobiliario Joao Pessoa 2023",
+    "frontmatter": {
+      "tipo": "matriz-tecnologica",
+      "ano": "2023",
+      "setor": "madeira-e-movel",
+      "territorio": "joao-pessoa-pb",
+      "categoria": "plano-de-gestao-tecnologica",
+      "origem": "ANÁLISE RELATORIO/Relatorios-Finais/[2023] Plano de Gestão Tecnológica Futura_Setor Mobiliário João Pessoa.pdf",
+      "status": "processado"
+    },
+    "content": "# Matriz Tecnologica - Mobiliario Joao Pessoa 2023\n\n## Megatendencias\n\n- integracao digital da cadeia produtiva\n- economia circular e sustentabilidade operacional\n- maior exigencia de eficiencia logistica\n- valorizacao de competencias e aprendizagem de futuro\n- competitividade orientada ao mercado e ao design\n\n## Solucoes tecnologicas\n\n- gerenciamento de estoque, logistica e transporte com tecnologias avancadas\n- parcerias estrategicas com fornecedores e prestadores de servicos\n- melhoria continua no design do produto\n- otimização da aquisicao de materias-primas, corte e tratamento da madeira\n- programas de formacao e disseminacao de conhecimentos de futuro\n\n## Fatores empresariais\n\n- necessidade de maior produtividade e qualidade\n- flexibilidade para atender demandas do mercado\n- inovacao continua ao longo do processo produtivo\n- reducao de custos via integracao logistica\n- capacidade de aprender e operar em rede\n\n## Fatores setoriais\n\n- cadeia de suprimentos e logistica como elo dominante\n- produto, mercado e sustentabilidade como eixos complementares\n- pressao por melhor desempenho na embalagem, transporte e venda\n- dependencia de articulacao entre design, producao e distribuicao\n\n## Fatores sistemicos\n\n- governanca territorial para priorizar estrategias de longo prazo\n- ecossistema de inovacao local e operacao em rede\n- compartilhamento de dados e informacoes entre atores\n- formacao e educacao como base de difusao de inteligencia aplicada\n\n## Indice de incerteza\n\n- alto para modernizacao logistica e difusao de competencias em escala\n\n## Relevancia\n\n- alta para competitividade territorial e fortalecimento da cadeia moveleira\n\n## Prioridade\n\n- cadeia de suprimentos e logistica\n- processo produtivo\n- sustentabilidade\n\n## Observacoes\n\n- A leitura textual permite reconstruir a matriz, embora a pagina de temas relevantes esteja em formato grafico.\n- O documento conecta a eficiencia operacional com a necessidade de formacao e inteligencia aplicada.\n- Esta matriz prepara a comparacao com os mapas estrategicos de madeira e moveis de 2025."
+  },
+  {
+    "id": "2023-plano-gestao-tecnologica-moda-santa-catarina",
+    "path": "06_MATRIZES/2023-plano-gestao-tecnologica-moda-santa-catarina.md",
+    "title": "Matriz Tecnologica - Moda Santa Catarina 2023",
+    "frontmatter": {
+      "tipo": "matriz-tecnologica",
+      "ano": "2023",
+      "setor": "moda-e-confeccoes",
+      "territorio": "santa-catarina",
+      "categoria": "plano-de-gestao-tecnologica",
+      "origem": "ANÁLISE RELATORIO/Relatorios-Finais/[2023] Plano de Gestão Tecnológica Foresight_Moda Santa Catarina.pdf",
+      "status": "processado"
+    },
+    "content": "# Matriz Tecnologica - Moda Santa Catarina 2023\n\n## Megatendencias\n\n- smart factory e automacao conectada\n- personalizacao em massa\n- futures literacy e leitura de cenarios\n- sustentabilidade como eixo competitivo\n- digitalizacao da cadeia de valor e do comercio\n\n## Solucoes tecnologicas\n\n- prototipagem digital com design avancado\n- uso de impressao 3D e modelagem paramétrica\n- chatbots e assistentes virtuais para expansao dos canais de venda\n- realidade virtual e aumentada para experiencia do cliente\n- práticas sustentaveis em materias-primas e processos\n\n## Fatores empresariais\n\n- competitividade empresarial\n- reducao de custos com eficiencia operacional\n- necessidade de responder mais rapido ao mercado\n- satisfacao e fidelizacao do cliente\n- flexibilidade produtiva e inovacao continua\n\n## Fatores setoriais\n\n- cadeia produtiva da moda com forte dependencia de integracao digital\n- pressao por sustentabilidade e rastreabilidade\n- crescimento do comercio eletronico\n- demanda por produtos conscientes e personalizados\n\n## Fatores sistemicos\n\n- benchmarking internacional como referencia de decisao\n- colaboracao entre atores do setor e do territorio\n- governanca local para prioridades de longo prazo\n- ecossistema de inovacao e compartilhamento de dados\n\n## Indice de incerteza\n\n- alto para adoção consistente de novas tecnologias em toda a cadeia\n\n## Relevancia\n\n- alta para competitividade, sustentabilidade e reposicionamento do setor\n\n## Prioridade\n\n- prototipagem digital com design avancado\n- expansao dos canais de venda\n- adoção de praticas sustentaveis\n\n## Observacoes\n\n- O relatorio explicita a relacao entre smart factory, personalizacao em massa, futures literacy e sustentabilidade.\n- A secao de temas relevantes aparece como suporte visual, mas a leitura textual deixa clara a hierarquia de prioridades.\n- Esta matriz e uma ponte importante entre a logica de cenarios e os mapas estrategicos de 2025."
+  },
+  {
+    "id": "2024-plano-gestao-tecnologica-madeira-movel-sc",
+    "path": "06_MATRIZES/2024-plano-gestao-tecnologica-madeira-movel-sc.md",
+    "title": "Matriz Tecnologica - Madeira e Movel SC 2024",
+    "frontmatter": {
+      "tipo": "matriz-tecnologica",
+      "ano": "2024",
+      "setor": "madeira-e-movel",
+      "territorio": "santa-catarina",
+      "categoria": "plano-de-gestao-tecnologica",
+      "origem": "ANÁLISE RELATORIO/Relatorios-Finais/[2024] Plano de Gestão Tecnológica Futura - Madeira e Móvel SC_.pdf",
+      "status": "rascunho"
+    },
+    "content": "# Matriz Tecnologica - Madeira e Movel SC 2024\n\n## Megatendencias\n\n- economia circular\n- sustentabilidade industrial\n- inovação tecnológica\n- reaproveitamento de materiais\n- eficiência no uso de recursos\n\n## Solucoes tecnologicas\n\n- reciclagem de materiais\n- reaproveitamento de resíduos\n- modelos de negocio circulares\n- simbiose industrial\n- eficiência energética\n\n## Fatores empresariais\n\n- necessidade de gestão estratégica integrada\n- lacunas para maximizar circularidade\n- maturidade desigual entre empresas\n\n## Fatores setoriais\n\n- cadeia produtiva de madeira e móveis\n- desafios globais nos próximos cinco anos\n- fortalecimento de ativos de alto valor\n\n## Fatores sistemicos\n\n- cooperação entre stakeholders\n- inteligência colaborativa\n- compartilhamento de dados e informações\n- governança territorial\n\n## Indice de incerteza\n\n- médio-alto para adoção circular ampla\n\n## Relevancia\n\n- alta para competitividade futura e transição circular\n\n## Prioridade\n\n- economia circular\n- gestão estratégica integrada\n- cooperação territorial\n\n## Observacoes\n\n- O texto apresenta a economia circular como eixo central e antecipa a estrutura que se consolida em 2025.\n- A análise já menciona distritos circulares e visão Foresight 2030 para serviços tecnológicos."
+  },
+  {
+    "id": "2025-mapa-estrategico-construcao-civil",
+    "path": "06_MATRIZES/2025-mapa-estrategico-construcao-civil.md",
+    "title": "Matriz Tecnologica - Construcao Civil 2025",
+    "frontmatter": {
+      "tipo": "matriz-tecnologica",
+      "ano": "2025",
+      "setor": "construcao-civil",
+      "territorio": "brasil",
+      "categoria": "mapa-estrategico",
+      "origem": "ANÁLISE RELATORIO/Relatorios-Finais/[2025] Mapa Estratégico Construção Civil.pdf",
+      "status": "rascunho"
+    },
+    "content": "# Matriz Tecnologica - Construcao Civil 2025\n\n## Megatendencias\n\n- descarbonizacao\n- digitalizacao do setor\n- novos materiais sustentaveis\n- industrializacao modular\n- economia circular na construcao\n\n## Solucoes tecnologicas\n\n- BIM\n- gemeos digitais\n- reuso de residuos de obra\n- eficiencia energetica\n- design de baixo impacto\n\n## Fatores empresariais\n\n- adoção de tecnologias circulares\n- novos modelos de negocio\n- produtividade\n\n## Fatores setoriais\n\n- fragmentacao da cadeia produtiva\n- baixa produtividade media\n- informalidade\n- gargalos em materiais e processos\n\n## Fatores sistemicos\n\n- politicas publicas\n- incentivos\n- marcos regulatórios\n- sustentabilidade urbana\n\n## Indice de incerteza\n\n- alto para transição tecnológica e regulatória\n\n## Relevancia\n\n- alta para competitividade, sustentabilidade e reposicionamento do setor\n\n## Prioridade\n\n- industrializacao modular\n- digitalizacao\n- circularidade\n\n## Observacoes\n\n- A matriz é organizada a partir de cadeia produtiva nacional, benchmarking internacional e megatendências.\n- O texto explicita que o mapa estratégico traduz as megatendências em ações empresariais, estruturais e sistêmicas."
+  },
+  {
+    "id": "2025-mapa-estrategico-madeira-moveis",
+    "path": "06_MATRIZES/2025-mapa-estrategico-madeira-moveis.md",
+    "title": "Matriz Tecnologica - Madeira e Moveis 2025",
+    "frontmatter": {
+      "tipo": "matriz-tecnologica",
+      "ano": "2025",
+      "setor": "madeira-e-movel",
+      "territorio": "brasil",
+      "categoria": "mapa-estrategico",
+      "origem": "ANÁLISE RELATORIO/Relatorios-Finais/[2025] Mapa Estratégico_ Setor Madeira e Móveis.pdf",
+      "status": "rascunho"
+    },
+    "content": "# Matriz Tecnologica - Madeira e Moveis 2025\n\n## Megatendencias\n\n- economia circular e sustentabilidade\n- uso de tecnologias digitais\n- certificacoes como ativos estrategicos\n- design sustentável\n- logistica reversa e reaproveitamento\n\n## Solucoes tecnologicas\n\n- reaproveitamento de residuos\n- design sustentável\n- certificacao florestal\n- eficiencia de processos\n- suporte pos-venda e controle de qualidade\n\n## Fatores empresariais\n\n- baixa intensidade tecnologica\n- concentracao em pequenas e medias empresas\n- concorrencia de importados\n- necessidade de diferenciacao por valor\n\n## Fatores setoriais\n\n- participação modesta no PIB\n- competição com móveis importados\n- lacunas em qualidade e serviços ao cliente\n- baixa presença internacional sistemática\n\n## Fatores sistemicos\n\n- economia circular\n- certificações ambientais\n- acesso a mercados europeus e norte-americanos\n- políticas de fortalecimento da cadeia\n\n## Indice de incerteza\n\n- alto para inserção internacional e transição circular\n\n## Relevancia\n\n- alta para competitividade, sustentabilidade e diferenciação do setor\n\n## Prioridade\n\n- certificacao\n- economia circular\n- design sustentável\n\n## Observacoes\n\n- A matriz parte de benchmarking com polos moveleiros internacionais.\n- O relatório usa a economia circular como eixo de reposicionamento global."
+  },
+  {
+    "id": "2025-mapa-estrategico-moda",
+    "path": "06_MATRIZES/2025-mapa-estrategico-moda.md",
+    "title": "Matriz Tecnologica - Moda 2025",
+    "frontmatter": {
+      "tipo": "matriz-tecnologica",
+      "ano": "2025",
+      "setor": "moda-e-confeccoes",
+      "territorio": "brasil",
+      "categoria": "mapa-estrategico",
+      "origem": "ANÁLISE RELATORIO/Relatorios-Finais/[2025] Mapa Estratégico_Setor Moda.pdf",
+      "status": "rascunho"
+    },
+    "content": "# Matriz Tecnologica - Moda 2025\n\n## Megatendencias\n\n- transicao global para economia circular e regenerativa\n- territorializacao inteligente e ecossistemas produtivos regionais\n- reconfiguracao das demandas de mercado por valor sustentavel\n\n## Solucoes tecnologicas\n\n- reciclagem de residuos têxteis\n- upcycling\n- design para durabilidade\n- rastreabilidade\n- reparabilidade\n\n## Fatores empresariais\n\n- informalidade produtiva\n- obsolescencia tecnologica\n- baixa articulacao em rede\n- necessidade de narrativas de valor sustentavel\n\n## Fatores setoriais\n\n- fragmentacao produtiva\n- gargalos no suprimento, design e canais de mercado\n- baixa infraestrutura tecnológica regionalizada\n\n## Fatores sistemicos\n\n- Pacto Verde Europeu como pressão externa\n- políticas públicas\n- certificações\n- governança territorial\n\n## Indice de incerteza\n\n- alto para adoção sistêmica da circularidade e internacionalização\n\n## Relevancia\n\n- alta para competitividade, sustentabilidade e reposicionamento da moda brasileira\n\n## Prioridade\n\n- circularidade\n- territorialização inteligente\n- valor sustentável\n\n## Observacoes\n\n- O relatório usa benchmarking internacional e cadeia produtiva nacional como base.\n- O mapa estratégico reorganiza as megatendências em níveis empresarial, estrutural e sistêmico."
+  },
+  {
+    "id": "2025-mapa-estrategico-nautico",
+    "path": "06_MATRIZES/2025-mapa-estrategico-nautico.md",
+    "title": "Matriz Tecnologica - Nautico 2025",
+    "frontmatter": {
+      "tipo": "matriz-tecnologica",
+      "ano": "2025",
+      "setor": "nautico",
+      "territorio": "brasil",
+      "categoria": "mapa-estrategico",
+      "origem": "ANÁLISE RELATORIO/Relatorios-Finais/[2025] Mapa Estratégico_Setor Náutico.pdf",
+      "status": "rascunho"
+    },
+    "content": "# Matriz Tecnologica - Nautico 2025\n\n## Megatendencias\n\n- economia circular\n- economia azul regenerativa\n- digitalizacao de produtos e processos\n- certificacoes ambientais\n- design sustentável\n\n## Solucoes tecnologicas\n\n- processos construtivos circulares\n- descomissionamento responsável\n- tecnologias limpas\n- inteligência de mercado\n- design naval\n\n## Fatores empresariais\n\n- modelos de negócio circulares\n- inovação multissetorial\n- competitividade empresarial\n- rastreabilidade\n\n## Fatores setoriais\n\n- descarte de embarcações\n- integração entre empresas e centros de pesquisa\n- digitalização insuficiente\n- governança territorial desigual\n\n## Fatores sistemicos\n\n- economia azul internacional\n- políticas públicas\n- sustentabilidade ambiental\n- territórios náuticos emergentes\n\n## Indice de incerteza\n\n- alto para transição regulatória e circularidade\n\n## Relevancia\n\n- alta para reposicionamento competitivo e economia marítima\n\n## Prioridade\n\n- circularidade azul\n- certificacao ambiental\n- digitalizacao\n\n## Observacoes\n\n- A matriz é explicitamente nacional e orientada por benchmarking internacional.\n- O relatório articula ecossistemas, territórios costeiros e interiores com vocação náutica."
+  },
+  {
+    "id": "README",
+    "path": "06_MATRIZES/README.md",
+    "title": "Matrizes Tecnologicas",
+    "frontmatter": {},
+    "content": "# Matrizes Tecnologicas\n\nEsta pasta guarda a camada analitica central dos relatórios.\n\nAqui entram:\n\n- megatendencias por setor\n- solucoes tecnologicas por setor\n- fatores empresariais\n- fatores setoriais\n- fatores sistemicos\n- indices de incerteza e relevancia\n- matrizes estrategicas e de priorizacao\n\n## Regra de organizacao\n\n- Uma matriz por relatorio, quando o PDF trouxer a estrutura completa.\n- Se o PDF trouxer apenas parte da matriz, registrar como matriz parcial.\n- A matriz deve sempre apontar para o relatorio de origem.\n\n## Matrizes ja criadas\n\n- `2025-mapa-estrategico-construcao-civil.md`\n- `2025-mapa-estrategico-moda.md`\n- `2025-mapa-estrategico-madeira-moveis.md`\n- `2025-mapa-estrategico-nautico.md`\n- `2023-plano-gestao-tecnologica-moda-santa-catarina.md`\n- `2023-plano-gestao-tecnologica-economia-do-mar-rj.md`\n- `2023-plano-gestao-tecnologica-mobiliario-joao-pessoa.md`\n- `2024-plano-gestao-tecnologica-madeira-movel-sc.md`\n- `2023-plano-gestao-tecnologica-cosmeticos-sp.md`"
+  },
+  {
+    "id": "como-ler",
+    "path": "06_MATRIZES/como-ler.md",
+    "title": "Como Ler as Matrizes",
+    "frontmatter": {},
+    "content": "# Como Ler as Matrizes\n\n## Estrutura base\n\nNos relatórios mais antigos, a matriz costuma trazer:\n\n- megatendencias\n- solucoes tecnologicas\n- indice de incerteza\n- relevancia\n- prioridades\n\nNos relatórios mais recentes, a estrutura passa a incluir:\n\n- fatores empresariais\n- fatores setoriais\n- fatores sistemicos\n- indicadores de impacto\n- governanca\n- reposicionamento setorial\n\n## Regra de captura\n\n- Megatendencias e solucoes sao sempre por setor.\n- Fatores empresariais, setoriais e sistemicos devem ser registrados como blocos separados.\n- Quando a matriz tiver comparacao territorial, cada territorio vira subbloco.\n- Quando a matriz tiver priorizacao, registrar a ordem e o motivo.\n\n## Ligacoes\n\n- A matriz aponta para o relatorio.\n- A matriz aponta para temas reutilizaveis.\n- A matriz aponta para indicadores quando houver numero, ranking ou classificaçao."
+  },
+  {
+    "id": "estrutura-matriz",
+    "path": "06_MATRIZES/estrutura-matriz.md",
+    "title": "Estrutura da Matriz Tecnologica",
+    "frontmatter": {},
+    "content": "# Estrutura da Matriz Tecnologica\n\n## Nucleos fixos\n\n1. Megatendencias\n2. Solucoes tecnologicas\n3. Indice de incerteza\n4. Relevancia\n5. Prioridades\n\n## Nucleos recentes\n\n1. Fatores empresariais\n2. Fatores setoriais\n3. Fatores sistemicos\n4. Indicadores de impacto\n5. Governanca\n6. Reposicionamento setorial\n\n## Uso pratico\n\n- Descrever a matriz em nota separada.\n- Padronizar nomes dos fatores.\n- Registrar a fonte exata no PDF.\n- Transformar cada item relevante em ficha conectada."
+  },
+  {
+    "id": "template-matriz-tecnologica",
+    "path": "06_MATRIZES/template-matriz-tecnologica.md",
+    "title": "## Megatendencias",
+    "frontmatter": {
+      "tipo": "matriz-tecnologica",
+      "ano": "",
+      "setor": "",
+      "territorio": "",
+      "categoria": "",
+      "origem": "",
+      "status": "rascunho"
+    },
+    "content": "# \n\n## Megatendencias\n\n- \n\n## Solucoes tecnologicas\n\n- \n\n## Fatores empresariais\n\n- \n\n## Fatores setoriais\n\n- \n\n## Fatores sistemicos\n\n- \n\n## Indice de incerteza\n\n- \n\n## Relevancia\n\n- \n\n## Prioridade\n\n- \n\n## Observacoes\n\n-"
+  },
+  {
+    "id": "SKILL",
+    "path": "07_SKILLS/analise-pdfs-taxonomia-ontologia/SKILL.md",
+    "title": "Analise de PDFs, taxonomia e ontologia",
+    "frontmatter": {
+      "name": "analise-pdfs-taxonomia-ontologia",
+      "description": "Use when turning consultative PDFs into .md fichas, taxonomy, ontology, themes, indicators, and linked analytical structures."
+    },
+    "content": "# Analise de PDFs, taxonomia e ontologia\n\nUse esta skill para transformar PDFs em um acervo de fichas `.md` conectadas, com taxonomia consistente, ontologia operacional e organizacao tematica reutilizavel.\n\n## Objetivo\n\nConverter cada PDF em conhecimento estruturado, mantendo rastreabilidade para a fonte original e separando:\n\n- ficha do relatorio\n- fichas atomicas\n- temas consolidados\n- indicadores e dados\n- relacoes semanticas\n- matrizes tecnologicas, quando existirem\n- grupos visuais para navegacao no Obsidian\n\n## Principios\n\n- Preserve a evidencia: toda afirmacao relevante deve apontar para a origem no PDF.\n- Separe tipos de conhecimento: conceito, tema, indicador, recomendacao, ator, setor, territorio e matriz nao devem ser misturados.\n- Reutilize fichas: o que se repete vira tema ou conceito; o que e especifico fica como ficha de relatorio.\n- Prefira estrutura leve e consistente a descricoes longas e soltas.\n- Registre incerteza quando algo nao puder ser inferido com seguranca.\n- Trate grupos como camadas de navegacao: cada ficha pode pertencer a um grupo principal e a um conjunto limitado de conexoes.\n- Use cores como sinal visual de grupo, nao como classificacao semantica adicional.\n\n## Fluxo de trabalho\n\n### 1. Inventariar o PDF\n\n- Identifique ano, titulo, setor, territorio, tipo de documento e nome do arquivo.\n- Registre o PDF no indice mestre.\n- Se houver ambiguidade, marque como `nao inferido` em vez de adivinhar.\n\n### 2. Ler a estrutura do documento\n\n- Leia capa, sumario, introducao, metodologia, diagnostico, proposicoes e anexos.\n- Anote a logica interna do PDF: plano, mapa estrategico, gestao tecnologica, planejamento, mercado, inovacao ou outro.\n- Capture a linguagem recorrente do documento, pois ela orienta a taxonomia.\n\n### 3. Extrair unidades de conhecimento\n\nSepare o conteudo em unidades minimas reutilizaveis:\n\n- conceitos\n- dados e numeros\n- recomendacoes\n- atores institucionais\n- territorios\n- setores\n- solucoes tecnologicas\n- fatores de priorizacao\n- megatendencias\n\nCada unidade deve ser representada por uma ficha `.md` quando tiver valor reutilizavel fora do relatorio.\n\n### 4. Criar a ficha do relatorio\n\nA ficha do relatorio e a base de entrada do sistema.\n\nEla deve conter:\n\n- metadados essenciais\n- resumo rapido\n- temas principais\n- dados relevantes\n- recomendacoes\n- fichas vinculadas\n\nUse esta ficha para centralizar a leitura do PDF e apontar para as outras fichas derivadas.\n\n### 5. Criar fichas atomicas\n\nQuebre o relatorio em fichas curtas quando a informacao puder ser reaproveitada.\n\nRegras:\n\n- uma ficha para um conceito estavel\n- uma ficha para um dado ou indicador\n- uma ficha para uma recomendacao recorrente\n- uma ficha para um ator institucional\n- uma ficha para uma relacao estrutural relevante\n\nCada ficha deve ter:\n\n- titulo claro\n- origem no relatorio\n- tags minimas\n- links relacionados\n\n### 6. Construir a taxonomia\n\nOrganize o acervo por eixos estaveis.\n\nTaxonomia minima:\n\n- setor\n- territorio\n- tipo de documento\n- tema\n- conceito\n- indicador\n- recomendacao\n- matriz\n\nRegras de classificacao:\n\n- se aparece em varios relatorios, vira tema\n- se expressa mecanismo, metodo ou nocao transversal, vira conceito\n- se e numero, medida ou comparacao, vira indicador\n- se e solucao, tendencia ou fator de priorizacao, vira matriz ou componente de matriz\n- se e caso especifico, vira ficha de relatorio\n\n### 6.1 Organizar em grupos\n\nDepois da taxonomia, distribua as fichas em grupos de navegacao.\n\nRegras de grupo:\n\n- cada grupo deve ter uma finalidade clara\n- um grupo pode reunir varias fichas relacionadas por tema, setor, territorio ou metodo\n- uma ficha deve ter um grupo principal e, se necessario, grupos secundarios limitados\n- grupos nao devem duplicar a taxonomia; eles devem facilitar leitura e acesso\n- grupos muito amplos devem ser divididos\n\nSugestao de grupos:\n\n- relatorios\n- fichas conceituais\n- temas\n- indicadores\n- matrizes\n- atores\n- territorios\n- conexoes transversais\n\n### 6.2 Atribuir cores aos grupos\n\nCada grupo deve receber uma cor fixa para facilitar leitura visual no Obsidian.\n\nRegras de cor:\n\n- uma cor por grupo principal\n- manter a mesma cor em todo o acervo\n- usar a cor no frontmatter, em tags ou em qualquer campo padronizado adotado no vault\n- evitar mais de uma cor por ficha\n- cores devem apoiar navegacao, nao substituir a classificacao semantica\n\nExemplo de regra operacional:\n\n- relatorios = cinza\n- fichas conceituais = azul\n- temas = verde\n- indicadores = amarelo\n- matrizes = laranja\n- atores = roxo\n- territorios = vermelho\n- conexoes transversais = teal\n\n### 6.3 Estabelecer conexoes entre fichas\n\nToda ficha deve declarar suas relacoes essenciais.\n\nTipos de conexao recomendados:\n\n- `origem`\n- `relacionado_com`\n- `deriva_de`\n- `repetido_em`\n- `contrasta_com`\n- `compoe`\n- `aponta_para`\n\nRegras:\n\n- conectar primeiro com a ficha do relatorio de origem\n- conectar depois com conceitos, temas, indicadores e matrizes relevantes\n- preferir poucas conexoes fortes a muitas conexoes fracas\n- sempre que possivel, ligar fichas do mesmo grupo e de grupos adjacentes\n\n### 6.4 Padrão Obsidian\n\nAo usar Obsidian, mantenha o vault organizado com:\n\n- frontmatter consistente\n- tags estaveis\n- links internos entre fichas\n- grupos visuais baseados em cor\n- notas centrais para cada grupo\n\nSe o vault usar propriedades, inclua campos como:\n\n- `grupo`\n- `cor`\n- `tipo`\n- `origem`\n- `links`\n\nSe o vault usar grafo, as conexoes devem refletir:\n\n- hierarquia de origem\n- proximidade conceitual\n- recorrencia transversal\n- dependencia analitica\n\n### 7. Montar a ontologia operacional\n\nA ontologia deve explicitar os tipos de entidades e as relacoes entre elas.\n\nEntidades principais:\n\n- relatorio\n- ficha\n- tema\n- conceito\n- indicador\n- matriz-tecnologica\n- setor\n- territorio\n- ator\n- recomendacao\n\nRelacoes principais:\n\n- `gera`\n- `origina`\n- `cita`\n- `se repete em`\n- `se relaciona com`\n- `aponta para`\n- `deriva de`\n- `contrasta com`\n- `compoe`\n\nRegra:\n\n- a ontologia nao precisa ser abstrata; ela deve servir para navegacao, recuperacao e cruzamento do acervo.\n\n### 8. Consolidar temas\n\nAgrupe fichas repetidas em temas consolidados quando houver recorrencia sem perda de sentido.\n\nUm tema deve:\n\n- reunir fichas compativeis\n- manter um eixo semantico unico\n- evitar duplicacao de conteudo\n- servir como hub de navegacao\n\n### 9. Estruturar indicadores\n\nTudo que for comparavel, mensuravel ou quantificavel deve sair do texto geral e virar ficha de indicador.\n\nInclua:\n\n- numero\n- unidade\n- contexto\n- fonte\n- leitura comparativa, quando houver\n\n### 10. Estruturar matrizes\n\nQuando o PDF trouxer leitura estrategica completa, extraia a matriz tecnologica.\n\nElementos tipicos:\n\n- megatendencias\n- solucoes tecnologicas\n- fatores empresariais\n- fatores setoriais\n- fatores sistemicos\n- indice de relevancia\n- indice de incerteza\n- prioridade\n\n### 11. Vincular tudo\n\nConecte as fichas por uma rede simples e consistente:\n\n- ficha do relatorio aponta para conceitos, temas, indicadores e matrizes\n- tema aponta para fichas relacionadas\n- conceito aponta para usos recorrentes\n- indicador aponta para a evidencia numerica\n- matriz aponta para o relatorio de origem e para seus componentes\n- grupo aponta para suas fichas membro e para seu hub principal\n- a cor acompanha o grupo em toda a navegacao\n\n### 12. Revisar consistencia\n\nAntes de finalizar:\n\n- confira se o mesmo termo foi classificado do mesmo modo em todo o acervo\n- elimine duplicacoes desnecessarias\n- verifique se toda ficha tem origem explicita\n- confirme se as tags seguem o mesmo padrao\n- confirme se o nome do arquivo descreve o conteudo sem ambiguidade\n- confirme se cada grupo tem cor fixa e conexoes coerentes\n\n## Padrao de escrita das fichas\n\n- Escreva curto e reutilizavel.\n- Use linguagem objetiva.\n- Evite copiar blocos longos do PDF.\n- Prefira sinteses curtas com fonte clara.\n- Se necessario, registre notas de leitura separadas da interpretacao.\n\n## Estrutura de decisao\n\nQuando encontrar um trecho do PDF, decida nesta ordem:\n\n1. isso e especifico do documento?\n2. isso se repete em mais de um documento?\n3. isso e conceito, tema, dado, ator, recomendacao ou matriz?\n4. isso deve virar ficha separada?\n5. isso precisa entrar na ontologia como relacao?\n\n## Saidas esperadas\n\nAo final do processamento, o agente deve ter:\n\n- o PDF catalogado\n- a ficha do relatorio criada\n- fichas atomicas extraidas\n- temas consolidados atualizados\n- indicadores separados\n- relacoes semanticas registradas\n- matriz tecnologica estruturada, quando aplicavel\n\n## Criterios de qualidade\n\n- rastreabilidade completa\n- taxonomia estavel\n- ontologia util para busca e cruzamento\n- fichas pequenas e reutilizaveis\n- separacao clara entre fato, interpretacao e recomendacao\n- consistencia entre anos, setores e territorios\n\n## Regra final\n\nSe uma informacao nao melhora a consulta, a navegacao ou a reutilizacao do acervo, nao a transforme em ficha."
+  },
+  {
+    "id": "AGENTE_COSMOBRASIL_START_HERE",
+    "path": "08_COSMOBRASIL/AGENTE_COSMOBRASIL_START_HERE.md",
+    "title": "AGENTE COSMOBRASIL - START HERE",
+    "frontmatter": {},
+    "content": "# AGENTE COSMOBRASIL - START HERE\n\n## Objetivo deste pacote\n\nCentralizar conhecimento sobre Cosmobrasil para servir de base operavel a um agente especialista em Cosmobrasil, economia circular e distritos industriais.\n\n## O que foi construido aqui\n\n### Base de conhecimento\n\n- indice mestre de fontes\n- fichas de fontes com rastreabilidade\n- temas transversais\n- indicadores\n- linha do tempo\n- taxonomia de leitura\n- criterios de qualidade\n- protocolo de validacao\n- contrato de resposta do agente\n\n### Fontes ja incorporadas\n\n- C002 - Sistema Cognitivo de Circularidade\n- C003 - Credito Carbono\n- C004 - Manual Operacional Atualizado\n- C005 - Ecossistema Tecnologico - Distritos Industriais Circulares\n- C006 - Cosmob site oficial\n\n### Dossies institucionais\n\n- Cosmob S.p.A. como parceira italiana\n\n## Leitura operacional do acervo\n\n1. C004 e a fonte central para circularidade de produto, pre-diagnostico e indice global de circularidade.\n2. C005 descreve a arquitetura tecnologica do ecossistema Cosmobrasil.\n3. C006 consolida a leitura institucional da Cosmob como parceira italiana.\n4. C002 e C003 entram como base conceitual e tematica de apoio.\n\n## Como operar esta base\n\n- tratar cada nova fonte como um item rastreavel\n- separar fato, inferencia e hipotese\n- usar C004 para pontuacao e metodologia\n- usar C005 para plataforma, fluxo digital e operacao do sistema\n- usar C006 para identidade institucional e parceria italiana\n- conectar novos materiais a temas, indicadores e dossies\n\n## Estado atual\n\n- a base ainda nao esta completa\n- a estrutura principal esta pronta para receber novas fontes\n- o acervo ja e suficiente para o agente iniciar leitura, classificacao e cruzamento\n\n## Ponto de entrada recomendado\n\n1. `README.md`\n2. `index.md`\n3. `sintese-cosmobrasil.md`\n4. `fontes/index.md`\n5. `parceiros/cosmob.md`"
+  },
+  {
+    "id": "README",
+    "path": "08_COSMOBRASIL/README.md",
+    "title": "Cosmobrasil",
+    "frontmatter": {},
+    "content": "# Cosmobrasil\n\nBase dedicada para centralizar todo o material relacionado a Cosmobrasil e preparar o terreno para um agente especialista em Cosmobrasil, economia circular e distritos industriais.\n\n## Objetivo da pasta\n\n- reunir fontes brutas, recortes e evidencias sobre Cosmobrasil\n- registrar a origem de cada informacao com rastreabilidade\n- separar fatos, interpretacoes e hipoteses\n- organizar a materia-prima para um agente especialista posterior\n\n## O que entra aqui\n\n- documentos, notas e trechos sobre Cosmobrasil\n- materiais sobre economia circular aplicados ao caso\n- referencias sobre distritos industriais, governanca e redes territoriais\n- informacoes de contexto economico, produtivo e institucional\n- quadros comparativos, cronologias e evidencias relevantes\n\n## Regra de organizacao\n\n1. Cada novo endereco de dados vira um registro no indice.\n2. Cada registro deve indicar tipo, origem, data e status.\n3. Conteudo sintetico vai para fichas ou notas tematicas.\n4. Evidencia quantitativa vai para indicadores.\n5. Ligacoes e recorrencias vao para redes e cruzamentos.\n\n## Estrutura de saida esperada\n\n- `index.md`: indice mestre do acervo Cosmobrasil\n- `fontes/`: anotacoes por origem recebida\n- `fichas/`: fichas atomicas sobre conceitos e atores\n- `temas/`: consolidacoes tematicas\n- `indicadores/`: numeros, metricas e comparacoes\n- `redes/`: cruzamentos e relacoes\n- `agente/`: instrucao-base para o futuro agente especialista\n- `parceiros/`: dossies institucionais de parceiros da base\n- `processo-ingestao.md`: fluxo padrao para incorporar novas fontes\n- `taxonomia-cosmobrasil.md`: criterios de classificacao do acervo\n- `atores-cosmobrasil.md`: mapa de atores e instituicoes\n- `linha-do-tempo-cosmobrasil.md`: cronologia do caso\n- `distritos-industriais-cosmobrasil.md`: leitura especifica de distritos industriais\n- `protocolo-validacao.md`: regras de validacao e conflito\n- `criterios-qualidade.md`: peso e qualidade das fontes\n- `contrato-resposta-agente.md`: padrao de resposta do futuro agente\n\n## Proximo passo\n\nEnviar as localizacoes das fontes de Cosmobrasil para preencher o indice e iniciar a consolidacao.\n\n## Fontes registradas\n\n- `SISTEMA COGNITIVO DE CIRCULARIDADE`: pasta conceitual com dois PDFs de uma pagina, sem texto extraivel, registrada como fonte C002.\n- `CREDITO CARBONO.pdf`: infografico de 46 tipos de creditos de carbono, registrado como fonte C003.\n- `Manual Operacional Atualizado.pdf`: manual de 62 paginas sobre circularidade de produto e pre-diagnostico, registrado como fonte C004.\n- `ECOSSISTEMA TECNOLOGICO_LINK.pdf`: apresentacao de 11 paginas sobre a arquitetura do ecossistema tecnologico Cosmobrasil, registrada como fonte C005.\n- `https://www.cosmob.it/it/`: fonte oficial institucional da parceira italiana, registrada como C006.\n\n## Dossies institucionais\n\n- [parceiros/cosmob.md](parceiros/cosmob.md)\n\n## Ponto de entrada do agente\n\n- [AGENTE_COSMOBRASIL_START_HERE.md](AGENTE_COSMOBRASIL_START_HERE.md)"
+  },
+  {
+    "id": "README",
+    "path": "08_COSMOBRASIL/agente/README.md",
+    "title": "Agente Cosmobrasil",
+    "frontmatter": {},
+    "content": "# Agente Cosmobrasil\n\nEspaco para a instrucao-base, perfil e refinamentos do futuro agente especialista."
+  },
+  {
+    "id": "prompt-base",
+    "path": "08_COSMOBRASIL/agente/prompt-base.md",
+    "title": "Prompt Base do Agente Cosmobrasil",
+    "frontmatter": {},
+    "content": "# Prompt Base do Agente Cosmobrasil\n\nVoce e um agente especialista em Cosmobrasil, economia circular e distritos industriais.\n\n## Regras\n\n- responder com rigor analitico\n- separar fato, inferencia e hipotese\n- citar a fonte sempre que possivel\n- priorizar relacoes entre documentos\n- usar a base Cosmobrasil como contexto principal\n- consultar taxonomia, atores, linha do tempo e leitura de distritos industriais quando relevantes\n- obedecer ao contrato de resposta e registrar incertezas quando necessario\n- tratar o Manual Operacional Atualizado como referencia central para circularidade de produto e pre-diagnostico\n- tratar o Indice Global de Circularidade como referencia central quando a pergunta for sobre maturidade ou pontuacao\n- tratar o Ecossistema Tecnologico como referencia central quando a pergunta for sobre plataforma, fluxo digital ou operacao do sistema\n\n## Tarefas\n\n- resumir fontes\n- cruzar evidencias\n- identificar atores e temas recorrentes\n- explicar implicacoes estrategicas\n- apoiar decisao sobre economia circular e distritos industriais\n\n## Formato de resposta\n\n- contexto\n- evidencias\n- analise\n- implicacoes\n- proximos passos"
+  },
+  {
+    "id": "agente-especialista-cosmobrasil",
+    "path": "08_COSMOBRASIL/agente-especialista-cosmobrasil.md",
+    "title": "Agente Especialista Cosmobrasil",
+    "frontmatter": {},
+    "content": "# Agente Especialista Cosmobrasil\n\n## Missao\n\nAtuar como especialista em Cosmobrasil, economia circular e distritos industriais, com capacidade de ler o acervo, cruzar fontes e responder com rigor analitico.\n\n## Escopo de conhecimento\n\n- Cosmobrasil como objeto principal\n- economia circular aplicada a contexto industrial\n- distritos industriais, governanca e territorialidade\n- redes produtivas, atores institucionais e cadeias de valor\n- implicacoes estrategicas, operacionais e de politica publica\n\n## Comportamentos esperados\n\n- citar a fonte de cada afirmacao sempre que possivel\n- distinguir fato, inferencia e hipotese\n- priorizar relacoes entre documentos\n- explicar conexoes com economia circular e distritos industriais\n- usar a estrutura do acervo como base de consulta\n\n## Entradas\n\n- fichas de fonte\n- fichas tematicas\n- indicadores\n- redes de relacao\n- matrizes e sinteses\n\n## Saidas\n\n- resumo executivo\n- analise tecnica\n- comparacao entre fontes\n- implicacoes estrategicas\n- recomendacoes de proxima leitura"
+  },
+  {
+    "id": "atores-cosmobrasil",
+    "path": "08_COSMOBRASIL/atores-cosmobrasil.md",
+    "title": "Atores Cosmobrasil",
+    "frontmatter": {},
+    "content": "# Atores Cosmobrasil\n\nMapa de atores relevantes para o caso Cosmobrasil.\n\n## Categorias de atores\n\n- empresa ancoradora\n- associacao empresarial\n- entidade setorial\n- poder publico\n- universidade\n- centro de pesquisa\n- consultoria\n- fornecedor\n- cliente\n- operador logistico\n- arranjo produtivo local\n- distrito industrial\n- organismo de fomento\n\n## Campos por ator\n\n- nome\n- tipo\n- territorio\n- papel\n- interesse\n- relacao com Cosmobrasil\n- relacao com economia circular\n- relacao com distritos industriais\n- fonte de evidencia\n\n## Perguntas de leitura\n\n- quem coordena?\n- quem executa?\n- quem financia?\n- quem regula?\n- quem consome?\n- quem fornece conhecimento?\n- quem conecta territorio e cadeia produtiva?\n\n## Uso\n\nEste arquivo deve ser atualizado a partir das fontes recebidas, sempre separando atores confirmados de atores inferidos."
+  },
+  {
+    "id": "contrato-resposta-agente",
+    "path": "08_COSMOBRASIL/contrato-resposta-agente.md",
+    "title": "Contrato de Resposta do Agente Cosmobrasil",
+    "frontmatter": {},
+    "content": "# Contrato de Resposta do Agente Cosmobrasil\n\nEste documento define como o futuro agente deve responder usando a base Cosmobrasil.\n\n## Regras obrigatorias\n\n- separar fato, inferencia e hipotese\n- explicitar a fonte usada sempre que possivel\n- declarar quando a evidencia e incompleta\n- declarar quando ha conflito entre fontes\n- preferir formulacoes conservadoras quando houver incerteza\n\n## Quando a fonte for incompleta\n\n- dizer o que esta confirmado\n- dizer o que falta confirmar\n- propor a proxima fonte ou consulta\n\n## Quando houver conflito\n\n- apontar as fontes em desacordo\n- descrever a diferenca\n- indicar qual versao parece mais robusta\n- nao fingir resolucao se ela nao existir\n\n## Quando a pergunta for sobre circularidade de produto\n\n- usar o Manual Operacional Atualizado como fonte de referencia principal\n- priorizar as cinco dimensoes de avaliacao\n- explicitar se a resposta e sobre conceito, metodo, pontuacao ou aplicacao territorial\n\n## Quando a pergunta for sobre pontuacao\n\n- usar o Indice Global de Circularidade como referencia numerica\n- citar a formula e a faixa de classificacao\n- evitar converter qualitativo em numero sem a regra do manual\n\n## Quando a pergunta for sobre plataforma ou operacao digital\n\n- usar o ecossistema tecnologico como referencia principal\n- distinguir front office, back office, devolutiva, painel, dashboard, certificacao e agente IA\n- manter a resposta ancorada na arquitetura descrita pela fonte C005\n\n## Formato recomendado\n\n1. contexto\n2. evidencias\n3. analise\n4. implicacoes\n5. lacunas\n6. proximos passos\n\n## Tom\n\n- tecnico\n- direto\n- analitico\n- sem exagero\n- sem conclusao alem do suporte documental"
+  },
+  {
+    "id": "criterios-qualidade",
+    "path": "08_COSMOBRASIL/criterios-qualidade.md",
+    "title": "Criterios de Qualidade Cosmobrasil",
+    "frontmatter": {},
+    "content": "# Criterios de Qualidade Cosmobrasil\n\nPadrao minimo para considerar uma informacao util na base.\n\n## Critérios principais\n\n- origem identificavel\n- conteudo relevante\n- texto suficientemente claro\n- relacao direta ou indireta com Cosmobrasil\n- relacao com economia circular ou distritos industriais\n- possibilidade de cruzamento com outras fontes\n\n## Sinais de alta qualidade\n\n- fonte primaria\n- dados concretos\n- descricao detalhada\n- contexto temporal claro\n- atores nomeados\n- territorio nomeado\n\n## Sinais de baixa qualidade\n\n- origem indefinida\n- afirmacoes vagas\n- ausencia de contexto\n- repeticao sem acrescimo\n- impossibilidade de triangulacao\n\n## Priorizacao\n\n1. fontes primarias\n2. documentos institucionais\n3. relatorios tecnicos\n4. referencias academicas\n5. materiais complementares\n\n## Uso na base\n\nEste criterio define o peso de cada fonte na sintese Cosmobrasil e na resposta do agente especialista."
+  },
+  {
+    "id": "distritos-industriais-cosmobrasil",
+    "path": "08_COSMOBRASIL/distritos-industriais-cosmobrasil.md",
+    "title": "Distritos Industriais e Cosmobrasil",
+    "frontmatter": {},
+    "content": "# Distritos Industriais e Cosmobrasil\n\nCamada de leitura especifica para entender como Cosmobrasil se relaciona com distritos industriais.\n\n## O que observar\n\n- concentracao territorial de empresas\n- especializacao produtiva\n- infraestrutura compartilhada\n- governanca local\n- servicos comuns\n- circularidade de materiais\n- logistica de entrada e saida\n- sinergias entre empresas\n- instituicoes de apoio\n\n## Eixos de analise\n\n- proximidade geografica\n- proximidade funcional\n- cooperacao entre empresas\n- ganho de eficiencia\n- reutilizacao de insumos\n- gestao de residuos\n- inovacao aplicada\n- resiliencia territorial\n\n## Indicadores desejados\n\n- numero de empresas envolvidas\n- densidade de relacoes\n- volume de residuos reaproveitados\n- ganhos de custo\n- reducao de emissoes\n- volume de cooperacao institucional\n\n## Perguntas de analise\n\n- Cosmobrasil opera dentro de um distrito, articula distritos ou cria um arranjo novo?\n- existe simbiose industrial?\n- quais gargalos impedem circularidade em escala?\n- quais ativos territoriais sustentam o modelo?"
+  },
+  {
+    "id": "README",
+    "path": "08_COSMOBRASIL/fichas/README.md",
+    "title": "Fichas Cosmobrasil",
+    "frontmatter": {},
+    "content": "# Fichas Cosmobrasil\n\nEspaco para fichas atomicas sobre conceitos, atores, eventos e evidencias."
+  },
+  {
+    "id": "C002",
+    "path": "08_COSMOBRASIL/fontes/C002-sistema-cognitivo-circularidade.md",
+    "title": "Sistema Cognitivo de Circularidade",
+    "frontmatter": {
+      "tipo": "fonte-cosmobrasil",
+      "id": "C002",
+      "origem": "SISTEMA COGNITIVO DE CIRCULARIDADE",
+      "data": "2026-05-19",
+      "autor": "",
+      "categoria": "pasta de PDFs conceituais",
+      "status": "sintetizado",
+      "confiabilidade": "media"
+    },
+    "content": "# Sistema Cognitivo de Circularidade\n\n## Resumo rapido\n\nA origem recebida contem dois PDFs de uma pagina:\n\n- `ESTRUTURA CONCEITUAL.pdf`\n- `sistema cognitivo de circularidade.pdf`\n\nAmbos os arquivos foram produzidos em macOS Preview, com 1 pagina A4 cada, sem texto extraivel por `pdftotext` e sem imagens embutidas listadas por `pdfimages`. A leitura visual indica uma estrutura grafica/conceitual, mas nao ha texto legivel extraivel para consolidar afirmacoes detalhadas.\n\n## O que a fonte traz\n\n- um enquadramento conceitual visual sobre circularidade\n- uma referencia ao tema \"sistema cognitivo de circularidade\"\n- uma estrutura que pode servir como camada de contexto para o agente especialista\n\n## Evidencias relevantes\n\n- dois PDFs de 1 pagina\n- criados em 2026-05-19\n- sem texto extraivel\n- sem imagens rastreaveis via `pdfimages`\n- conteudo visual/conceitual, com baixa densidade textual\n\n## Conceitos associados\n\n- circularidade\n- estrutura conceitual\n- sistema cognitivo\n- base analitica\n\n## Atores citados\n\n- nao identificados\n\n## Ligacoes com economia circular\n\n- a fonte reforca o eixo conceitual de circularidade como arquitetura cognitiva\n- pode funcionar como pano de fundo metodologico para o acervo Cosmobrasil\n\n## Ligacoes com distritos industriais\n\n- nao ha ligacao explicita extraivel\n- a relacao e indireta, via circularidade e organizacao de sistemas produtivos\n\n## Lacunas\n\n- sem texto legivel\n- sem autor identificado\n- sem data de criacao do conteudo conceitual alem dos metadados do PDF\n- sem evidencia direta sobre Cosmobrasil\n\n## Proxima acao\n\n- aguardar fontes adicionais que expliquem a relacao entre esse sistema cognitivo e o caso Cosmobrasil"
+  },
+  {
+    "id": "C003",
+    "path": "08_COSMOBRASIL/fontes/C003-credito-carbono.md",
+    "title": "Credito Carbono",
+    "frontmatter": {
+      "tipo": "fonte-cosmobrasil",
+      "id": "C003",
+      "origem": "/Users/pvolkermini/APLICATIVO-MINI/CREDITO CARBONO/CREDITO CARBONO.pdf",
+      "data": "2026-05-18",
+      "autor": "The ESG Lab (marca visivel)",
+      "categoria": "infografico tematico",
+      "status": "sintetizado",
+      "confiabilidade": "media"
+    },
+    "content": "# Credito Carbono\n\n## Resumo rapido\n\nA fonte e um infografico de uma pagina com o titulo \"46 tipos de creditos de carbono\". Ela organiza os tipos de credito em um circulo visual, distribuindo categorias como floresta e uso da terra, energia renovavel, domesticos e comunitario, quimico e industrial, eficiencia energetica, descarte de residuos, agricultura, transporte e outros.\n\n## O que a fonte traz\n\n- uma taxonomia visual de 46 tipos de creditos de carbono\n- uma leitura por familias de emissao e mitigacao\n- uma base conceitual util para transicao climatica, financiamentos e estrategia de descarbonizacao\n\n## Evidencias relevantes\n\n- um PDF de 1 pagina\n- criado em 2026-05-18\n- sem texto extraivel por `pdftotext`\n- leitura visual clara e legivel\n- marca visivel de The ESG Lab\n\n## Conceitos associados\n\n- credito de carbono\n- descarbonizacao\n- transicao climatica\n- financiamento verde\n- economia circular\n- eficiencia energetica\n- residuos\n- agricultura\n- energia renovavel\n\n## Atores citados\n\n- nao identificados no corpo textual\n- The ESG Lab como marca visivel\n\n## Ligacoes com economia circular\n\n- os tipos ligados a residuos, eficiencia energetica e reaproveitamento podem apoiar narrativas de circularidade\n- a taxonomia oferece um pano de fundo para pensar instrumentos de financiamento da transicao circular\n\n## Ligacoes com distritos industriais\n\n- pode ser usada como referencia para estrategias de descarbonizacao territorial\n- ajuda a pensar beneficios financeiros de eficiencia energetica, residuos e simbiose industrial em arranjos produtivos\n\n## Lacunas\n\n- sem texto legivel extraivel\n- sem autoria formal confirmada alem da marca visivel\n- sem mencao direta a Cosmobrasil\n- sem contexto de uso do infografico\n\n## Proxima acao\n\n- cruzar esta taxonomia com materiais de Cosmobrasil que tratem de descarbonizacao, residuos, energia ou competitividade industrial"
+  },
+  {
+    "id": "C004",
+    "path": "08_COSMOBRASIL/fontes/C004-manual-operacional-atualizado.md",
+    "title": "Manual Operacional Atualizado",
+    "frontmatter": {
+      "tipo": "fonte-cosmobrasil",
+      "id": "C004",
+      "origem": "/Users/pvolkermini/APLICATIVO-MINI/ANÁLISE RELATORIO - FORESIGHT/Manual Operacional Atualizado.pdf",
+      "data": "2026-05-29",
+      "autor": "Isadora Pouza",
+      "categoria": "manual operacional",
+      "status": "sintetizado",
+      "confiabilidade": "alta"
+    },
+    "content": "# Manual Operacional Atualizado\n\n## Resumo rapido\n\nO manual \"COSMOB BRASIL Circularidade de Produto\" apresenta a base operacional do sistema, com foco em consultores e gestores. A fonte define circularidade de produto como uma propriedade mensuravel e descreve uma metodologia de avaliacao em cinco dimensoes: entrada, gestao de residuos, saida do produto, vida util do produto e monitoramento/extensao do ciclo de vida. O documento tambem traz o modelo de pre-diagnostico, a classificacao do resultado, a logica de pontuacao, a aplicacao no Brasil e a entrega para empresas e instituicoes.\n\n## O que a fonte traz\n\n- definicao operacional de circularidade de produto\n- separacao conceitual entre economia circular, reciclagem e circularidade de produto\n- justificativas regulatoria, financeira e mercadologica para medir circularidade no Brasil\n- lista de setores prioritarios\n- modelo de avaliacao em 5 etapas\n- estrutura de pre-diagnostico com 12 questoes\n- calculo do indice global de circularidade\n- faixa de classificacao do resultado\n- fluxo de aplicacao para empresas e para gestao de distrito circular\n\n## Evidencias relevantes\n\n- PDF de 62 paginas\n- autor identificado: Isadora Pouza\n- criado em 2026-05-29\n- produzido em ONLYOFFICE\n- texto extraivel por `pdftotext`\n- conteudo diretamente ligado a Cosmobrasil e a circularidade de produto\n\n## Conceitos associados\n\n- Cosmob Brasil\n- circularidade de produto\n- economia circular\n- certificacao\n- pre-diagnostico\n- indice global de circularidade\n- residuos\n- rastreabilidade\n- vida util\n- reparabilidade\n- reciclagem\n- distrito circular\n\n## Atores citados\n\n- consultores\n- gestores\n- empresas\n- instituicoes\n- compradores corporativos\n- financiadores\n- consumidores e distribuidores\n\n## Ligacoes com economia circular\n\n- a fonte diferencia economia circular de circularidade de produto\n- mostra como a circularidade pode ser medida em escala de produto\n- conecta a medicao com certificacao, rastreabilidade e finanças verdes\n\n## Ligacoes com distritos industriais\n\n- o manual menciona a entrega para gestao do distrito circular\n- a metodologia pode ser aplicada em arranjos produtivos e territórios industriais\n- a logica de pontuacao pode apoiar planejamento de transicao circular territorial\n\n## Lacunas\n\n- o nome do sistema aparece como COSMOB BRASIL/COSMOBRASIL em diferentes trechos\n- nao ha ainda triangulacao externa na base Cosmobrasil para as metricas\n- falta conectar a fonte a um caso territorial especifico dentro do acervo\n\n## Proxima acao\n\n- cruzar com fontes futuras que tragam aplicacao pratica da metodologia em empresas, distritos ou cadeias especificas"
+  },
+  {
+    "id": "C005",
+    "path": "08_COSMOBRASIL/fontes/C005-ecossistema-tecnologico-link.md",
+    "title": "Ecossistema Tecnologico - Distritos Industriais Circulares",
+    "frontmatter": {
+      "tipo": "fonte-cosmobrasil",
+      "id": "C005",
+      "origem": "/Users/pvolkermini/APLICATIVO-MINI/ANÁLISE RELATORIO - FORESIGHT/ECOSSISTEMA TECNOLÓGICO_LINK.pdf",
+      "data": "2026-05-29",
+      "autor": "emilio beltrami",
+      "categoria": "apresentacao de ecossistema",
+      "status": "sintetizado",
+      "confiabilidade": "alta"
+    },
+    "content": "# Ecossistema Tecnologico - Distritos Industriais Circulares\n\n## Resumo rapido\n\nA fonte descreve a arquitetura do ecossistema tecnologico Cosmobrasil para distritos industriais circulares. O material organiza o fluxo em front office e back office, incluindo pre-diagnostico, devolutiva em PDF e HTML, painel de usuarios e relatorios, dashboard de distrito circular, certificacao Cosmob, agente IA especialista, web Cosmobrasil e cursos. O documento mostra que a base nao e apenas metodologica: ela tem uma plataforma digital, interfaces de entrega, repositorio de resultados e mecanismos de acompanhamento e certificacao.\n\n## O que a fonte traz\n\n- arquitetura de ecossistema tecnologico Cosmobrasil\n- separacao entre front office e back office\n- pre-diagnostico sobre circularidade de produtos\n- devolutiva do resultado em PDF e HTML\n- painel de usuarios e relatorios como repositorio da devolutiva\n- dashboard de distrito circular\n- certificacao Cosmob\n- agente IA especialista por empresa\n- web Cosmobrasil\n- cursos para capacitacao de usuarios\n\n## Evidencias relevantes\n\n- PDF de 11 paginas\n- autor identificado: emilio beltrami\n- criado em 2026-05-29\n- produzido em ONLYOFFICE\n- texto extraivel por `pdftotext`\n- apresenta URLs e fluxos operacionais concretos\n\n## Conceitos associados\n\n- ecossistema tecnologico\n- distritos industriais circulares\n- plataforma digital\n- painel de usuarios\n- dashboard\n- certificacao\n- agente IA especialista\n- devolutiva\n- pre-diagnostico\n- capacitacao\n\n## Atores citados\n\n- empresas\n- consultores\n- gestores\n- usuarios\n- sistema de IA\n- parceiros da plataforma\n\n## Ligacoes com economia circular\n\n- a fonte conecta circularidade de produto a uma arquitetura digital de medicao, acompanhamento e certificacao\n- reforca a circulacao de informacao como parte da transicao circular\n- mostra a circularidade como processo operacional e nao apenas como conceito\n\n## Ligacoes com distritos industriais\n\n- o dashboard e a plataforma sao explicitamente ligados ao distrito circular\n- a devolutiva agregada apoia governanca territorial e leitura de desempenho coletivo\n- a certificacao e o agente IA podem ser usados para escalar praticas de circularidade em redes produtivas\n\n## Lacunas\n\n- nao detalha a implementacao tecnica completa da plataforma\n- nao explicita governanca de dados\n- nao esclarece o grau de integracao com Cosmobrasil comercial ou institucional\n- nao traz triangulacao externa na base ainda\n\n## Proxima acao\n\n- cruzar com o Manual Operacional Atualizado e com futuras fontes que descrevam casos de uso da plataforma em empresas ou distritos"
+  },
+  {
+    "id": "C006",
+    "path": "08_COSMOBRASIL/fontes/C006-cosmob-site-oficial.md",
+    "title": "Cosmob site oficial",
+    "frontmatter": {
+      "tipo": "fonte-cosmobrasil",
+      "id": "C006",
+      "origem": "https://www.cosmob.it/it/",
+      "data": "2026-05-29",
+      "autor": "COSMOB S.p.A.",
+      "categoria": "site oficial institucional",
+      "status": "sintetizado",
+      "confiabilidade": "alta"
+    },
+    "content": "# Cosmob site oficial\n\n## Resumo rapido\n\nAs paginas oficiais da Cosmob mostram a empresa como um centro tecnologico italiano para o setor manufatureiro e legno-arredo. A oferta inclui testes de laboratorio, certificacao, formacao tecnica, pesquisa e desenvolvimento, FabLab e servicos ligados a circularidade de produto arredo.\n\n## O que a fonte traz\n\n- identidade institucional da Cosmob\n- foco setorial em manufatura e legno-arredo\n- servicos de laboratorio, certificacao, formacao e R&D\n- pagina especifica de circularidade de produto arredo\n- referencia a missao, visao, valores e marcos institucionais\n\n## Evidencias relevantes\n\n- fonte oficial da empresa\n- confirma o papel da Cosmob como centro tecnologico\n- confirma a certificacao de produto e a vertente de circularidade\n- confirma marcos de institucionalizacao e crescimento\n\n## Conceitos associados\n\n- certificacao\n- conformidade\n- circularidade de produto\n- qualidade\n- seguranca\n- sustentabilidade\n- competitividade\n\n## Lacunas\n\n- alguns detalhes dependem de paginas internas especificas\n- a relacao com Cosmobrasil nao e explicitada no site, sendo uma inferencia de parceria\n\n## Proxima acao\n\n- usar esta fonte como base primaria para o dossie institucional da parceira italiana"
+  },
+  {
+    "id": "README",
+    "path": "08_COSMOBRASIL/fontes/README.md",
+    "title": "Fontes Cosmobrasil",
+    "frontmatter": {},
+    "content": "# Fontes Cosmobrasil\n\nEspaco para registrar as fontes brutas recebidas para o caso Cosmobrasil.\n\n## Indice\n\n- [index.md](index.md)\n- [template-fonte.md](template-fonte.md)\n- [C002-sistema-cognitivo-circularidade.md](C002-sistema-cognitivo-circularidade.md)\n- [C003-credito-carbono.md](C003-credito-carbono.md)\n- [C004-manual-operacional-atualizado.md](C004-manual-operacional-atualizado.md)\n- [C005-ecossistema-tecnologico-link.md](C005-ecossistema-tecnologico-link.md)\n- [C006-cosmob-site-oficial.md](C006-cosmob-site-oficial.md)"
+  },
+  {
+    "id": "index",
+    "path": "08_COSMOBRASIL/fontes/index.md",
+    "title": "Indice de Fontes Cosmobrasil",
+    "frontmatter": {},
+    "content": "# Indice de Fontes Cosmobrasil\n\n## Fontes registradas\n\n| id | titulo | origem | status | observacoes |\n|---|---|---|---|---|\n| C002 | Sistema Cognitivo de Circularidade | SISTEMA COGNITIVO DE CIRCULARIDADE | sintetizado | Dois PDFs de uma pagina, sem texto extraivel |\n| C003 | Credito Carbono | /Users/pvolkermini/APLICATIVO-MINI/CREDITO CARBONO/CREDITO CARBONO.pdf | sintetizado | Infografico de 46 tipos de creditos de carbono |\n| C004 | Manual Operacional Atualizado | /Users/pvolkermini/APLICATIVO-MINI/ANÁLISE RELATORIO - FORESIGHT/Manual Operacional Atualizado.pdf | sintetizado | Manual de 62 paginas sobre circularidade de produto e pre-diagnostico |\n| C005 | Ecossistema Tecnologico - Distritos Industriais Circulares | /Users/pvolkermini/APLICATIVO-MINI/ANÁLISE RELATORIO - FORESIGHT/ECOSSISTEMA TECNOLÓGICO_LINK.pdf | sintetizado | Arquitetura do ecossistema tecnologico Cosmobrasil |\n| C006 | Cosmob site oficial | https://www.cosmob.it/it/ | sintetizado | Fonte oficial institucional da parceira italiana |\n\n## Como usar\n\n- cada nova fonte deve ser registrada aqui\n- o arquivo da fonte deve conter resumo, evidencias e lacunas\n- se a fonte for uma pasta, registrar o conjunto como uma unica entrada ou quebrar em entradas separadas quando houver diferenca clara de conteudo"
+  },
+  {
+    "id": "template-fonte",
+    "path": "08_COSMOBRASIL/fontes/template-fonte.md",
+    "title": "## Resumo rapido",
+    "frontmatter": {
+      "tipo": "fonte-cosmobrasil",
+      "id": "",
+      "origem": "",
+      "data": "",
+      "autor": "",
+      "categoria": "",
+      "status": "pendente",
+      "confiabilidade": "media"
+    },
+    "content": "# \n\n## Resumo rapido\n\n\n## O que a fonte traz\n\n- \n\n## Evidencias relevantes\n\n- \n\n## Conceitos associados\n\n- \n\n## Atores citados\n\n- \n\n## Ligacoes com economia circular\n\n- \n\n## Ligacoes com distritos industriais\n\n- \n\n## Lacunas\n\n- \n\n## Proxima acao\n\n-"
+  },
+  {
+    "id": "index",
+    "path": "08_COSMOBRASIL/index.md",
+    "title": "Indice Mestre Cosmobrasil",
+    "frontmatter": {},
+    "content": "# Indice Mestre Cosmobrasil\n\nUse esta pasta como ponto unico de entrada para tudo o que for relacionado a Cosmobrasil.\n\n## Registro de fontes\n\n| id | origem | tipo | data | status | observacoes |\n|---|---|---|---|---|---|\n| C001 |  |  |  | pendente | Primeira fonte aguardando envio |\n| C002 | SISTEMA COGNITIVO DE CIRCULARIDADE | pasta de PDFs conceituais | 2026-05-19 | sintetizado | Dois PDFs de uma pagina, sem texto extraivel, com estrutura visual conceitual sobre circularidade |\n| C003 | /Users/pvolkermini/APLICATIVO-MINI/CREDITO CARBONO/CREDITO CARBONO.pdf | infografico tematico | 2026-05-18 | sintetizado | Infografico visual com 46 tipos de creditos de carbono |\n| C004 | /Users/pvolkermini/APLICATIVO-MINI/ANÁLISE RELATORIO - FORESIGHT/Manual Operacional Atualizado.pdf | manual operacional | 2026-05-29 | sintetizado | Manual de 62 paginas sobre circularidade de produto e pre-diagnostico |\n| C005 | /Users/pvolkermini/APLICATIVO-MINI/ANÁLISE RELATORIO - FORESIGHT/ECOSSISTEMA TECNOLÓGICO_LINK.pdf | apresentacao de ecossistema | 2026-05-29 | sintetizado | Arquitetura do ecossistema tecnologico Cosmobrasil |\n| C006 | https://www.cosmob.it/it/ | site oficial institucional | 2026-05-29 | sintetizado | Fonte oficial da parceira italiana Cosmob |\n\n## Campos recomendados\n\n- `id`\n- `origem`\n- `tipo`\n- `data`\n- `autor`\n- `assunto`\n- `status`\n- `observacoes`\n\n## Arquivos de apoio\n\n- [processo-ingestao.md](processo-ingestao.md)\n- [sintese-cosmobrasil.md](sintese-cosmobrasil.md)\n- [fontes/template-fonte.md](fontes/template-fonte.md)\n- [taxonomia-cosmobrasil.md](taxonomia-cosmobrasil.md)\n- [atores-cosmobrasil.md](atores-cosmobrasil.md)\n- [linha-do-tempo-cosmobrasil.md](linha-do-tempo-cosmobrasil.md)\n- [distritos-industriais-cosmobrasil.md](distritos-industriais-cosmobrasil.md)\n- [protocolo-validacao.md](protocolo-validacao.md)\n- [criterios-qualidade.md](criterios-qualidade.md)\n- [contrato-resposta-agente.md](contrato-resposta-agente.md)\n- [temas/credito-carbono.md](temas/credito-carbono.md)\n- [temas/circularidade-de-produto.md](temas/circularidade-de-produto.md)\n- [temas/ecossistema-tecnologico.md](temas/ecossistema-tecnologico.md)\n- [indicadores/indice-global-circularidade.md](indicadores/indice-global-circularidade.md)\n- [parceiros/cosmob.md](parceiros/cosmob.md)\n\n## Status sugeridos\n\n- `pendente`\n- `recebido`\n- `em_leitura`\n- `sintetizado`\n- `validado`"
+  },
+  {
+    "id": "README",
+    "path": "08_COSMOBRASIL/indicadores/README.md",
+    "title": "Indicadores Cosmobrasil",
+    "frontmatter": {},
+    "content": "# Indicadores Cosmobrasil\n\nEspaco para numeros, metragens, comparacoes e evidencias quantitativas.\n\n## Itens\n\n- [indice-global-circularidade.md](indice-global-circularidade.md)"
+  },
+  {
+    "id": "indice-global-circularidade",
+    "path": "08_COSMOBRASIL/indicadores/indice-global-circularidade.md",
+    "title": "Indice Global de Circularidade",
+    "frontmatter": {},
+    "content": "# Indice Global de Circularidade\n\n## Definicao\n\nIndice calculado pelo manual operacional para converter respostas qualitativas em uma nota percentual de circularidade de produto.\n\n## Formula\n\nIndice Global de Circularidade = (pontos obtidos / pontos maximos possiveis) x 100\n\n## Estrutura do questionario\n\n- 12 perguntas\n- 5 dimensoes principais\n- pontuacao maxima atual: 24 pontos\n\n## Dimensoes usadas no manual\n\n- entrada\n- gestao de residuos\n- saida do produto\n- vida util do produto\n- monitoramento e extensao do ciclo de vida\n\n## Classificacao do resultado\n\n- 75% a 100%: Alto\n- 60% a 74%: Medio/Alto\n- 45% a 59%: Medio\n- 30% a 44%: Baixo/Medio\n- 0% a 29%: Baixo\n\n## Uso analitico\n\n- comparar empresas\n- apoiar pre-diagnosticos\n- orientar planos de acao\n- comunicar maturidade de circularidade\n- conectar produto, mercado e territorios circulares\n\n## Fonte base\n\n- C004 - Manual Operacional Atualizado"
+  },
+  {
+    "id": "linha-do-tempo-cosmobrasil",
+    "path": "08_COSMOBRASIL/linha-do-tempo-cosmobrasil.md",
+    "title": "Linha do Tempo Cosmobrasil",
+    "frontmatter": {},
+    "content": "# Linha do Tempo Cosmobrasil\n\nRegistro cronologico do caso Cosmobrasil.\n\n## Estrutura\n\n| data | evento | fonte | impacto | status |\n|---|---|---|---|---|\n|  |  |  |  | pendente |\n\n## Tipos de evento\n\n- criacao\n- expansao\n- parceria\n- investimento\n- mudanca estrategica\n- projeto piloto\n- reuniao\n- marco regulatorio\n- certificacao\n- implantacao territorial\n\n## Uso\n\nAtualizar sempre que uma fonte trouxer marco temporal relevante, mesmo que o evento seja pequeno."
+  },
+  {
+    "id": "README",
+    "path": "08_COSMOBRASIL/parceiros/README.md",
+    "title": "Parceiros",
+    "frontmatter": {},
+    "content": "# Parceiros\n\nEspaco para dossies institucionais de parceiros da base Cosmobrasil.\n\n## Itens\n\n- [cosmob.md](cosmob.md)"
+  },
+  {
+    "id": "cosmob",
+    "path": "08_COSMOBRASIL/parceiros/cosmob.md",
+    "title": "Cosmob S.p.A.",
+    "frontmatter": {},
+    "content": "# Cosmob S.p.A.\n\n## Identidade\n\nCosmob e um centro tecnologico italiano para o setor manufatureiro e legno-arredo, com mais de 40 anos de atuacao. A empresa se posiciona como referencia em certificacao, verificacao de conformidade de produto, testes de laboratorio, formacao tecnica e pesquisa aplicada.\n\n## O que a Cosmob faz\n\n- testes de laboratorio para validar desempenho, seguranca e durabilidade\n- certificacao de produto e conformidade normativa\n- formacao tecnica e especializada\n- pesquisa e desenvolvimento com FabLab\n- suporte ao export e a competitividade internacional\n\n## Eixos institucionais\n\n- qualidade\n- seguranca\n- conformidade\n- sustentabilidade\n- competitividade\n- inovacao tecnologica\n- formacao\n\n## Marcos relevantes\n\n- 1983: fundacao da Cosmob\n- 1994: inauguracao do Laboratorio Prove Qualita\n- 1996: criacao da Scuola di Alta Formazione\n- 2000: abertura internacional com projetos em Mexico, Brasil, Russia e China\n- 2009: primeiro laboratorio na Italia com camera grande para emissao de formaldeido e VOC\n- 2015: inauguracao do FabLab Pesaro\n- 2017: criacao do marchio Made in Italy\n- 2019: acreditacao como ente de certificacao\n- 2024: nova sede de 3.200 mq\n\n## Relacao com circularidade\n\n- a Cosmob oferece avaliacao de produto baseada em recursos utilizados e sua gestao ao longo do ciclo de vida\n- a certificacao de circulabilidade do produto arredo e um elemento central da oferta\n- a logica da empresa conecta circularidade, rastreabilidade, desempenho e comunicacao de resultado\n\n## Relacao com Cosmobrasil\n\n- parceira italiana com afinidade metodologica em circularidade de produto\n- referencia para certificacao, medicao e conformidade\n- pode apoiar benchmarking, transferencia metodologica e validacao de instrumentos\n\n## Fontes oficiais usadas\n\n- https://www.cosmob.it/it/\n- https://www.cosmob.it/it/centro-ricerca-legno-arredo/\n- https://www.cosmob.it/chi-siamo/mission-vision-e-valori/\n- https://www.cosmob.it/it/certificazioni/\n- https://www.cosmob.it/it/news/\n- https://www.cosmob.it/certificazioni/circolarita-prodotto-arredo/\n- https://www.cosmob.it/wp-content/uploads/2024/03/Presentazione-Cosmob-2024.pdf\n\n## Fonte base\n\n- C006 - Cosmob site oficial"
+  },
+  {
+    "id": "processo-ingestao",
+    "path": "08_COSMOBRASIL/processo-ingestao.md",
+    "title": "Processo de Ingestao Cosmobrasil",
+    "frontmatter": {},
+    "content": "# Processo de Ingestao Cosmobrasil\n\nFluxo padrao para incorporar novas fontes ao acervo Cosmobrasil.\n\n## 1. Receber a fonte\n\n- caminho local\n- link\n- texto colado\n- arquivo anexado\n- referencia bibliografica\n\n## 2. Registrar no indice\n\n- atribuir id\n- registrar origem\n- classificar tipo\n- apontar data e autor, quando houver\n- marcar status inicial\n\n## 3. Ler e extrair\n\n- resumo executivo\n- conceitos centrais\n- atores relevantes\n- evidencias numericas\n- implicacoes para economia circular\n- implicacoes para distritos industriais\n\n## 4. Classificar\n\n- ficha\n- tema\n- indicador\n- rede\n- sintese\n- material bruto\n\n## 5. Conectar\n\n- ligar a fichas existentes\n- ligar a temas recorrentes\n- apontar cruzamentos com outros documentos\n- registrar lacunas de informacao\n\n## 6. Consolidar\n\n- atualizar a sintese Cosmobrasil\n- atualizar a visao do agente especialista\n- revisar status da fonte\n\n## Status sugeridos\n\n- `pendente`\n- `recebido`\n- `em_leitura`\n- `sintetizado`\n- `validado`"
+  },
+  {
+    "id": "protocolo-validacao",
+    "path": "08_COSMOBRASIL/protocolo-validacao.md",
+    "title": "Protocolo de Validacao Cosmobrasil",
+    "frontmatter": {},
+    "content": "# Protocolo de Validacao Cosmobrasil\n\nRegras para validar o material que entra na base Cosmobrasil.\n\n## 1. Registro de origem\n\n- confirmar de onde veio o material\n- registrar tipo de fonte\n- registrar data, quando houver\n- registrar autor, quando houver\n- registrar caminho ou link original\n\n## 2. Leitura minima\n\n- identificar assunto principal\n- identificar atores citados\n- identificar territorio citado\n- identificar relacao com Cosmobrasil\n- identificar relacao com economia circular\n- identificar relacao com distritos industriais\n\n## 3. Classificacao\n\n- `bruto` quando a fonte ainda nao foi lida\n- `recebido` quando a fonte foi registrada\n- `em_leitura` quando o conteudo esta sendo extraido\n- `sintetizado` quando a leitura virou ficha ou sintese\n- `validado` quando a fonte foi cruzada com outra evidencia\n\n## 4. Critérios de validacao\n\n- consistencia interna\n- rastreabilidade da origem\n- clareza do contexto\n- compatibilidade com outras fontes\n- relevancia para o caso Cosmobrasil\n\n## 5. Tratamento de conflito\n\n- registrar o conflito explicitamente\n- preservar as duas versoes quando nao houver evidencia decisiva\n- indicar qual fonte tem maior peso\n- evitar conclusao forte sem triangulacao\n\n## 6. Regra de ouro\n\nSe a fonte nao puder ser confirmada, ela pode entrar como evidencia provisoria, mas nao deve ser tratada como fato consolidado."
+  },
+  {
+    "id": "README",
+    "path": "08_COSMOBRASIL/redes/README.md",
+    "title": "Redes Cosmobrasil",
+    "frontmatter": {},
+    "content": "# Redes Cosmobrasil\n\nEspaco para cruzamentos, relacoes e mapas conceituais do caso Cosmobrasil."
+  },
+  {
+    "id": "sintese-cosmobrasil",
+    "path": "08_COSMOBRASIL/sintese-cosmobrasil.md",
+    "title": "Sintese Cosmobrasil",
+    "frontmatter": {},
+    "content": "# Sintese Cosmobrasil\n\nDocumento vivo para consolidar o que o acervo disser sobre Cosmobrasil.\n\n## Visao geral\n\n- descricao do que e Cosmobrasil\n- recorte territorial e institucional\n- relacao com economia circular\n- relacao com distritos industriais\n\n## Eixos de leitura\n\n- estrategia\n- governanca\n- infraestrutura\n- cadeia produtiva\n- sustentabilidade\n- circularidade\n- competitividade\n- atores institucionais\n\n## Perguntas de analise\n\n- qual e o papel da Cosmobrasil no ecossistema?\n- quais problemas a Cosmobrasil tenta resolver?\n- quais atores e territorios aparecem com mais forca?\n- quais oportunidades de circularidade existem?\n- como isso se conecta a distritos industriais?\n\n## Fontes incorporadas\n\n- C002 - Sistema Cognitivo de Circularidade: conjunto conceitual visual de duas paginas, sem texto extraivel, com utilidade metodologica para circularidade.\n- C003 - Credito Carbono: infografico de 46 tipos de creditos de carbono, com utilidade para descarbonizacao, financiamento e circularidade.\n- C004 - Manual Operacional Atualizado: manual de 62 paginas que define circularidade de produto, pre-diagnostico e indice global de circularidade.\n- C005 - Ecossistema Tecnologico - Distritos Industriais Circulares: arquitetura operacional da plataforma Cosmobrasil com front office, back office, painel, dashboard, certificacao e agente IA.\n- C006 - Cosmob site oficial: referencia institucional da parceira italiana, com foco em testes, certificacao, formacao e circularidade de produto.\n\n## Hipoteses em construcao\n\n- A base conceitual recebida pode funcionar como moldura metodologica para interpretar a Cosmobrasil quando surgirem fontes explicitas sobre o caso.\n- O tema credito de carbono pode servir como vetor de financiamento e incentivo para iniciativas de economia circular e distritos industriais.\n- O manual operacional sugere que Cosmobrasil opera tambem como sistema de medicao e certificacao de circularidade de produto, com potencial uso em empresas e distritos circulares.\n- O indice global de circularidade pode funcionar como referencia numerica central para comparar maturidade entre produtos, empresas e arranjos territoriais.\n- O ecossistema tecnologico mostra que Cosmobrasil tambem se estrutura como plataforma digital de entrega, acompanhamento, certificacao e inteligencia aplicada.\n- A Cosmob entra na base como parceira institucional de alta confiabilidade, com alinhamento direto a certificacao, circularidade de produto e transicao industrial."
+  },
+  {
+    "id": "taxonomia-cosmobrasil",
+    "path": "08_COSMOBRASIL/taxonomia-cosmobrasil.md",
+    "title": "Taxonomia Cosmobrasil",
+    "frontmatter": {},
+    "content": "# Taxonomia Cosmobrasil\n\nBase de classificacao para toda a informacao que entrar na pasta Cosmobrasil.\n\n## Tipos de fonte\n\n- documento institucional\n- relatorio tecnico\n- apresentacao\n- entrevista\n- noticia\n- site institucional\n- nota interna\n- ata de reuniao\n- referencia academica\n- materia complementar\n\n## Tipos de saida\n\n- ficha de fonte\n- ficha de ator\n- ficha de conceito\n- ficha de evento\n- ficha de territorio\n- indicador\n- sintese tematica\n- rede de relacao\n- cronologia\n- nota de lacuna\n\n## Eixos tematicos\n\n- Cosmobrasil\n- economia circular\n- distritos industriais\n- governanca territorial\n- competitividade\n- cadeia produtiva\n- sustentabilidade\n- logistica\n- residuos\n- inovacao\n- infraestrutura\n- articulacao institucional\n\n## Niveis de analise\n\n1. fato observado\n2. evidencia documentada\n3. interpretacao analitica\n4. hipotese de relacao\n5. recomendacao\n\n## Regras de classificacao\n\n- se for origem primaria, registrar em `fontes`\n- se citar pessoas, empresas ou instituicoes, registrar em `atores`\n- se mencionar padrao recorrente, registrar em `temas`\n- se trouxer numero ou medida, registrar em `indicadores`\n- se explicar conexao entre elementos, registrar em `redes`\n- se estruturar sequencia temporal, registrar em `linha-do-tempo`"
+  },
+  {
+    "id": "README",
+    "path": "08_COSMOBRASIL/temas/README.md",
+    "title": "Temas Cosmobrasil",
+    "frontmatter": {},
+    "content": "# Temas Cosmobrasil\n\nEspaco para consolidacoes tematicas recorrentes do caso Cosmobrasil.\n\n## Itens\n\n- [credito-carbono.md](credito-carbono.md)\n- [circularidade-de-produto.md](circularidade-de-produto.md)\n- [ecossistema-tecnologico.md](ecossistema-tecnologico.md)"
+  },
+  {
+    "id": "circularidade-de-produto",
+    "path": "08_COSMOBRASIL/temas/circularidade-de-produto.md",
+    "title": "Circularidade de Produto",
+    "frontmatter": {},
+    "content": "# Circularidade de Produto\n\nTema central da base Cosmobrasil.\n\n## Resumo\n\nA circularidade de produto e tratada como uma propriedade mensuravel do produto, nao como mera declaracao de intencao. O manual operacional organiza essa propriedade em cinco dimensoes e a transforma em um indice global de circularidade.\n\n## Dimensoes principais\n\n- entrada de materia-prima\n- gestao de residuos\n- saida do produto\n- vida util do produto\n- monitoramento e extensao do ciclo de vida\n\n## Eixos de leitura\n\n- medicao\n- certificacao\n- rastreabilidade\n- reparabilidade\n- reciclabilidade\n- reuso\n- materiais\n- desempenho ambiental\n- pre-diagnostico\n\n## Relevancia para Cosmobrasil\n\n- sustenta a metodologia do sistema\n- pode orientar consultores e gestores\n- conecta produto, mercado, financiamento e planejamento territorial\n\n## Fontes associadas\n\n- C004 - Manual Operacional Atualizado"
+  },
+  {
+    "id": "credito-carbono",
+    "path": "08_COSMOBRASIL/temas/credito-carbono.md",
+    "title": "Credito de Carbono",
+    "frontmatter": {},
+    "content": "# Credito de Carbono\n\nTema de apoio para a base Cosmobrasil.\n\n## Resumo\n\nO material recebido mostra uma taxonomia visual de tipos de credito de carbono. O valor analitico para a base Cosmobrasil esta em conectar decarbonizacao, financiamento, residuos, energia e competitividade territorial.\n\n## Eixos de leitura\n\n- descarbonizacao\n- financiamento verde\n- eficiencia energetica\n- residuos\n- agricultura\n- energia renovavel\n- industria\n- territorialidade\n\n## Relevancia para Cosmobrasil\n\n- pode apoiar analises de transicao industrial\n- pode apoiar estrategias de circularidade em distritos industriais\n- pode ajudar a formular instrumentos economicos para projetos territoriais\n\n## Fontes associadas\n\n- C003 - Credito Carbono"
+  },
+  {
+    "id": "ecossistema-tecnologico",
+    "path": "08_COSMOBRASIL/temas/ecossistema-tecnologico.md",
+    "title": "Ecossistema Tecnologico",
+    "frontmatter": {},
+    "content": "# Ecossistema Tecnologico\n\nTema de apoio para a base Cosmobrasil.\n\n## Resumo\n\nO ecossistema tecnologico e descrito como a combinacao de pre-diagnostico, devolutiva, painel de usuarios, dashboard, certificacao, agente IA e plataforma web. Ele organiza o fluxo entre medicao, interpretacao, acompanhamento e capacitacao.\n\n## Componentes principais\n\n- front office\n- back office\n- pre-diagnostico\n- devolutiva\n- painel de usuarios e relatorios\n- dashboard de distrito circular\n- certificacao Cosmob\n- agente IA especialista\n- web Cosmobrasil\n- cursos\n\n## Relevancia para Cosmobrasil\n\n- sustenta a operacao digital do sistema\n- organiza a entrega de valor para empresas e distritos\n- transforma a metodologia em servico e repositorio de inteligencia\n\n## Fontes associadas\n\n- C005 - Ecossistema Tecnologico - Distritos Industriais Circulares"
+  },
+  {
+    "id": "README",
+    "path": "README.md",
+    "title": "Analise Relatorio",
+    "frontmatter": {},
+    "content": "# Analise Relatorio\n\nBase de trabalho para transformar o acervo de PDFs em um sistema de fichas conectadas.\n\n## Estrutura\n\n- `00_INDEX/` - indice mestre do acervo\n- `01_RELATORIOS/` - catalogo dos PDFs e metadados\n- `02_FICHAS/` - fichas atomicas geradas a partir dos relatorios\n- `03_TEMAS/` - fichas tematicas consolidadas\n- `04_INDICADORES/` - dados, numeros e evidencias\n- `05_REDES_E_LINKS/` - relacoes, cruzamentos e mapas conceituais\n- `06_MATRIZES/` - matrizes tecnologicas, megatendencias e fatores\n- `08_COSMOBRASIL/` - base dedicada ao acervo Cosmobrasil e ao futuro agente especialista\n- `Relatorios-Finais/` - atalho para o volume externo com os PDFs\n\n## Metodo\n\n1. Catalogar cada PDF no indice mestre.\n2. Extrair metadados e sumario.\n3. Quebrar o conteudo em fichas menores.\n4. Ligar fichas por tags, setor, territorio e tema.\n5. Consolidar padroes entre anos.\n6. Extrair matrizes tecnológicas por setor, com megatendencias, solucoes e fatores.\n7. Centralizar o caso Cosmobrasil em uma base dedicada para consulta e agente especialista.\n\n## Deploy do dashboard\n\nO painel visual fica em `dashboard/`, mas o deploy direto no Netlify usa a raiz do repositório.\n\n- pasta publicada: `.`\n- arquivo de entrada: `index.html`\n- configuracao: `netlify.toml`\n\nO `index.html` da raiz redireciona automaticamente para `dashboard/`.\n\nSe preferir publicar pelo painel do Netlify, use:\n\n1. `Build command`: vazio\n2. `Publish directory`: `.`"
+  }
+]
