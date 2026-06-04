@@ -1,8 +1,26 @@
 import express from "express";
 import path from "path";
+import fs from "fs";
 import dotenv from "dotenv";
+import bcrypt from "bcryptjs";
 import { createServer as createViteServer } from "vite";
 import knowledgeData from "./src/data/knowledge.json";
+import usersData from "./src/data/users.json";
+
+const USERS_FILE = path.resolve("src/data/users.json");
+
+function readUsers(): any[] {
+  try {
+    if (fs.existsSync(USERS_FILE)) {
+      return JSON.parse(fs.readFileSync(USERS_FILE, "utf-8"));
+    }
+  } catch (_) {}
+  return usersData as any[];
+}
+
+function writeUsers(users: any[]): void {
+  fs.writeFileSync(USERS_FILE, JSON.stringify(users, null, 2), "utf-8");
+}
 
 // Load environment variables
 dotenv.config();
@@ -129,6 +147,44 @@ ${doc.content}
 // API Health Check
 app.get("/api/health", (req, res) => {
   res.json({ status: "ok", time: new Date().toISOString() });
+});
+
+// Auth route: login + changePassword with local file persistence
+app.post("/api/auth", async (req, res) => {
+  const { action, username, password, newPassword } = req.body;
+  if (!username || !password) {
+    return res.status(400).json({ error: "Usuário e senha são obrigatórios" });
+  }
+
+  const users = readUsers();
+  const user = users.find((u: any) => u.username.toLowerCase() === username.toLowerCase());
+
+  if (!user) {
+    return res.status(401).json({ error: "Usuário não encontrado" });
+  }
+
+  const valid = await bcrypt.compare(password, user.passwordHash);
+  if (!valid) {
+    return res.status(401).json({ error: "Senha incorreta" });
+  }
+
+  // Change password
+  if (action === "changePassword") {
+    if (!newPassword || newPassword.length < 4) {
+      return res.status(400).json({ error: "Nova senha deve ter no mínimo 4 caracteres" });
+    }
+    const newHash = await bcrypt.hash(newPassword, 10);
+    const updated = users.map((u: any) =>
+      u.username.toLowerCase() === username.toLowerCase() ? { ...u, passwordHash: newHash } : u
+    );
+    writeUsers(updated);
+    return res.json({ message: "Senha alterada com sucesso" });
+  }
+
+  // Login
+  const payload = JSON.stringify({ username: user.username, ts: Date.now() });
+  const token = Buffer.from(payload).toString("base64");
+  res.json({ token, username: user.username, message: "Login bem-sucedido" });
 });
 
 // Advisor chat route

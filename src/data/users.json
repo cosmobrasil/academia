@@ -1,0 +1,18 @@
+[
+  {
+    "username": "Paulo",
+    "passwordHash": "$2b$10$LFIsLX0pdGfEWbW5VW7j3uPuO0bziM4kA1f98hLfn0JsJgka/RwY."
+  },
+  {
+    "username": "Emilio",
+    "passwordHash": "$2b$10$NDPPRpHs.8yVvNeTWW2ibuShzg7zqtqfi4x2wo0qRdnRsoewcUiau"
+  },
+  {
+    "username": "Giulia",
+    "passwordHash": "$2b$10$lC45RY80gjjAufhJGVaMle0OTb6Cs28g9bXE2doSWVmmbkFuB0BBK"
+  },
+  {
+    "username": "Isabela",
+    "passwordHash": "$2b$10$HbovGindYwoyTYW5PmLVf.bMC37s0rPF/uoo5aiqfAz9I//0r3Jl6"
+  }
+]

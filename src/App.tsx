@@ -16,30 +16,21 @@ import {
   ChevronRight,
   X,
   FileText,
-  Clock
+  Clock,
+  LogOut,
+  Lock
 } from 'lucide-react';
 import LeftSidebar from './components/LeftSidebar';
 import RightSidebar from './components/RightSidebar';
+import ChangePasswordModal from './components/ChangePasswordModal';
 import { Message, ThemeExplored, ConceptLearned, KnowledgeNode, KnowledgeLink } from './types';
 import { forceSimulation, forceLink, forceManyBody, forceCenter, forceCollide } from 'd3-force';
-
-// Clear persisted localStorage keys at module load so the app starts fresh for a real user
-try {
-  if (typeof window !== 'undefined' && window.localStorage) {
-    window.localStorage.removeItem('cosmobrasil_messages');
-    window.localStorage.removeItem('cosmobrasil_themes');
-    window.localStorage.removeItem('cosmobrasil_concepts');
-    window.localStorage.removeItem('cosmobrasil_questions_count');
-  }
-} catch (e) {
-  // ignore, localStorage may be unavailable in some environments
-}
+import { useAuth } from './context/AuthContext';
 
 // Client-side safety net: strip markdown fences and unwrap nested JSON from server responses
 function normalizeClient(raw: any): any {
   if (!raw) return { mentorResponse: '', suggestedQuestions: [], suggestedConcepts: [], suggestedHypotheses: [] };
 
-  // If the entire payload is a string (rare), try to parse it
   if (typeof raw === 'string') {
     const cleaned = raw.replace(/```(?:\w+)?\n?/g, '').replace(/```/g, '').trim();
     const jsonMatch = cleaned.match(/\{[\s\S]*\}/);
@@ -55,7 +46,6 @@ function normalizeClient(raw: any): any {
   if (typeof raw === 'object') {
     let current = { ...raw };
 
-    // Iteratively unwrap if mentorResponse is a fenced JSON string
     let iterations = 0;
     while (iterations < 4 && typeof current.mentorResponse === 'string') {
       const s = current.mentorResponse;
@@ -87,6 +77,8 @@ function normalizeClient(raw: any): any {
 }
 
 export default function App() {
+  const { username, logout } = useAuth();
+
   // Mobile drawer states
   const [leftSidebarOpen, setLeftSidebarOpen] = useState(false);
   const [rightSidebarOpen, setRightSidebarOpen] = useState(false);
@@ -126,6 +118,7 @@ export default function App() {
   const [isSending, setIsSending] = useState(false);
   const [attachedFileName, setAttachedFileName] = useState<string | null>(null);
   const [showAttachModal, setShowAttachModal] = useState(false);
+  const [showChangePassword, setShowChangePassword] = useState(false);
   
   // Student evolution state
   const [themes, setThemes] = useState<ThemeExplored[]>(() => {
@@ -632,14 +625,29 @@ export default function App() {
             <Brain size={20} />
           </button>
 
-          {/* User profile capsule with natural professional illumination */}
-          <div className="w-9 h-9 rounded-full overflow-hidden border border-white/10 flex-shrink-0">
-            <img
-              alt="Estudante Universitária"
-              className="w-full h-full object-cover"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDbYtN4l4ipQ-cOYWZSkNGf1XMDAblDV5stICrNRneVirHpQRPzh_IWqgEcRgaYBBe844PKkKVWRMRR6wPQ-Y-Bifb1D867mPH3bFWK-xpjL9aC1iopqvZVnYJMBrAre6nGDR2l_qULgRxtHY-KR6VIf1AYisCFXwyXiKHDHRBbveADZrZkSKk9XHVdG4A8gZjou37vYnZl8XMlO--zsn8pUGXAEkNWaA9ooD0vpFBj5eXwvXhOKItOdeE11KrCs9DK8G4rfTqHXQ"
-            />
+          {/* User badge with change password and logout */}
+          <div className="flex items-center gap-2">
+            <span className="text-xs text-on-surface-variant font-mono hidden md:block">
+              {username}
+            </span>
+            <button
+              onClick={() => setShowChangePassword(true)}
+              className="flex items-center gap-1.5 text-xs text-on-surface-variant hover:text-secondary border border-white/5 hover:border-secondary/30 px-2.5 py-1.5 rounded-lg transition-colors cursor-pointer"
+              title="Alterar Senha"
+            >
+              <Lock size={14} />
+              <span className="hidden md:inline">Senha</span>
+            </button>
+            <button
+              onClick={logout}
+              className="flex items-center gap-1.5 text-xs text-on-surface-variant hover:text-error border border-white/5 hover:border-error/40 px-2.5 py-1.5 rounded-lg transition-colors cursor-pointer"
+              title="Sair"
+            >
+              <LogOut size={14} />
+              <span className="hidden md:inline">Sair</span>
+            </button>
           </div>
+
         </div>
       </header>
 
@@ -959,6 +967,10 @@ export default function App() {
             </div>
           </div>
         </div>
+      )}
+
+      {showChangePassword && (
+        <ChangePasswordModal onClose={() => setShowChangePassword(false)} />
       )}
     </div>
   );
