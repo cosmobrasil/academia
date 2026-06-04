@@ -1,18 +1,18 @@
 [
   {
     "username": "Paulo",
-    "passwordHash": "$2b$10$LFIsLX0pdGfEWbW5VW7j3uPuO0bziM4kA1f98hLfn0JsJgka/RwY."
+    "passwordHash": "$2b$10$25Dqd9aicFS1vKENDYa6ieNEFk59Bi60M.u/eUDEGnguhBvjpAoju"
   },
   {
     "username": "Emilio",
-    "passwordHash": "$2b$10$NDPPRpHs.8yVvNeTWW2ibuShzg7zqtqfi4x2wo0qRdnRsoewcUiau"
+    "passwordHash": "$2b$10$dI51I/SWScd1J3amI14tC.GuelLBLuFy6RJQzv.ybXEGsrb8K/yzC"
   },
   {
     "username": "Giulia",
-    "passwordHash": "$2b$10$lC45RY80gjjAufhJGVaMle0OTb6Cs28g9bXE2doSWVmmbkFuB0BBK"
+    "passwordHash": "$2b$10$xJhO29IO1DO2ZR6LfiFwmOyY75KzWn0YgM1L6FCXkJwmlEAkzsHC2"
   },
   {
     "username": "Isabela",
-    "passwordHash": "$2b$10$HbovGindYwoyTYW5PmLVf.bMC37s0rPF/uoo5aiqfAz9I//0r3Jl6"
+    "passwordHash": "$2b$10$WFF6PHE74kgKvwfv4VZNE.8CHgUwWqrskC9OfpU4iBFt.xLiE5Uyy"
   }
 ]
