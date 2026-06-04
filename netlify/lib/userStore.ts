@@ -1,5 +1,5 @@
 import { getStore } from "@netlify/blobs";
-import seedUsers from "../../src/data/users.json" assert { type: "json" };
+import seedUsers from "../../src/data/users.json";
 
 interface UserRecord {
   username: string;
@@ -9,16 +9,29 @@ interface UserRecord {
 const STORE_NAME = "cosmobrasil-users";
 
 export async function getUsers(): Promise<UserRecord[]> {
+  // Start with seed data as authoritative base
+  const base: UserRecord[] = seedUsers as UserRecord[];
+
   try {
     const store = getStore(STORE_NAME);
     const raw = await store.get("users");
     if (raw) {
-      return JSON.parse(raw) as UserRecord[];
+      const overrides = JSON.parse(raw) as UserRecord[];
+      // Merge: apply any password changes from blob store on top of seed
+      for (const override of overrides) {
+        const idx = base.findIndex(
+          (u) => u.username.toLowerCase() === override.username.toLowerCase()
+        );
+        if (idx !== -1) {
+          base[idx] = { ...base[idx], passwordHash: override.passwordHash };
+        }
+      }
     }
   } catch {
-    // store unavailable (local dev or missing env), fall back to seed
+    // store unavailable, use seed as-is
   }
-  return seedUsers as UserRecord[];
+
+  return base;
 }
 
 export async function saveUsers(users: UserRecord[]): Promise<void> {
@@ -26,7 +39,6 @@ export async function saveUsers(users: UserRecord[]): Promise<void> {
     const store = getStore(STORE_NAME);
     await store.set("users", JSON.stringify(users));
   } catch {
-    // store unavailable in local dev; handled by the Express route
     throw new Error("BLOB_STORE_UNAVAILABLE");
   }
 }
